@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebraska School District Chronic Absenteeism</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-bg: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --text-main: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #38bdf8;
+            --accent-glow: rgba(56, 189, 248, 0.3);
+            --border: rgba(148, 163, 184, 0.1);
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--primary-bg);
+            background-image:
+                radial-gradient(circle at 10% 20%, rgba(56, 189, 248, 0.1) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(168, 85, 247, 0.1) 0%, transparent 40%);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            padding: 2rem;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            background: linear-gradient(135deg, #fff 0%, #38bdf8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+
+        .search-container {
+            width: 100%;
+            position: relative;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 1.2rem 1.5rem;
+            font-size: 1.1rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            color: var(--text-main);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(12px);
+            transition: all 0.3s ease;
+            outline: none;
+            box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        input[type="text"]:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 4px var(--accent-glow);
+            transform: translateY(-2px);
+        }
+
+        input[type="text"]::placeholder {
+            color: var(--text-secondary);
+        }
+
+        #results {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .district-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 2rem;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        .district-header {
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 1rem;
+        }
+
+        .district-header h2 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: var(--text-main);
+        }
+
+        .data-layout {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+
+        @media (min-width: 768px) {
+            .data-layout {
+                grid-template-columns: 1fr 2fr;
+            }
+        }
+
+        .stats-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            font-size: 0.95rem;
+        }
+
+        .stats-table th,
+        .stats-table td {
+            text-align: left;
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .stats-table th {
+            color: var(--text-secondary);
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.05em;
+        }
+
+        .stats-table td {
+            font-feature-settings: "tnum";
+            font-variant-numeric: tabular-nums;
+        }
+
+        .stats-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 300px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 16px;
+            padding: 1rem;
+            box-sizing: border-box;
+        }
+
+        .loading {
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .no-results {
+            text-align: center;
+            color: var(--text-secondary);
+            margin-top: 2rem;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--card-bg);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Find your district's chronic absentee rate</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search by district name (e.g., Lincoln Public Schools)..."
+                autocomplete="off">
+        </div>
+        <div id="results"></div>
+    </div>
+
+    <script>
+        let allData = [];
+        const searchInput = document.getElementById('searchInput');
+        const resultsContainer = document.getElementById('results');
+
+        // Parse CSV
+        Papa.parse('district_data.csv', {
+            download: true,
+            header: true,
+            dynamicTyping: true,
+            skipEmptyLines: true,
+            complete: function (results) {
+                allData = results.data;
+                console.log("Data loaded:", allData.length, "rows");
+                // Optional: Show initial state or random picks? 
+                // Currently waiting for user input as requested.
+            },
+            error: function (error) {
+                console.error("Error parsing CSV:", error);
+                resultsContainer.innerHTML = `<div class="loading">Error loading data. Please try refreshing.</div>`;
+            }
+        });
+
+        searchInput.addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase().trim();
+            if (term.length < 2) {
+                resultsContainer.innerHTML = '';
+                return;
+            }
+
+            const matches = allData.filter(row =>
+                row.clean_name && row.clean_name.toLowerCase().includes(term)
+            );
+
+            renderResults(matches);
+        });
+
+        function renderResults(matches) {
+            resultsContainer.innerHTML = '';
+
+            if (matches.length === 0) {
+                resultsContainer.innerHTML = '<div class="no-results">No districts found matching your search.</div>';
+                return;
+            }
+
+            // Limit to top 5 results to avoid DOM flooding
+            matches.slice(0, 5).forEach((district, index) => {
+                const card = createDistrictCard(district, index);
+                resultsContainer.appendChild(card);
+                renderChart(district, index);
+            });
+        }
+
+        function createDistrictCard(district, index) {
+            const card = document.createElement('div');
+            card.className = 'district-card';
+
+            const years = Object.keys(district).filter(key => key !== 'clean_name').sort().reverse();
+
+            // Generate Table Rows
+            let tableRows = '';
+            years.forEach(year => {
+                // Format year from 20242025 to 2024-2025
+                const formattedYear = year.length === 8 ? `${year.substring(0, 4)}-${year.substring(4)}` : year;
+                const value = district[year] !== null && district[year] !== 'NA' ? `${district[year]}%` : 'N/A';
+                tableRows += `
+                    <tr>
+                        <td>${formattedYear}</td>
+                        <td style="text-align: right; color: ${getValueColor(district[year])}">${value}</td>
+                    </tr>
+                `;
+            });
+
+            card.innerHTML = `
+                <div class="district-header">
+                    <h2>${district.clean_name}</h2>
+                </div>
+                <div class="data-layout">
+                    <div class="table-container">
+                        <table class="stats-table">
+                            <thead>
+                                <tr>
+                                    <th>School Year</th>
+                                    <th style="text-align: right">Chronic Absenteeism</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${tableRows}
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chart-${index}"></canvas>
+                    </div>
+                </div>
+            `;
+            return card;
+        }
+
+        function getValueColor(val) {
+            // Helper for color coding stats (optional visual cue)
+            if (val === null || val === 'NA' || typeof val !== 'number') return 'var(--text-secondary)';
+            if (val > 20) return '#fb7185'; // Red-ish for high absenteeism
+            if (val > 10) return '#fcd34d'; // Yellow/Orange
+            return '#4ade80'; // Green
+        }
+
+        function renderChart(district, index) {
+            // Data prep
+            // Get years sorted chronologically for the X-axis (Oldest -> Newest)
+            const rawYears = Object.keys(district).filter(key => key !== 'clean_name');
+            // Sort years ascending standard string sort works for yyyyyyy
+            const sortedYears = rawYears.sort();
+
+            const labels = sortedYears.map(y => `${y.substring(0, 4)}-${y.substring(4)}`);
+            const dataPoints = sortedYears.map(y => {
+                const val = district[y];
+                return (val === 'NA' || val === null) ? null : val;
+            });
+
+            const ctx = document.getElementById(`chart-${index}`).getContext('2d');
+
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Chronic Absenteeism Rate (%)',
+                        data: dataPoints,
+                        borderColor: '#38bdf8',
+                        backgroundColor: 'rgba(56, 189, 248, 0.1)',
+                        borderWidth: 3,
+                        pointBackgroundColor: '#fff',
+                        pointBorderColor: '#38bdf8',
+                        pointRadius: 6,
+                        pointHoverRadius: 8,
+                        fill: true,
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            backgroundColor: 'rgba(15, 23, 42, 0.9)',
+                            titleColor: '#f8fafc',
+                            bodyColor: '#e2e8f0',
+                            padding: 12,
+                            borderColor: 'rgba(148, 163, 184, 0.1)',
+                            borderWidth: 1,
+                            cornerRadius: 8,
+                            displayColors: false,
+                            callbacks: {
+                                label: function (context) {
+                                    return `Rate: ${context.parsed.y}%`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: {
+                                color: 'rgba(148, 163, 184, 0.05)'
+                            },
+                            ticks: {
+                                color: '#94a3b8'
+                            },
+                            title: {
+                                display: true,
+                                text: 'Percent (%)',
+                                color: '#64748b',
+                                font: { size: 12 }
+                            }
+                        },
+                        x: {
+                            grid: {
+                                display: false
+                            },
+                            ticks: {
+                                color: '#94a3b8'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
