@@ -1,0 +1,209 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const tableBody = document.getElementById('rankings-body');
+    const headers = document.querySelectorAll('th.sortable');
+    const filterSelect = document.getElementById('position-filter');
+
+    let playersData = [];
+    let currentSort = { column: 'consensus', direction: 'asc' };
+    let currentFilter = '';
+
+    // Helper to parse Height to inches for sorting/logic
+    function parseHeight(heightStr) {
+        if (!heightStr) return 0;
+        const parts = heightStr.split("'");
+        if (parts.length < 1) return 0;
+        const feet = parseInt(parts[0]);
+        const inches = parts.length > 1 ? parseInt(parts[1].replace('"', '')) : 0;
+        return (feet * 12) + (isNaN(inches) ? 0 : inches);
+    }
+
+    // Helper to get Position from Role + Height (Simplified)
+    function getPosition(role, heightStr) {
+        const hVal = parseHeight(heightStr);
+        let r = role ? role.toLowerCase() : '';
+
+        // 1. Check explicit Role keywords
+        if (r.includes('guard') || r.includes('initiator') || r.includes('handler') || r.includes('point')) return 'Guard';
+        if (r.includes('wing') || r.includes('slasher') || r.includes('shooter')) return 'Wing';
+        if (r.includes('big') || r.includes('center') || r.includes('post') || r.includes('rim')) return 'Big';
+
+        // 2. Ambiguous terms (Forward) or Missing Role -> Use Height Fallback
+        // Guard < 6'5 | Wing 6'5 - 6'8 | Big > 6'8
+        // 6'5 = 77 inches, 6'8 = 80 inches
+        if (hVal < 77) return 'Guard';
+        if (hVal >= 77 && hVal <= 80) return 'Wing'; // 6'5 to 6'8
+        return 'Big'; // > 6'8
+    }
+
+    // Helper for Country Flags
+    function getCountryFlag(teamHsString) {
+        if (!teamHsString) return `https://flagcdn.com/20x15/us.png`;
+        const match = teamHsString.match(/\(([A-Z]{3})\)/);
+        if (match) {
+            const code = match[1];
+            // Map 3 letter IOC codes to 2 letter ISO codes for flagcdn
+            const countryMap = {
+                'FRA': 'fr', 'ESP': 'es', 'ITA': 'it', 'LTU': 'lt',
+                'SRB': 'rs', 'RUS': 'ru', 'CAN': 'ca', 'AUS': 'au',
+                'GER': 'de', 'SEN': 'sn', 'CMR': 'cm', 'SSD': 'ss',
+                'MLI': 'ml', 'LAT': 'lv', 'SLO': 'si', 'NED': 'nl',
+                'FIN': 'fi', 'BRA': 'br', 'GEO': 'ge', 'SUI': 'ch',
+                'TUR': 'tr', 'GRE': 'gr', 'NGA': 'ng', 'CRO': 'hr'
+            };
+            return `https://flagcdn.com/20x15/${countryMap[code] || 'us'}.png`;
+        }
+        return `https://flagcdn.com/20x15/us.png`; // Default USA
+    }
+
+    // Process Data
+    function processData(rawData) {
+        return rawData.map((p, index) => {
+            // Rank calculation
+            const consensus = parseFloat(p.CONSENSUS) || 999;
+
+            return {
+                id: index,
+                rank: index + 1,
+                name: p.PLAYER,
+                team_hs: p['TEAM/HS'],
+                commitment: p.COMMITMENT,
+                offensive_role: p['OFFENSIVE ROLE'],
+                defensive_role: p['DEFENSIVE ROLE'] || '-',
+                height: p.HEIGHT,
+                height_val: parseHeight(p.HEIGHT),
+                rivals: parseFloat(p.RIVALS) || 999,
+                _247: parseFloat(p['247']) || 999,
+                espn: parseFloat(p.ESPN) || 999,
+                made: parseFloat(p.MADE) || 999,
+                eby: parseFloat(p.EBY) || 999,
+                industry_pro: parseFloat(p['INDUSTRY PRO']) || 999,
+                consensus: consensus,
+                position: getPosition(p['OFFENSIVE ROLE'], p.HEIGHT),
+                flag: getCountryFlag(p['TEAM/HS']),
+                color: getTeamColor(p.COMMITMENT) // Use getTeamColor from logos.js
+            };
+        });
+    }
+
+    // Render Table
+    function renderTable(data) {
+        tableBody.innerHTML = '';
+        data.forEach((player) => {
+            const tr = document.createElement('tr');
+
+            // Fix 999 display to be empty or '-'
+            const formatRank = (val) => val === 999 ? '-' : val;
+
+            // Commitment HTML: Text with Color
+            let commitHtml = '-';
+            if (player.commitment && player.commitment !== '?' && player.commitment !== '') {
+                // Style: Bold, Color
+                commitHtml = `<span style="color:${player.color}; font-weight:bold; font-size:0.95em;">${player.commitment}</span>`;
+            }
+
+            const teamHs = player.team_hs || '';
+
+            tr.innerHTML = `
+                <td class="rank-cell">#${player.rank}</td>
+                <td class="player-cell">
+                    <img src="${player.flag}" class="flag-icon" alt="Flag">
+                    <div>
+                        <div style="font-size:1.1em; color:#fff;">${player.name}</div>
+                        <div style="font-size:0.8em; color:#888;">${teamHs.replace(/\(.*\)/, '')}</div>
+                    </div>
+                </td>
+                <td class="pos-cell">${player.position}</td>
+                <td class="height-cell">${player.height}</td>
+                <td style="text-align:left">${commitHtml}</td>
+                <td style="font-size:0.85em; color:var(--accent);">${player.offensive_role}</td>
+                <td style="font-size:0.85em; color:#888;">${player.defensive_role}</td>
+                <td class="rating-cell" style="color:var(--text-secondary); font-weight:bold;">${player.consensus === 999 ? '-' : player.consensus}</td>
+                <td class="rating-cell">${formatRank(player.industry_pro)}</td>
+                <td class="rating-cell">${formatRank(player.rivals)}</td>
+                <td class="rating-cell">${formatRank(player._247)}</td>
+                <td class="rating-cell">${formatRank(player.espn)}</td>
+                <td class="rating-cell">${formatRank(player.made)}</td>
+                <td class="rating-cell">${formatRank(player.eby)}</td>
+            `;
+            tableBody.appendChild(tr);
+        });
+    }
+
+    // Main Function to Filter and Sort logic
+    function applyFilterAndSort() {
+        // 1. Filter
+        let displayData = [...playersData]; // Copy original
+        if (currentFilter) {
+            displayData = displayData.filter(p => p.position === currentFilter);
+        }
+
+        // 2. Sort
+        const field = currentSort.column;
+        const direction = currentSort.direction;
+
+        displayData.sort((a, b) => {
+            let valA = a[field];
+            let valB = b[field];
+
+            if (typeof valA === 'string') valA = valA.toLowerCase();
+            if (typeof valB === 'string') valB = valB.toLowerCase();
+
+            if (valA < valB) return direction === 'asc' ? -1 : 1;
+            if (valA > valB) return direction === 'asc' ? 1 : -1;
+            return 0;
+        });
+
+        // 3. Update Header UI
+        headers.forEach(th => {
+            th.classList.remove('active-asc', 'active-desc');
+            if (th.dataset.sort === field) {
+                th.classList.add(direction === 'asc' ? 'active-asc' : 'active-desc');
+            }
+        });
+
+        // 4. Render
+        renderTable(displayData);
+    }
+
+    // Handle Header Click (Sorting)
+    function handleSort(field) {
+        if (currentSort.column === field) {
+            currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+        } else {
+            currentSort.column = field;
+            currentSort.direction = 'asc';
+        }
+        applyFilterAndSort();
+    }
+
+    // Initialize
+    if (typeof PLAYER_DATA !== 'undefined') {
+        playersData = processData(PLAYER_DATA);
+        // Initial sort
+        applyFilterAndSort();
+    } else {
+        console.error('PLAYER_DATA not loaded!');
+        const tr = document.createElement('tr');
+        tr.innerHTML = '<td colspan="15" style="text-align:center; padding:20px;">Error loading data.js</td>';
+        tableBody.appendChild(tr);
+    }
+
+    // Event Listeners: Sorting
+    headers.forEach(th => {
+        th.addEventListener('click', () => {
+            const sortField = th.dataset.sort;
+            if (!sortField) return; // Ignore clicks if no data-sort
+            let key = sortField;
+            if (key === '247') key = '_247';
+            handleSort(key);
+        });
+    });
+
+    // Event Listeners: Filtering
+    if (filterSelect) {
+        filterSelect.addEventListener('change', (e) => {
+            currentFilter = e.target.value;
+            applyFilterAndSort();
+        });
+    }
+});

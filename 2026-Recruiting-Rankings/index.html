@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 Basketball Recruiting Rankings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>2026 Recruiting Rankings</h1>
+            <p>Interactive table of top 148 high school basketball recruits.</p>
+        </header>
+
+        <div class="table-container">
+            <table id="rankings-table">
+                <thead>
+                    <tr>
+                        <th data-sort="rank" class="sortable">Rank</th>
+                        <th data-sort="player" class="sortable">Player</th>
+                        <th data-sort="position" class="sortable">
+                            Pos
+                            <select id="position-filter"
+                                style="background:#1f2833; color:#fff; border:1px solid #45a29e; border-radius:3px; font-size:0.8em; margin-left:5px;"
+                                onclick="event.stopPropagation()">
+                                <option value="">All</option>
+                                <option value="Guard">Guard</option>
+                                <option value="Wing">Wing</option>
+                                <option value="Big">Big</option>
+                            </select>
+                        </th>
+                        <th data-sort="height" class="sortable">Hgt</th>
+                        <th data-sort="commitment">Commitment</th>
+                        <th data-sort="offensive_role">Off Role</th>
+                        <th data-sort="defensive_role">Def Role</th>
+                        <th data-sort="consensus" class="sortable active-asc">Consensus</th>
+                        <th data-sort="industry_pro" class="sortable">Ind. Pro</th>
+                        <th data-sort="rivals" class="sortable">Rivals</th>
+                        <th data-sort="247" class="sortable">247</th>
+                        <th data-sort="espn" class="sortable">ESPN</th>
+                        <th data-sort="made" class="sortable">MADE</th>
+                        <th data-sort="eby" class="sortable">EBY</th>
+                    </tr>
+                </thead>
+                <tbody id="rankings-body">
+                    <!-- Data will be populated here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="logos.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
