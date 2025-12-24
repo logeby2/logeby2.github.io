@@ -3,8 +3,8 @@ const path = require('path');
 
 const files = {
     '2026': 'Recruiting Rankings - 2026 Recruiting Spring 2026.csv',
-    '2027': 'Recruiting Rankings - 2027 Recruiting Winter 2025.csv',
-    '2028': 'Recruiting Rankings - 2028 Recruiting Winter 2025.csv'
+    '2027': 'Recruiting Rankings - 2027 Recruiting Spring 2026.csv',
+    '2028': 'Recruiting Rankings - 2028 Recruiting Spring 2026.csv'
 };
 
 const dataPath = path.join(__dirname, 'data.js');
@@ -55,8 +55,8 @@ try {
             if (row.length > 1) {
                 const player = {};
                 headers.forEach((header, index) => {
-                    // Normalize header keys
-                    const key = header.toUpperCase().replace(/[^A-Z0-9]/g, '_');
+                    // Normalize header keys: preserve spaces/slashes for script.js compatibility
+                    const key = header.toUpperCase().trim();
                     // Clean up quotes from values
                     let val = row[index] ? row[index].replace(/^"|"$/g, '') : '';
                     if (val === '?' || val === '') val = ''; // Normalize empty/unknown

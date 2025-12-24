@@ -2,8 +2,8 @@ try {
     # Define mapping of year to filename
     $files = @{
         "2026" = "Recruiting Rankings - 2026 Recruiting Spring 2026.csv"
-        "2027" = "Recruiting Rankings - 2027 Recruiting Winter 2025.csv"
-        "2028" = "Recruiting Rankings - 2028 Recruiting Winter 2025.csv"
+        "2027" = "Recruiting Rankings - 2027 Recruiting Spring 2026.csv"
+        "2028" = "Recruiting Rankings - 2028 Recruiting Spring 2026.csv"
     }
 
     $allData = @{}
@@ -19,7 +19,7 @@ try {
             # Uniquify headers to handle empty ones
             $uniqueHeaders = @()
             $counts = @{}
-            for ($i=0; $i -lt $headers.Count; $i++) {
+            for ($i = 0; $i -lt $headers.Count; $i++) {
                 $h = $headers[$i].Trim()
                 if ([string]::IsNullOrWhiteSpace($h)) {
                     $h = "UNKNOWN_$i"
@@ -39,9 +39,9 @@ try {
                 $cleanData = @()
                 foreach ($row in $data) {
                     $newRow = @{}
-                    # Map properties: uppercase and remove special chars (similar to convert_csv.js logic)
+                    # Map properties: uppercase and preserve special chars for script.js compatibility
                     foreach ($prop in $row.PSObject.Properties) {
-                        $key = $prop.Name.ToUpper() -replace '[^A-Z0-9]', '_'
+                        $key = $prop.Name.ToUpper().Trim()
                         # Fix TEAM_HS to TEAM/HS if needed? No, script.js uses "TEAM/HS" (which becomes TEAM_HS in key logic?)
                         # Wait, convert_csv.js had: key = header.toUpperCase().replace(/[^A-Z0-9]/g, '_');
                         # So "TEAM/HS" -> "TEAM_HS"
@@ -127,6 +127,7 @@ try {
     $jsContent = "const PLAYER_DATA = $json;"
     Set-Content "data.js" $jsContent -Encoding UTF8
     Write-Host "Done."
-} catch {
+}
+catch {
     Write-Error $_
 }
