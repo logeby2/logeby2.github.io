@@ -2,10 +2,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const tableBody = document.getElementById('rankings-body');
     const headers = document.querySelectorAll('th.sortable');
     const filterSelect = document.getElementById('position-filter');
+    const searchInput = document.getElementById('search-input');
 
     let playersData = [];
     let currentSort = { column: 'consensus', direction: 'asc' };
     let currentFilter = '';
+    let currentSearch = '';
 
     // Helper to parse Height to inches for sorting/logic
     function parseHeight(heightStr) {
@@ -137,6 +139,15 @@ document.addEventListener('DOMContentLoaded', () => {
             displayData = displayData.filter(p => p.position === currentFilter);
         }
 
+        // 1.5 Search
+        if (currentSearch) {
+            const lowerTerm = currentSearch.toLowerCase();
+            displayData = displayData.filter(p =>
+                (p.name && p.name.toLowerCase().includes(lowerTerm)) ||
+                (p.team_hs && p.team_hs.toLowerCase().includes(lowerTerm))
+            );
+        }
+
         // 2. Sort
         const field = currentSort.column;
         const direction = currentSort.direction;
@@ -203,6 +214,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (filterSelect) {
         filterSelect.addEventListener('change', (e) => {
             currentFilter = e.target.value;
+            applyFilterAndSort();
+        });
+    }
+
+    // Event Listeners: Search
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            currentSearch = e.target.value;
             applyFilterAndSort();
         });
     }
