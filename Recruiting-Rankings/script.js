@@ -50,8 +50,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 'GER': 'de', 'SEN': 'sn', 'CMR': 'cm', 'SSD': 'ss',
                 'MLI': 'ml', 'LAT': 'lv', 'SLO': 'si', 'NED': 'nl',
                 'FIN': 'fi', 'BRA': 'br', 'GEO': 'ge', 'SUI': 'ch',
-                'TUR': 'tr', 'GRE': 'gr', 'NGA': 'ng', 'CRO': 'hr'
+                'TUR': 'tr', 'GRE': 'gr', 'NGA': 'ng', 'CRO': 'hr', 'DEN': 'dk'
             };
+
             return `https://flagcdn.com/20x15/${countryMap[code] || 'us'}.png`;
         }
         return `https://flagcdn.com/20x15/us.png`; // Default USA
