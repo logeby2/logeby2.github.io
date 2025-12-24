@@ -45,7 +45,7 @@ TIER,PLAYER,TEAM/HS,COMMITMENT,OFFENSIVE ROLE,DEFENSIVE ROLE,HEIGHT,RIVALS,247,P
 5,Tajh Ariza,Link Academy,Oregon,Slasher,Perimeter Stopper,"6'7""",20,14,14,30,24,44,24.3,20.4,-22
 5,Ralph Scott,IMG Academy,Tennessee,Play Finishing Forward,Helper,"6'8""",42,35,59,54,38,45,45.5,45.6,-2.75
 5,Davion Adkins,Prolific Prep,Kansas,Play Finishing Big,Versatile Big,"6'9""",28,34,23,56,28,46,35.8,33.8,-9.5
-5,Abdou Toure,Notre Dame,Arkansas,Scoring Guard,Perimeter Stopper,"6'4""",30,37,36,34,34,47,36.3,34.2,-13.25
+5,Abdou Toure,Notre Dame (GIN),Arkansas,Scoring Guard,Perimeter Stopper,"6'4""",30,37,36,34,34,47,36.3,34.2,-13.25
 5,Egor Amosov,Real Madrid (RUS),?,Connector Wing,???,"6'8""",,,,,,48,48.0,,
 5,Latrell Allmond,Petersburg,Oklahoma State,Post Scorer,Helper,"6'8""",32,32,30,42,30,49,35.8,33.2,-15
 5,Adonis Ratliff,Archbishop Stepanic,USC,Skilled Big ,Helper,"6'10""",17,52,22,10,31,50,30.3,26.4,-22.5
@@ -57,7 +57,7 @@ TIER,PLAYER,TEAM/HS,COMMITMENT,OFFENSIVE ROLE,DEFENSIVE ROLE,HEIGHT,RIVALS,247,P
 5,Jacob Webber,La Lumiere,Purdue,Movement Shooter,???,"6'7""",34,73,35,99,63,56,60.0,60.8,11.25
 5,Jasiah Jervis,Archbishop Stepanic,Michigan St.,Scoring Guard,???,"6'4""",23,39,46,31,39,57,39.2,35.6,-24
 5,Luke Ertel,Mt. Vernon,Purdue,Primary Ball Handler,Point-of-Attack,"6'1""",53,42,63,52,109,58,62.8,63.8,6
-5,Ikenna Alozie,Dream City Christian,Houston,Primary Ball Handler,Point-of-Attack,"6'2""",36,46,42,32,79,59,49.0,47,-10.75
+5,Ikenna Alozie,Dream City Christian (NGA),Houston,Primary Ball Handler,Point-of-Attack,"6'2""",36,46,42,32,79,59,49.0,47,-10.75
 5,Dovydas Buika,Zalgris (LTU),?,Combo Wing,???,"6'6""",,,,,51,60,55.5,51,-47.25
 5,Andrej Bjelic,Real Madrid (SRB),?,Combo Guard,???,"6'4""",,,,,,61,61.0,,
 5,Mate Khatiashvili,Baskonia (GEO),?,Primary Ball Handler,Chaser,"6'3""",,,,,,62,62.0,,
@@ -120,12 +120,13 @@ TIER,PLAYER,TEAM/HS,COMMITMENT,OFFENSIVE ROLE,DEFENSIVE ROLE,HEIGHT,RIVALS,247,P
 7,Felipe Quinones,Columbus (PUR),Florida Atlantic,Combo Wing,Perimeter Stopper,"6'5""",64,118,86,74,200,119,110.2,108.4,
 7,Eli Sancomb,Wheeling Central Catholic,Liberty,Primary Ball Handler,Helper,"6'5""",135,102,121,125,119,120,120.3,96.2,
 7,Jayden Hodge,Monteverde,Northwestern,Slasher,Helper,"6'6""",81,64,67,81,62,121,79.3,57.6,
-7,Luke Barnett,Mater Dei,Kansas,Movement Shooter,Helper,"6'3""",115,144,126,125,140,122,128.7,104.8,9
-7,Shane Pendergrass,Hargrave Military Academy (HS),George Mason,Play Finishing Forward,Helper,"6'8""",96,142,148,150,125,123,130.7,102.6,
-7,Slim Rogers,Centennial,Stanford,Primary Ball Handler,Point-of-Attack,"6'2""",129,103,127,125,126,124,122.3,96.6,
-7,Kaiden Bailey,Santa Margarita Catholic,Georgia Tech,Primary Ball Handler,Point-of-Attack,"6'2""",136,117,100,125,124,125,121.2,100.4,0.5
-7,Moustapha Diop,Overtime Elite,Georgia Tech,Play Finishing Big,Rim Protector,"6'10""",83,97,83,125,142,126,109.3,89.4,
-7,Code Mbengue,Gran Canaria (SEN),?,Play Finishing Big,Rim Protector,"6'11""",,,,,,127,127.0,,
+7,Ignas Stombergas,Zalgris (LTU),?,Play Finishing Big,Paint Prescence,"6'10""",,,,,,122,122.0,,
+7,Luke Barnett,Mater Dei,Kansas,Movement Shooter,Helper,"6'3""",115,144,126,125,140,123,128.8,104.8,8
+7,Shane Pendergrass,Hargrave Military Academy (HS),George Mason,Play Finishing Forward,Helper,"6'8""",96,142,148,150,125,124,130.8,102.6,
+7,Slim Rogers,Centennial,Stanford,Primary Ball Handler,Point-of-Attack,"6'2""",129,103,127,125,126,125,122.5,96.6,
+7,Kaiden Bailey,Santa Margarita Catholic,Georgia Tech,Primary Ball Handler,Point-of-Attack,"6'2""",136,117,100,125,124,126,121.3,100.4,-0.5
+7,Moustapha Diop,Overtime Elite,Georgia Tech,Play Finishing Big,Rim Protector,"6'10""",83,97,83,125,142,127,109.5,89.4,
+7,Code Mbengue,Gran Canaria (SEN),?,Play Finishing Big,Rim Protector,"6'11""",,,,,,128,128.0,,
 ,Neiko Mundey,Prince George's Academy,Texas A&M,Primary Ball Handler,Point-of-Attack,"6'2""",88,87,71,84,52,,76.4,76.4,
 ,Julius Avent,Bergen Catholic,Michigan St.,Off-Ball Wing,Helper,"6'7""",79,93,65,82,64,,76.6,76.6,
 ,Jonathan Sanderson,La Lumiere,Notre Dame,Primary Ball Handler,Low Activity,"6'2""",98,66,72,66,113,,83.0,83,

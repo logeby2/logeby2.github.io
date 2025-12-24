@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const forcedUSA = [
             'Felipe Quinones', 'Felipe Minzer', 'Boyuan Zhang', 'Amadou Seini',
             'Arafan Diane', 'Isaiah Hamilton', 'Miles Sadler', 'Maxime Meyer', 'Paul Osaruyi', 'Paul Osayuri',
-            'Emmanuel Ouedraogo', 'Aaron Ona Embo'
+            'Emmanuel Ouedraogo', 'Aaron Ona Embo', 'Abdou Toure', 'Ikenna Alozie', 'Bamba Touray'
         ];
 
         if (teamHsString) {
