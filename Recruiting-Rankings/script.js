@@ -54,7 +54,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // They will keep their flag generation but fall under USA filter
         const forcedUSA = [
             'Felipe Quinones', 'Felipe Minzer', 'Boyuan Zhang', 'Amadou Seini',
-            'Arafan Diane', 'Isaiah Hamilton', 'Miles Sadler', 'Maxime Meyer', 'Paul Osaruyi', 'Paul Osayuri'
+            'Arafan Diane', 'Isaiah Hamilton', 'Miles Sadler', 'Maxime Meyer', 'Paul Osaruyi', 'Paul Osayuri',
+            'Emmanuel Ouedraogo'
         ];
 
         if (teamHsString) {
@@ -73,6 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         'FRA': 'fr', 'ESP': 'es', 'ITA': 'it', 'LTU': 'lt',
                         'SRB': 'rs', 'RUS': 'ru', 'CAN': 'ca', 'AUS': 'au',
                         'GER': 'de', 'SEN': 'sn', 'CMR': 'cm', 'SSD': 'ss',
+                        'CIV': 'ci',
                         'MLI': 'ml', 'LAT': 'lv', 'SLO': 'si', 'NED': 'nl',
                         'FIN': 'fi', 'BRA': 'br', 'GEO': 'ge', 'SUI': 'ch',
                         'TUR': 'tr', 'GRE': 'gr', 'NGA': 'ng', 'CRO': 'hr', 'DEN': 'dk',
