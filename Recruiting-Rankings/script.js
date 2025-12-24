@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const forcedUSA = [
             'Felipe Quinones', 'Felipe Minzer', 'Boyuan Zhang', 'Amadou Seini',
             'Arafan Diane', 'Isaiah Hamilton', 'Miles Sadler', 'Maxime Meyer', 'Paul Osaruyi', 'Paul Osayuri',
-            'Emmanuel Ouedraogo'
+            'Emmanuel Ouedraogo', 'Aaron Ona Embo'
         ];
 
         if (teamHsString) {
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         'FRA': 'fr', 'ESP': 'es', 'ITA': 'it', 'LTU': 'lt',
                         'SRB': 'rs', 'RUS': 'ru', 'CAN': 'ca', 'AUS': 'au',
                         'GER': 'de', 'SEN': 'sn', 'CMR': 'cm', 'SSD': 'ss',
-                        'CIV': 'ci',
+                        'CIV': 'ci', 'BEL': 'be',
                         'MLI': 'ml', 'LAT': 'lv', 'SLO': 'si', 'NED': 'nl',
                         'FIN': 'fi', 'BRA': 'br', 'GEO': 'ge', 'SUI': 'ch',
                         'TUR': 'tr', 'GRE': 'gr', 'NGA': 'ng', 'CRO': 'hr', 'DEN': 'dk',
