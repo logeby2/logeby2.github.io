@@ -2635,7 +2635,7 @@
                      "TEAM/HS":  "Temecula Valley",
                      "HEIGHT":  "6\u00274\"",
                      "PREP":  "76",
-                     "PLAYER":  "Jeremiah Proï¬t",
+                     "PLAYER":  "Jeremiah Profit",
                      "RANK":  null,
                      "CONSENSUS":  "101.0",
                      "ESPN":  "58"
@@ -3089,7 +3089,7 @@
                      "HEIGHT":  "6\u00274\"",
                      "PREP":  "",
                      "PLAYER":  "Matthys Mahop",
-                     "CONSENSUS":  "12.0",
+                     "CONSENSUS":  "36.0",
                      "ESPN":  ""
                  },
                  {
@@ -3683,7 +3683,7 @@
                      "HEIGHT":  "6\u00276\"",
                      "PREP":  "",
                      "PLAYER":  "Dovydas Buika",
-                     "CONSENSUS":  "18.2",
+                     "CONSENSUS":  "54.5",
                      "ESPN":  ""
                  },
                  {
