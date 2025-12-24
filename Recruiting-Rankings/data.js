@@ -1519,7 +1519,7 @@
                      "RIVALS":  "6",
                      "UNKNOWN_15":  "",
                      "INDUSTRY PRO":  "11.4",
-                     "TEAM/HS":  "Dynamic Prep",
+                     "TEAM/HS":  "DME Academy",
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "11",
                      "PLAYER":  "Ryan Hampton",
