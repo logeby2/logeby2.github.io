@@ -1,14 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
     const tableBody = document.getElementById('rankings-body');
     const headers = document.querySelectorAll('th.sortable');
-    const filterSelect = document.getElementById('position-filter');
     const regionFilterSelect = document.getElementById('region-filter');
+    const offensiveRoleSelect = document.getElementById('offensive-role-filter');
+    const defensiveRoleSelect = document.getElementById('defensive-role-filter');
     const searchInput = document.getElementById('search-input');
 
     let playersData = [];
     let currentSort = { column: 'consensus', direction: 'asc' };
-    let currentFilter = '';
     let currentRegion = '';
+    let currentOffensiveRole = '';
+    let currentDefensiveRole = '';
     let currentSearch = '';
 
     // Helper to parse Height to inches for sorting/logic
@@ -27,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let r = role ? role.toLowerCase() : '';
 
         // 1. Check explicit Role keywords
-        if (r.includes('guard') || r.includes('initiator') || r.includes('handler') || r.includes('point')) return 'Guard';
+        if (r.includes('guard') || r.includes('initiator') || r.includes('initator') || r.includes('handler') || r.includes('point')) return 'Guard';
         if (r.includes('wing') || r.includes('slasher') || r.includes('shooter')) return 'Wing';
         if (r.includes('big') || r.includes('center') || r.includes('post') || r.includes('rim')) return 'Big';
 
@@ -94,13 +96,19 @@ document.addEventListener('DOMContentLoaded', () => {
             const consensus = parseFloat(p.CONSENSUS) || 999;
             const countryInfo = getCountryInfo(p['TEAM/HS'], p.PLAYER);
 
+            // Normalize Offensive Role
+            let offRole = p['OFFENSIVE ROLE'];
+            if (offRole && (offRole.toLowerCase().includes('initiator') || offRole.toLowerCase().includes('initator'))) {
+                offRole = 'Primary Ball Handler';
+            }
+
             return {
                 id: index,
                 rank: index + 1,
                 name: p.PLAYER,
                 team_hs: p['TEAM/HS'],
                 commitment: p.COMMITMENT,
-                offensive_role: p['OFFENSIVE ROLE'],
+                offensive_role: offRole,
                 defensive_role: p['DEFENSIVE ROLE'] || '-',
                 height: p.HEIGHT,
                 height_val: parseHeight(p.HEIGHT),
@@ -141,8 +149,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }
 
-                // Style: Bold, Color
-                commitHtml = `<div style="display:flex; align-items:center;">${logoImg}<span style="color:${player.color}; font-weight:bold; font-size:0.95em;">${player.commitment}</span></div>`;
+                // If logo exists, show ONLY logo. If not, show text.
+                if (logoImg) {
+                    commitHtml = `<div style="display:flex; align-items:center; justify-content:center;">${logoImg}</div>`;
+                } else {
+                    commitHtml = `<div style="display:flex; align-items:center;"><span style="color:${player.color}; font-weight:bold; font-size:0.95em;">${player.commitment}</span></div>`;
+                }
             }
 
             const teamHs = player.team_hs || '';
@@ -158,9 +170,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 </td>
                 <td class="pos-cell">${player.position}</td>
                 <td class="height-cell">${player.height}</td>
-                <td style="text-align:left">${commitHtml}</td>
-                <td style="font-size:0.85em; color:var(--accent);">${player.offensive_role}</td>
-                <td style="font-size:0.85em; color:#888;">${player.defensive_role}</td>
+                <td style="text-align:center">${commitHtml}</td>
+                <td class="role-cell" style="font-size:0.85em; color:var(--accent);">${player.offensive_role}</td>
+                <td class="role-cell" style="font-size:0.85em; color:#888;">${player.defensive_role}</td>
                 <td class="rating-cell" style="color:var(--text-secondary); font-weight:bold;">${player.consensus === 999 ? '-' : player.consensus}</td>
                 <td class="rating-cell">${formatRank(player.industry_pro)}</td>
                 <td class="rating-cell">${formatRank(player.eby)}</td>
@@ -176,17 +188,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Main Function to Filter and Sort logic
     function applyFilterAndSort() {
-        // 1. Filter by Position
+        // 1. Start with all data
         let displayData = [...playersData]; // Copy original
-        if (currentFilter) {
-            displayData = displayData.filter(p => p.position === currentFilter);
-        }
 
         // 1.5 Filter by Region
         if (currentRegion === 'High School') {
             displayData = displayData.filter(p => !p.isInternational);
         } else if (currentRegion === 'International') {
             displayData = displayData.filter(p => p.isInternational);
+        }
+
+        // 1.6 Filter by Offensive Role
+        if (currentOffensiveRole) {
+            displayData = displayData.filter(p => p.offensive_role === currentOffensiveRole);
+        }
+
+        // 1.7 Filter by Defensive Role
+        if (currentDefensiveRole) {
+            displayData = displayData.filter(p => p.defensive_role === currentDefensiveRole);
         }
 
         // 1.7 Search
@@ -205,6 +224,12 @@ document.addEventListener('DOMContentLoaded', () => {
         displayData.sort((a, b) => {
             let valA = a[field];
             let valB = b[field];
+
+            // Use numerical height value for sorting if field is 'height'
+            if (field === 'height') {
+                valA = a.height_val;
+                valB = b.height_val;
+            }
 
             if (typeof valA === 'string') valA = valA.toLowerCase();
             if (typeof valB === 'string') valB = valB.toLowerCase();
@@ -256,13 +281,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Event Listeners: Filtering
-    if (filterSelect) {
-        filterSelect.addEventListener('change', (e) => {
-            currentFilter = e.target.value;
-            applyFilterAndSort();
-        });
-    }
+
 
     // Event Listeners: Region Filtering
     if (regionFilterSelect) {
@@ -270,6 +289,52 @@ document.addEventListener('DOMContentLoaded', () => {
             currentRegion = e.target.value;
             applyFilterAndSort();
         });
+    }
+
+    // Event Listeners: Offensive Role
+    if (offensiveRoleSelect) {
+        offensiveRoleSelect.addEventListener('change', (e) => {
+            currentOffensiveRole = e.target.value;
+            applyFilterAndSort();
+        });
+    }
+
+    // Event Listeners: Defensive Role
+    if (defensiveRoleSelect) {
+        defensiveRoleSelect.addEventListener('change', (e) => {
+            currentDefensiveRole = e.target.value;
+            applyFilterAndSort();
+        });
+    }
+
+    // Populate Role Dropdowns
+    function populateRoleFilters(data) {
+        // Collect unique roles
+        const offensiveRoles = new Set();
+        const defensiveRoles = new Set();
+
+        data.forEach(p => {
+            if (p.offensive_role) offensiveRoles.add(p.offensive_role);
+            if (p.defensive_role && p.defensive_role !== '-') defensiveRoles.add(p.defensive_role);
+        });
+
+        // Helper to populate
+        const populate = (selectElement, set, defaultText) => {
+            if (!selectElement) return;
+            // Clear existing options except first
+            selectElement.innerHTML = `<option value="">${defaultText}</option>`;
+
+            // Sort and add
+            Array.from(set).sort().forEach(role => {
+                const option = document.createElement('option');
+                option.value = role;
+                option.textContent = role;
+                selectElement.appendChild(option);
+            });
+        };
+
+        populate(offensiveRoleSelect, offensiveRoles, "All Offensive Roles");
+        populate(defensiveRoleSelect, defensiveRoles, "All Defensive Roles");
     }
 
     // Year Switching
@@ -280,6 +345,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         currentYear = year;
         playersData = processData(PLAYER_DATA[year]);
+
+        // Populate Filters for the new year
+        populateRoleFilters(playersData);
 
         // Update Buttons
         document.querySelectorAll('.year-btn').forEach(btn => {

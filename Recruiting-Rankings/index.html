@@ -42,6 +42,16 @@
                     <option value="High School">High School</option>
                     <option value="International">International</option>
                 </select>
+
+                <select id="offensive-role-filter"
+                    style="padding: 10px; margin-left: 10px; border-radius: 5px; border: 1px solid #b0b0b0; background-color: #1f2833; color: white;">
+                    <option value="">All Offensive Roles</option>
+                </select>
+
+                <select id="defensive-role-filter"
+                    style="padding: 10px; margin-left: 10px; border-radius: 5px; border: 1px solid #b0b0b0; background-color: #1f2833; color: white;">
+                    <option value="">All Defensive Roles</option>
+                </select>
             </div>
 
             <div class="year-selector" style="margin-top: 15px; text-align: center;">
@@ -57,19 +67,9 @@
                     <tr>
                         <th>#</th>
                         <th data-sort="player" class="sortable">Player</th>
-                        <th data-sort="position" class="sortable">
-                            Pos
-                            <select id="position-filter"
-                                style="background:#1f2833; color:#fff; border:1px solid #b0b0b0; border-radius:3px; font-size:0.8em; margin-left:5px;"
-                                onclick="event.stopPropagation()">
-                                <option value="">All</option>
-                                <option value="Guard">Guard</option>
-                                <option value="Wing">Wing</option>
-                                <option value="Big">Big</option>
-                            </select>
-                        </th>
+                        <th data-sort="position" class="sortable">Pos</th>
                         <th data-sort="height" class="sortable">Hgt</th>
-                        <th data-sort="commitment">Commitment</th>
+                        <th data-sort="commitment">Committed</th>
                         <th data-sort="offensive_role">Off Role</th>
                         <th data-sort="defensive_role">Def Role</th>
                         <th data-sort="consensus" class="sortable active-asc">Consensus</th>

@@ -9,7 +9,7 @@ TIER,PLAYER,TEAM/HS,COMMITMENT,OFFENSIVE ROLE,DEFENSIVE ROLE,HEIGHT,RIVALS,247,P
 3,Stefan Joksimovic,Baskonia (SLO),?,Wing Handler,Helper,"6'6""",,,,,,8,8.0,,
 3,Bryson Howard,Heritage ,Duke,Combo Wing,Perimeter Stopper,"6'5""",3,12,10,17,5,9,9.3,9.4,0.25
 3,Anthony Thompson,Western Reserve Academy,Ohio State,Off-Ball Wing,Helper,"6'7""",8,7,4,12,4,10,7.5,7,-2.25
-3,Jordan Smith Jr. ,St. Paul IV,?,Slasher,Point-of-Attack,"6'2""",11,2,3,3,6,11,6.0,5,-5.5
+3,Jordan Smith Jr. ,St. Paul IV,?,Combo Guard,Perimeter Disruptor,"6'2""",11,2,3,3,6,11,6.0,5,-5.5
 3,Baba Olatodun,James Hubert Blake,Maryland,Scoring Wing,Helper,"6'8""",10,10,6,7,13,12,9.7,9.2,-2
 4,Deron Rippey Jr. ,Blair Academy,?,Primary Ball Handler,Point-of-Attack,"6'1""",6,6,9,16,10,13,10.0,9.4,-3.5
 4,Christian Collins,St. John Bosco,?,Play Finishing Forward,Versatile Big,"6'9""",15,8,11,8,17,14,12.2,11.8,-2
@@ -66,7 +66,7 @@ TIER,PLAYER,TEAM/HS,COMMITMENT,OFFENSIVE ROLE,DEFENSIVE ROLE,HEIGHT,RIVALS,247,P
 5,Quinn Costello ,Newman School,Michigan,Skilled Big ,???,"6'9""",33,45,31,29,72,65,45.8,42,-20.25
 5,Tristan Reed,Link Academy,Mississippi State,Play Finishing Big,Rim Protector,"6'9""",69,69,77,80,56,66,69.5,70.2,2.5
 5,Klark Riethauser,Chalon (SUI),?,Off-Ball Wing,Perimeter Stopper,"6'7""",,,,,91,67,79.0,91,-44.25
-5,Christopher Washington Jr.,Providence Christian Aca.,?,Play Finishing Forward,Perimeter Disruptor,"6'9""",46,31,55,59,97,68,59.3,57.6,-9.75
+5,Chris Washington Jr.,Providence Christian Aca.,?,Play Finishing Forward,Perimeter Disruptor,"6'9""",46,31,55,59,97,68,59.3,57.6,-9.75
 5,Anthony Felesi,Utah Prep,Pittsburgh,Slasher,Perimeter Stopper,"6'5""",66,49,54,58,85,69,63.5,62.4,-4.5
 5,Cheichk Niang,Trento (ITA),?,Play Finishing Forward,Perimeter Disruptor,"6'7""",,,,,,70,70.0,,
 5,Swann Penda,Le Mans (FRA),?,Off-Ball Wing,Helper,"6'9""",,,,,,71,71.0,,
@@ -87,7 +87,7 @@ TIER,PLAYER,TEAM/HS,COMMITMENT,OFFENSIVE ROLE,DEFENSIVE ROLE,HEIGHT,RIVALS,247,P
 6,Herly Brutus,Villages Charter,LSU,Off-Ball Wing,Perimeter Stopper,"6'6""",86,141,120,88,105,86,104.3,108,19
 6,Ethan Harris,Camas,Iowa,Skilled Forward,Helper,"6'8""",73,123,104,110,71,87,94.7,96.2,7.25
 6,Sammy Jackson,Roman Catholic,VCU,Wing Handler,Perimeter Stopper,"6'7""",51,62,58,72,40,88,61.8,56.6,-31.75
-6,Felipe Minzer,Academy of Central Florida (ARG),?,Wing Handler,Chaser,,,,,,95,89,92.0,,
+6,Felipe Minzer,Academy of Central Florida (ARG),?,Wing Handler,Chaser,"6'6""",,,,,,95,89,92.0,,
 6,Jalen Montonati,Owasso,Oklahoma State,Movement Shooter,Chaser,"6'7""",70,74,52,50,92,90,71.3,67.6,-18.5
 6,Tarris Bouie,SPIRE Academy,Alabama,Off-Ball Wing,Helper,"6'6""",87,51,40,33,81,91,63.8,58.4,-28
 6,Carlos Medlock Jr.,Link Academy,Michigan St.,Primary Ball Handler,Point-of-Attack,"5'11""",68,67,74,68,73,92,73.7,70,-23
