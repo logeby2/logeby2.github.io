@@ -171,8 +171,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 <td class="pos-cell">${player.position}</td>
                 <td class="height-cell">${player.height}</td>
                 <td style="text-align:center">${commitHtml}</td>
-                <td class="role-cell" style="font-size:0.85em; color:var(--accent);">${player.offensive_role}</td>
-                <td class="role-cell" style="font-size:0.85em; color:#888;">${player.defensive_role}</td>
+                <td class="role-cell" style="font-size:0.85em; color:var(--accent);"><div class="role-content">${player.offensive_role}</div></td>
+                <td class="role-cell" style="font-size:0.85em; color:#888;"><div class="role-content">${player.defensive_role}</div></td>
                 <td class="rating-cell" style="color:var(--text-secondary); font-weight:bold;">${player.consensus === 999 ? '-' : player.consensus}</td>
                 <td class="rating-cell">${formatRank(player.industry_pro)}</td>
                 <td class="rating-cell">${formatRank(player.eby)}</td>

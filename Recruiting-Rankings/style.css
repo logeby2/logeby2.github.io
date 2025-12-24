@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    max-width: 97%;
+    max-width: 95%;
     margin: 0 auto;
 }
 
@@ -69,7 +69,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     min-width: 1000px;
-    font-size: 0.95rem;
+    font-size: 0.98rem;
 }
 
 th,
@@ -257,4 +257,20 @@ td {
     margin-right: 5px;
     position: relative;
     top: -1px;
+}
+
+.role-cell {
+    white-space: normal;
+    vertical-align: middle;
+}
+
+.role-content {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+    /* Standard property for compatibility */
+    line-clamp: 2;
 }
