@@ -14,11 +14,32 @@
 <body>
     <div class="container">
         <header>
-            <h1>2026 Recruiting Rankings</h1>
-            <p>Interactive table of top 148 high school basketball recruits.</p>
+            <h1>Logan Eby Scouting</h1>
+            <p>Personal and Consensus Class Rankings for the 2026, 2027, and 2028 Recruiting Classes</p>
+            <div class="social-links">
+                <a href="https://loganeby.substack.com/" target="_blank"
+                    style="display:inline-flex; align-items:center; text-decoration:none; color:inherit;">
+                    <img src="logan_icon.jpg" class="social-icon" alt="Icon"
+                        style="border-radius: 50%; object-fit: cover;"> Website
+                </a> |
+                <a href="https://x.com/LoganRoA_" target="_blank"
+                    style="display:inline-flex; align-items:center; text-decoration:none; color:inherit;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="social-icon" viewBox="0 0 16 16">
+                        <path
+                            d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+                    </svg> Twitter
+                </a>
+            </div>
             <div class="search-container" style="margin-top: 20px; text-align: center;">
                 <input type="text" id="search-input" placeholder="Search players or teams..."
-                    style="padding: 10px; width: 300px; border-radius: 5px; border: 1px solid #45a29e; background-color: #1f2833; color: white;">
+                    style="padding: 10px; width: 300px; border-radius: 5px; border: 1px solid #b0b0b0; background-color: #1f2833; color: white;">
+            </div>
+
+            <div class="year-selector" style="margin-top: 15px; text-align: center;">
+                <button class="year-btn active" data-year="2026">Class of 2026</button>
+                <button class="year-btn" data-year="2027">Class of 2027</button>
+                <button class="year-btn" data-year="2028">Class of 2028</button>
             </div>
         </header>
 
@@ -26,12 +47,11 @@
             <table id="rankings-table">
                 <thead>
                     <tr>
-                        <th data-sort="rank" class="sortable">Rank</th>
                         <th data-sort="player" class="sortable">Player</th>
                         <th data-sort="position" class="sortable">
                             Pos
                             <select id="position-filter"
-                                style="background:#1f2833; color:#fff; border:1px solid #45a29e; border-radius:3px; font-size:0.8em; margin-left:5px;"
+                                style="background:#1f2833; color:#fff; border:1px solid #b0b0b0; border-radius:3px; font-size:0.8em; margin-left:5px;"
                                 onclick="event.stopPropagation()">
                                 <option value="">All</option>
                                 <option value="Guard">Guard</option>
@@ -45,11 +65,12 @@
                         <th data-sort="defensive_role">Def Role</th>
                         <th data-sort="consensus" class="sortable active-asc">Consensus</th>
                         <th data-sort="industry_pro" class="sortable">Ind. Pro</th>
+                        <th data-sort="eby" class="sortable">EBY</th>
                         <th data-sort="rivals" class="sortable">Rivals</th>
                         <th data-sort="247" class="sortable">247</th>
+                        <th data-sort="prep" class="sortable">PREP</th>
                         <th data-sort="espn" class="sortable">ESPN</th>
                         <th data-sort="made" class="sortable">MADE</th>
-                        <th data-sort="eby" class="sortable">EBY</th>
                     </tr>
                 </thead>
                 <tbody id="rankings-body">

@@ -2,8 +2,8 @@
     --bg-color: #0b0c10;
     --card-bg: #1f2833;
     --text-primary: #c5c6c7;
-    --text-secondary: #66fcf1;
-    --accent: #45a29e;
+    --text-secondary: #ffffff;
+    --accent: #b0b0b0;
     --header-bg: #1f2833;
     --table-stripe: #12161c;
     --border-color: #2d3845;
@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1480px;
     margin: 0 auto;
 }
 
@@ -40,6 +40,22 @@ p {
     color: var(--accent);
     margin-top: 10px;
     font-size: 0.9em;
+}
+
+.social-links {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.social-links a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: var(--accent);
+    text-decoration: underline;
 }
 
 .table-container {
@@ -155,6 +171,36 @@ td {
     text-align: center;
 }
 
+/* Year Selector */
+.year-selector {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.year-btn {
+    background-color: #1f2833;
+    color: #c5c6c7;
+    border: 1px solid #b0b0b0;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    transition: all 0.3s ease;
+}
+
+.year-btn:hover {
+    background-color: #b0b0b0;
+    color: #0b0c10;
+}
+
+.year-btn.active {
+    background-color: #ffffff;
+    color: #0b0c10;
+    border-color: #ffffff;
+    font-weight: bold;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
 
@@ -167,4 +213,23 @@ td {
     .player-cell {
         min-width: 150px;
     }
+}
+
+/* Team Logo */
+.team-logo {
+    height: 24px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* Social Icons */
+.social-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    vertical-align: middle;
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
 }

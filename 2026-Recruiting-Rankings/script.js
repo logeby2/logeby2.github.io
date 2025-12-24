@@ -75,6 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 height_val: parseHeight(p.HEIGHT),
                 rivals: parseFloat(p.RIVALS) || 999,
                 _247: parseFloat(p['247']) || 999,
+                prep: parseFloat(p.PREP) || 999,
                 espn: parseFloat(p.ESPN) || 999,
                 made: parseFloat(p.MADE) || 999,
                 eby: parseFloat(p.EBY) || 999,
@@ -96,17 +97,25 @@ document.addEventListener('DOMContentLoaded', () => {
             // Fix 999 display to be empty or '-'
             const formatRank = (val) => val === 999 ? '-' : val;
 
-            // Commitment HTML: Text with Color
+            // Commitment HTML: Logo + Text with Color
             let commitHtml = '-';
             if (player.commitment && player.commitment !== '?' && player.commitment !== '') {
+                // Get Logo
+                let logoImg = '';
+                if (typeof getTeamLogo === 'function') {
+                    const logoUrl = getTeamLogo(player.commitment);
+                    if (logoUrl) {
+                        logoImg = `<img src="${logoUrl}" class="team-logo" alt="${player.commitment}" onerror="this.style.display='none'">`;
+                    }
+                }
+
                 // Style: Bold, Color
-                commitHtml = `<span style="color:${player.color}; font-weight:bold; font-size:0.95em;">${player.commitment}</span>`;
+                commitHtml = `<div style="display:flex; align-items:center;">${logoImg}<span style="color:${player.color}; font-weight:bold; font-size:0.95em;">${player.commitment}</span></div>`;
             }
 
             const teamHs = player.team_hs || '';
 
             tr.innerHTML = `
-                <td class="rank-cell">#${player.rank}</td>
                 <td class="player-cell">
                     <img src="${player.flag}" class="flag-icon" alt="Flag">
                     <div>
@@ -121,11 +130,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 <td style="font-size:0.85em; color:#888;">${player.defensive_role}</td>
                 <td class="rating-cell" style="color:var(--text-secondary); font-weight:bold;">${player.consensus === 999 ? '-' : player.consensus}</td>
                 <td class="rating-cell">${formatRank(player.industry_pro)}</td>
+                <td class="rating-cell">${formatRank(player.eby)}</td>
                 <td class="rating-cell">${formatRank(player.rivals)}</td>
                 <td class="rating-cell">${formatRank(player._247)}</td>
+                <td class="rating-cell">${formatRank(player.prep)}</td>
                 <td class="rating-cell">${formatRank(player.espn)}</td>
                 <td class="rating-cell">${formatRank(player.made)}</td>
-                <td class="rating-cell">${formatRank(player.eby)}</td>
             `;
             tableBody.appendChild(tr);
         });
@@ -187,16 +197,12 @@ document.addEventListener('DOMContentLoaded', () => {
         applyFilterAndSort();
     }
 
-    // Initialize
-    if (typeof PLAYER_DATA !== 'undefined') {
-        playersData = processData(PLAYER_DATA);
-        // Initial sort
-        applyFilterAndSort();
-    } else {
-        console.error('PLAYER_DATA not loaded!');
-        const tr = document.createElement('tr');
-        tr.innerHTML = '<td colspan="15" style="text-align:center; padding:20px;">Error loading data.js</td>';
-        tableBody.appendChild(tr);
+    // Event Listeners: Search
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            currentSearch = e.target.value;
+            applyFilterAndSort();
+        });
     }
 
     // Event Listeners: Sorting
@@ -218,11 +224,44 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Event Listeners: Search
-    if (searchInput) {
-        searchInput.addEventListener('input', (e) => {
-            currentSearch = e.target.value;
-            applyFilterAndSort();
+    // Year Switching
+    function loadYear(year) {
+        if (!PLAYER_DATA[year]) {
+            console.error(`Data for ${year} not found.`);
+            return;
+        }
+        currentYear = year;
+        playersData = processData(PLAYER_DATA[year]);
+
+        // Update Buttons
+        document.querySelectorAll('.year-btn').forEach(btn => {
+            if (btn.dataset.year === year) {
+                btn.classList.add('active');
+            } else {
+                btn.classList.remove('active');
+            }
         });
+
+        // Reset sort/filter? Optional. Let's keep them if compatible, or reset.
+        // For now, keep them.
+        applyFilterAndSort();
+    }
+
+    // Initialize
+    if (typeof PLAYER_DATA !== 'undefined') {
+        const yearBtns = document.querySelectorAll('.year-btn');
+        yearBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                loadYear(btn.dataset.year);
+            });
+        });
+
+        // Default to 2026
+        loadYear('2026');
+    } else {
+        console.error('PLAYER_DATA not loaded!');
+        const tr = document.createElement('tr');
+        tr.innerHTML = '<td colspan="15" style="text-align:center; padding:20px;">Error loading data.js</td>';
+        tableBody.appendChild(tr);
     }
 });
