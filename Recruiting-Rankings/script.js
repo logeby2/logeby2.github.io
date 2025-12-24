@@ -50,12 +50,21 @@ document.addEventListener('DOMContentLoaded', () => {
             isInternational = true;
         }
 
+        // Exception List for players who should count as USA despite having an International code
+        // They will keep their flag generation but fall under USA filter
+        const forcedUSA = ['Felipe Quinones', 'Felipe Minzer', 'Boyuan Zhang', 'Amadou Seini'];
+
         if (teamHsString) {
             const match = teamHsString.match(/\(([A-Z]{3})\)/);
             if (match) {
                 const code = match[1];
                 if (code !== 'USA') {
                     isInternational = true;
+                    // Start Override: if in forcedUSA, treat as not international
+                    if (forcedUSA.includes(playerName)) {
+                        isInternational = false;
+                    }
+
                     // Map 3 letter IOC codes to 2 letter ISO codes for flagcdn
                     const countryMap = {
                         'FRA': 'fr', 'ESP': 'es', 'ITA': 'it', 'LTU': 'lt',
@@ -64,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         'MLI': 'ml', 'LAT': 'lv', 'SLO': 'si', 'NED': 'nl',
                         'FIN': 'fi', 'BRA': 'br', 'GEO': 'ge', 'SUI': 'ch',
                         'TUR': 'tr', 'GRE': 'gr', 'NGA': 'ng', 'CRO': 'hr', 'DEN': 'dk',
-                        'URU': 'uy'
+                        'URU': 'uy', 'PUR': 'pr', 'ARG': 'ar', 'CHN': 'cn'
                     };
                     flag = `https://flagcdn.com/20x15/${countryMap[code] || 'us'}.png`;
                 }
