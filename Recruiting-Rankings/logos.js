@@ -469,6 +469,7 @@ const TEAM_LOGOS = {
     "Patriots": "https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png",
     "CLEM": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
     "FAU": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
+    "Florida Atlantic": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
     "Canisius": "https://a.espncdn.com/i/teamlogos/ncaa/500/2099.png",
     "Arizona Wildcats": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
     "Evansville Purple Aces": "https://a.espncdn.com/i/teamlogos/ncaa/500/339.png",
