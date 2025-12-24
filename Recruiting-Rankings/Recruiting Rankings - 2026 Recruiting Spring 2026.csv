@@ -13,7 +13,7 @@ TIER,PLAYER,TEAM/HS,COMMITMENT,OFFENSIVE ROLE,DEFENSIVE ROLE,HEIGHT,RIVALS,247,P
 3,Baba Olatodun,James Hubert Blake,Maryland,Scoring Wing,Helper,"6'8""",10,10,6,7,13,12,9.7,10,-2
 4,Deron Rippey Jr. ,Blair Academy,?,Primary Ball Handler,Point-of-Attack,"6'1""",6,6,9,16,10,13,10.0,9.5,-3.5
 4,Christian Collins,St. John Bosco,?,Play Finishing Forward,Versatile Big,"6'9""",15,8,11,8,17,14,12.2,12,-2
-4,Arafan Diane,Iowa United Prep,Houston,Post Scorer,Rim Protector,"7'1""",12,17,16,20,15,15,15.8,16,1
+4,Arafan Diane,Iowa United Prep (GIN),Houston,Post Scorer,Rim Protector,"7'1""",12,17,16,20,15,15,15.8,16,1
 4,Taylen Kinney,Overtime Elite,Kansas,Primary Initiator,Point-of-Attack,"6'2""",26,13,15,18,20,16,18.0,19.25,3.25
 4,Qayden Samuels,Bishop McNamara,?,Scoring Wing,Perimeter Stopper,"6'6""",43,18,34,22,36,17,28.3,29.75,12.75
 4,Juom Maker Bol,Baskonia (SSD),?,Skilled Big ,Rim Protector,"7'1""",,,,,,18,18.0,,
@@ -39,7 +39,7 @@ TIER,PLAYER,TEAM/HS,COMMITMENT,OFFENSIVE ROLE,DEFENSIVE ROLE,HEIGHT,RIVALS,247,P
 5,Miikka Muurinen,Partizan (FIN),?,Play Finishing Big,???,"6'11""",,15,,,54,38,35.7,34.5,-20.75
 5,Bo Ogden,Westlake,Texas,Movement Shooter,???,"6'5""",37,33,24,43,41,39,36.2,38.5,-0.5
 5,Cole Cloer,IMG Academy,NC State,Movement Shooter,???,"6'7""",55,27,27,24,42,40,35.8,37,-3
-5,Miles Sadler,Bella Vista Prep,West Virginia,Primary Initiator,Point-of-Attack,"5'11""",24,41,25,21,25,41,29.5,27.75,-13.25
+5,Miles Sadler,Bella Vista Prep (CAN),West Virginia,Primary Initiator,Point-of-Attack,"5'11""",24,41,25,21,25,41,29.5,27.75,-13.25
 5,Cameron Holmes,Millenium,Arizona,Scoring Wing,???,"6'8""",61,30,39,38,29,42,39.8,39.5,-2.5
 5,Ilia Frolov,Real Madrid (RUS),?,Skilled Big ,Paint Prescence,"6'10""",,,,,,43,43.0,,
 5,Tajh Ariza,Link Academy,Oregon,Slasher,Perimeter Stopper,"6'7""",20,14,14,30,24,44,24.3,22,-22
@@ -105,7 +105,7 @@ TIER,PLAYER,TEAM/HS,COMMITMENT,OFFENSIVE ROLE,DEFENSIVE ROLE,HEIGHT,RIVALS,247,P
 6,Alex Egbuonu,Lawrence Academy,Marquette,Off-Ball Wing,Perimeter Stopper,"6'6""",106,75,117,65,200,104,111.2,111.5,7.5
 6,Ricards Aizpurs,Stella Azzurra (LAT),?,Combo Guard,Chaser,"6'5""",,,,,,105,105.0,,
 6,Joaquim Taboada,Burgos (URU),?,Combo Guard,Chaser,"6'3""",,,,,,106,106.0,,
-6,Maxime Meyer,IMG Academy,Duke,Connector Big,Rim Protector,"7'2""",77,95,60,125,99,107,93.8,99,-8
+6,Maxime Meyer,IMG Academy (CAN),Duke,Connector Big,Rim Protector,"7'2""",77,95,60,125,99,107,93.8,99,-8
 6,Marcis Ponder,Gilion Basketball Academy,Florida St.,Play Finishing Big,Rim Protector,"6'11""",47,68,84,62,107,108,79.3,71,-37
 6,Aleksandr Panasiuk,Gran Canaria (RUS),?,Combo Guard,???,"6'4""",,,,,,109,109.0,,
 6,Aidan Chronister,The New School,Missouri,Movement Shooter,Chaser,"6'7""",150,71,78,89,133,110,105.2,110.75,0.75

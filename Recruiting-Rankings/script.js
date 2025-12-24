@@ -52,7 +52,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Exception List for players who should count as USA despite having an International code
         // They will keep their flag generation but fall under USA filter
-        const forcedUSA = ['Felipe Quinones', 'Felipe Minzer', 'Boyuan Zhang', 'Amadou Seini'];
+        const forcedUSA = [
+            'Felipe Quinones', 'Felipe Minzer', 'Boyuan Zhang', 'Amadou Seini',
+            'Arafan Diane', 'Isaiah Hamilton', 'Miles Sadler', 'Maxime Meyer', 'Paul Osaruyi', 'Paul Osayuri'
+        ];
 
         if (teamHsString) {
             const match = teamHsString.match(/\(([A-Z]{3})\)/);
@@ -73,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         'MLI': 'ml', 'LAT': 'lv', 'SLO': 'si', 'NED': 'nl',
                         'FIN': 'fi', 'BRA': 'br', 'GEO': 'ge', 'SUI': 'ch',
                         'TUR': 'tr', 'GRE': 'gr', 'NGA': 'ng', 'CRO': 'hr', 'DEN': 'dk',
-                        'URU': 'uy', 'PUR': 'pr', 'ARG': 'ar', 'CHN': 'cn'
+                        'URU': 'uy', 'PUR': 'pr', 'ARG': 'ar', 'CHN': 'cn', 'GIN': 'gn'
                     };
                     flag = `https://flagcdn.com/20x15/${countryMap[code] || 'us'}.png`;
                 }
@@ -178,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // 1.5 Filter by Region
-        if (currentRegion === 'USA') {
+        if (currentRegion === 'High School') {
             displayData = displayData.filter(p => !p.isInternational);
         } else if (currentRegion === 'International') {
             displayData = displayData.filter(p => p.isInternational);
