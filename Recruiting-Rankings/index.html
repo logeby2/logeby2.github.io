@@ -15,7 +15,8 @@
     <div class="container">
         <header>
             <h1>Logan Eby Scouting</h1>
-            <p>Personal and Consensus Class Rankings for the 2026, 2027, and 2028 Recruiting Classes</p>
+            <p>Personal and Consensus Class Rankings for the 2026, 2027, and 2028 National and International Recruiting
+                Classes</p>
             <div class="social-links">
                 <a href="https://loganeby.substack.com/" target="_blank"
                     style="display:inline-flex; align-items:center; text-decoration:none; color:inherit;">
@@ -34,6 +35,13 @@
             <div class="search-container" style="margin-top: 20px; text-align: center;">
                 <input type="text" id="search-input" placeholder="Search players or teams..."
                     style="padding: 10px; width: 300px; border-radius: 5px; border: 1px solid #b0b0b0; background-color: #1f2833; color: white;">
+
+                <select id="region-filter"
+                    style="padding: 10px; margin-left: 10px; border-radius: 5px; border: 1px solid #b0b0b0; background-color: #1f2833; color: white;">
+                    <option value="">All Regions</option>
+                    <option value="USA">USA</option>
+                    <option value="International">International</option>
+                </select>
             </div>
 
             <div class="year-selector" style="margin-top: 15px; text-align: center;">
@@ -47,6 +55,7 @@
             <table id="rankings-table">
                 <thead>
                     <tr>
+                        <th>#</th>
                         <th data-sort="player" class="sortable">Player</th>
                         <th data-sort="position" class="sortable">
                             Pos

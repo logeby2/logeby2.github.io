@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    max-width: 1480px;
+    max-width: 95%;
     margin: 0 auto;
 }
 
@@ -90,6 +90,8 @@ th {
     top: 0;
     white-space: nowrap;
     transition: background-color 0.2s;
+    z-index: 10;
+    /* Ensure header stays on top */
 }
 
 th:hover {
@@ -128,6 +130,14 @@ td {
 }
 
 /* Specific Column Styling */
+.num-cell {
+    width: 30px;
+    text-align: center;
+    color: var(--accent);
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
 .player-cell {
     display: flex;
     align-items: center;

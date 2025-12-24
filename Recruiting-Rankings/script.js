@@ -2,11 +2,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const tableBody = document.getElementById('rankings-body');
     const headers = document.querySelectorAll('th.sortable');
     const filterSelect = document.getElementById('position-filter');
+    const regionFilterSelect = document.getElementById('region-filter');
     const searchInput = document.getElementById('search-input');
 
     let playersData = [];
     let currentSort = { column: 'consensus', direction: 'asc' };
     let currentFilter = '';
+    let currentRegion = '';
     let currentSearch = '';
 
     // Helper to parse Height to inches for sorting/logic
@@ -37,25 +39,38 @@ document.addEventListener('DOMContentLoaded', () => {
         return 'Big'; // > 6'8
     }
 
-    // Helper for Country Flags
-    function getCountryFlag(teamHsString) {
-        if (!teamHsString) return `https://flagcdn.com/20x15/us.png`;
-        const match = teamHsString.match(/\(([A-Z]{3})\)/);
-        if (match) {
-            const code = match[1];
-            // Map 3 letter IOC codes to 2 letter ISO codes for flagcdn
-            const countryMap = {
-                'FRA': 'fr', 'ESP': 'es', 'ITA': 'it', 'LTU': 'lt',
-                'SRB': 'rs', 'RUS': 'ru', 'CAN': 'ca', 'AUS': 'au',
-                'GER': 'de', 'SEN': 'sn', 'CMR': 'cm', 'SSD': 'ss',
-                'MLI': 'ml', 'LAT': 'lv', 'SLO': 'si', 'NED': 'nl',
-                'FIN': 'fi', 'BRA': 'br', 'GEO': 'ge', 'SUI': 'ch',
-                'TUR': 'tr', 'GRE': 'gr', 'NGA': 'ng', 'CRO': 'hr', 'DEN': 'dk'
-            };
+    // Helper for Country Flags and Region Logic
+    function getCountryInfo(teamHsString, playerName) {
+        let flag = `https://flagcdn.com/20x15/us.png`;
+        let isInternational = false;
 
-            return `https://flagcdn.com/20x15/${countryMap[code] || 'us'}.png`;
+        // Exception List for players who should count as International despite invalid/USA code
+        const forcedInternational = ['Rhys Robinson', 'Joaquim Boumtje Boumtje'];
+        if (forcedInternational.includes(playerName)) {
+            isInternational = true;
         }
-        return `https://flagcdn.com/20x15/us.png`; // Default USA
+
+        if (teamHsString) {
+            const match = teamHsString.match(/\(([A-Z]{3})\)/);
+            if (match) {
+                const code = match[1];
+                if (code !== 'USA') {
+                    isInternational = true;
+                    // Map 3 letter IOC codes to 2 letter ISO codes for flagcdn
+                    const countryMap = {
+                        'FRA': 'fr', 'ESP': 'es', 'ITA': 'it', 'LTU': 'lt',
+                        'SRB': 'rs', 'RUS': 'ru', 'CAN': 'ca', 'AUS': 'au',
+                        'GER': 'de', 'SEN': 'sn', 'CMR': 'cm', 'SSD': 'ss',
+                        'MLI': 'ml', 'LAT': 'lv', 'SLO': 'si', 'NED': 'nl',
+                        'FIN': 'fi', 'BRA': 'br', 'GEO': 'ge', 'SUI': 'ch',
+                        'TUR': 'tr', 'GRE': 'gr', 'NGA': 'ng', 'CRO': 'hr', 'DEN': 'dk',
+                        'URU': 'uy'
+                    };
+                    flag = `https://flagcdn.com/20x15/${countryMap[code] || 'us'}.png`;
+                }
+            }
+        }
+        return { flag, isInternational };
     }
 
     // Process Data
@@ -63,6 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return rawData.map((p, index) => {
             // Rank calculation
             const consensus = parseFloat(p.CONSENSUS) || 999;
+            const countryInfo = getCountryInfo(p['TEAM/HS'], p.PLAYER);
 
             return {
                 id: index,
@@ -83,7 +99,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 industry_pro: parseFloat(p['INDUSTRY PRO']) || 999,
                 consensus: consensus,
                 position: getPosition(p['OFFENSIVE ROLE'], p.HEIGHT),
-                flag: getCountryFlag(p['TEAM/HS']),
+                flag: countryInfo.flag,
+                isInternational: countryInfo.isInternational,
                 color: getTeamColor(p.COMMITMENT) // Use getTeamColor from logos.js
             };
         });
@@ -92,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Render Table
     function renderTable(data) {
         tableBody.innerHTML = '';
-        data.forEach((player) => {
+        data.forEach((player, index) => {
             const tr = document.createElement('tr');
 
             // Fix 999 display to be empty or '-'
@@ -117,6 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const teamHs = player.team_hs || '';
 
             tr.innerHTML = `
+                <td class="num-cell">${index + 1}</td>
                 <td class="player-cell">
                     <img src="${player.flag}" class="flag-icon" alt="Flag">
                     <div>
@@ -144,13 +162,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Main Function to Filter and Sort logic
     function applyFilterAndSort() {
-        // 1. Filter
+        // 1. Filter by Position
         let displayData = [...playersData]; // Copy original
         if (currentFilter) {
             displayData = displayData.filter(p => p.position === currentFilter);
         }
 
-        // 1.5 Search
+        // 1.5 Filter by Region
+        if (currentRegion === 'USA') {
+            displayData = displayData.filter(p => !p.isInternational);
+        } else if (currentRegion === 'International') {
+            displayData = displayData.filter(p => p.isInternational);
+        }
+
+        // 1.7 Search
         if (currentSearch) {
             const lowerTerm = currentSearch.toLowerCase();
             displayData = displayData.filter(p =>
@@ -221,6 +246,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (filterSelect) {
         filterSelect.addEventListener('change', (e) => {
             currentFilter = e.target.value;
+            applyFilterAndSort();
+        });
+    }
+
+    // Event Listeners: Region Filtering
+    if (regionFilterSelect) {
+        regionFilterSelect.addEventListener('change', (e) => {
+            currentRegion = e.target.value;
             applyFilterAndSort();
         });
     }
