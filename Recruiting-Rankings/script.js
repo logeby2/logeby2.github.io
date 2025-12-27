@@ -57,7 +57,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const forcedUSA = [
             'Felipe Quinones', 'Felipe Minzer', 'Boyuan Zhang', 'Amadou Seini',
             'Arafan Diane', 'Isaiah Hamilton', 'Miles Sadler', 'Maxime Meyer', 'Paul Osaruyi', 'Paul Osayuri',
-            'Emmanuel Ouedraogo', 'Aaron Ona Embo', 'Abdou Toure', 'Ikenna Alozie', 'Bamba Touray', 'Rafa Corta'
+            'Emmanuel Ouedraogo', 'Aaron Ona Embo', 'Abdou Toure', 'Ikenna Alozie', 'Bamba Touray', 'Rafa Corta',
+            'Tajh Ariza', 'Aziz Olajuwon', 'Lucas Morillo', 'Sinan Huan', 'Adama Tambedou', 'Moustapha Diop', 'Mathias Vazquez', 'Cherif Millongo', 'Mahamadou Diop'
         ];
 
         if (teamHsString) {
@@ -80,8 +81,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         'MLI': 'ml', 'LAT': 'lv', 'SLO': 'si', 'NED': 'nl',
                         'FIN': 'fi', 'BRA': 'br', 'GEO': 'ge', 'SUI': 'ch',
                         'TUR': 'tr', 'GRE': 'gr', 'NGA': 'ng', 'CRO': 'hr', 'DEN': 'dk',
-                        'URU': 'uy', 'PUR': 'pr', 'ARG': 'ar', 'CHN': 'cn', 'GIN': 'gn',
-                        'CZA': 'cz', 'CZE': 'cz', 'BIH': 'ba', 'POR': 'pt', 'AUT': 'at'
+                        'URU': 'uy', 'PUR': 'pr', 'ARG': 'ar', 'CHN': 'cn', 'GIN': 'gn', 'GUI': 'gn', 'BUR': 'bf',
+                        'CZA': 'cz', 'CZE': 'cz', 'BIH': 'ba', 'POR': 'pt', 'AUT': 'at',
+                        'JPN': 'jp', 'DOM': 'do'
                     };
                     flag = `https://flagcdn.com/20x15/${countryMap[code] || 'us'}.png`;
                 }
