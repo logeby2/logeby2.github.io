@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let isInternational = false;
 
         // Exception List for players who should count as International despite invalid/USA code
-        const forcedInternational = ['Rhys Robinson', 'Joaquim Boumtje Boumtje'];
+        const forcedInternational = ['Rhys Robinson', 'Joaquim Boumtje Boumtje', 'Demario Mayfield Jr.'];
         if (forcedInternational.includes(playerName)) {
             isInternational = true;
         }
@@ -58,7 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'Felipe Quinones', 'Felipe Minzer', 'Boyuan Zhang', 'Amadou Seini',
             'Arafan Diane', 'Isaiah Hamilton', 'Miles Sadler', 'Maxime Meyer', 'Paul Osaruyi', 'Paul Osayuri',
             'Emmanuel Ouedraogo', 'Aaron Ona Embo', 'Abdou Toure', 'Ikenna Alozie', 'Bamba Touray', 'Rafa Corta',
-            'Tajh Ariza', 'Aziz Olajuwon', 'Lucas Morillo', 'Sinan Huan', 'Adama Tambedou', 'Moustapha Diop', 'Mathias Vazquez', 'Cherif Millongo', 'Mahamadou Diop', 'Liam Mitakaro'
+            'Tajh Ariza', 'Aziz Olajuwon', 'Lucas Morillo', 'Sinan Huan', 'Adama Tambedou', 'Moustapha Diop', 'Mathias Vazquez', 'Cherif Millongo', 'Mahamadou Diop', 'Liam Mitakaro',
+            'Herbert Wekem Agamba', 'Chudier Diew Yak', 'Kiir Nang', 'Mamadou Issa Sow', 'Mapak Majak Machar', 'Turic Chol Gol', 'Flory Kuminga'
         ];
 
         if (teamHsString) {
@@ -83,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         'TUR': 'tr', 'GRE': 'gr', 'NGA': 'ng', 'CRO': 'hr', 'DEN': 'dk',
                         'URU': 'uy', 'PUR': 'pr', 'ARG': 'ar', 'CHN': 'cn', 'GIN': 'gn', 'GUI': 'gn', 'BUR': 'bf',
                         'CZA': 'cz', 'CZE': 'cz', 'BIH': 'ba', 'POR': 'pt', 'AUT': 'at',
-                        'JPN': 'jp', 'DOM': 'do'
+                        'JPN': 'jp', 'DOM': 'do', 'POL': 'pl', 'COD': 'cd', 'BFA': 'bf', 'GHA': 'gh'
                     };
                     flag = `https://flagcdn.com/20x15/${countryMap[code] || 'us'}.png`;
                 }

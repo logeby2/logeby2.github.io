@@ -1,69 +1,74 @@
-try {
-    # Define mapping of year to filename
-    $files = @{
-        "2026" = "Recruiting Rankings - 2026 Recruiting Spring 2026.csv"
-        "2027" = "Recruiting Rankings - 2027 Recruiting Spring 2026.csv"
-        "2028" = "Recruiting Rankings - 2028 Recruiting Spring 2026.csv"
-    }
 
-    $allData = @{}
+$filesSource = @(
+    @{ Year = "2026"; Path = "Recruiting Rankings - 2026 Recruiting Spring 2026.csv" },
+    @{ Year = "2027"; Path = "Recruiting Rankings - 2027 Recruiting Spring 2026.csv" },
+    @{ Year = "2028"; Path = "Recruiting Rankings - 2028 Recruiting Spring 2026.csv" },
+    @{ Year = "2029"; Path = "Recruiting Rankings - 2029 Recruiting Summer 2026.csv" }
+)
 
-    foreach ($year in $files.Keys) {
-        $path = $files[$year]
+$allData = @{}
+
+Write-Host "Starting conversion..."
+foreach ($item in $filesSource) {
+    try {
+        $year = $item.Year
+        $path = $item.Path
+        Write-Host " checking $year -> $path"
+        
         if (Test-Path $path) {
-            Write-Host "Processing $year from $path..."
-            # Get headers from first line to handle empty columns issue
-            $headerLine = Get-Content $path -TotalCount 1
+            Write-Host "  Found. Processing..."
+            
+            # Read headers
+            $lines = Get-Content $path
+            if ($lines.Count -lt 2) {
+                Write-Host "  Skipping: Not enough lines."
+                continue
+            }
+            
+            $headerLine = $lines[0]
             $headers = $headerLine.Split(',')
             
-            # Uniquify headers to handle empty ones
+            # Unique headers
             $uniqueHeaders = @()
-            $counts = @{}
+            $seen = @{}
             for ($i = 0; $i -lt $headers.Count; $i++) {
                 $h = $headers[$i].Trim()
-                if ([string]::IsNullOrWhiteSpace($h)) {
-                    $h = "UNKNOWN_$i"
+                if ([string]::IsNullOrWhiteSpace($h)) { $h = "UNKNOWN_$i" }
+                
+                if ($seen.ContainsKey($h)) {
+                    $h = "{0}_{1}" -f $h, $i
                 }
-                # Check duplicates? Usually not needed if we just sanitized empty ones
+                $seen[$h] = $true
                 $uniqueHeaders += $h
             }
             
-            # Import with explicit headers (skipping the first line which is headers)
-            $content = Get-Content $path | Select-Object -Skip 1
-            if ($content) {
-                # ConvertFrom-Csv is used so we can supply our sanitized headers
-                $data = $content | ConvertFrom-Csv -Header $uniqueHeaders
-                
-                # Now we fix the property names to match expected JSON format (UPPERCASE with underscores)
-                # And select only the relevant columns to keep it clean
-                $cleanData = @()
-                foreach ($row in $data) {
-                    $newRow = @{}
-                    # Map properties: uppercase and preserve special chars for script.js compatibility
-                    foreach ($prop in $row.PSObject.Properties) {
-                        $key = $prop.Name.ToUpper().Trim()
-                        # Use the original header name but maybe cleaner?
-                        # Actually we want the headers from the CSV which might be "TEAM/HS"
-                        
-                        $val = $prop.Value
-                        if ($val -is [string]) {
-                            $val = $val.Trim()
-                        }
-                        
-                        $newRow[$key] = $val
-                    }
-                    $cleanData += $newRow
+            $csvData = $lines | Select-Object -Skip 1 | ConvertFrom-Csv -Header $uniqueHeaders
+            
+            $cleanData = @()
+            foreach ($row in $csvData) {
+                $newRow = @{}
+                foreach ($prop in $row.PSObject.Properties) {
+                    $key = $prop.Name.ToUpper().Trim()
+                    $val = $prop.Value
+                    if ($val -is [string]) { $val = $val.Trim() }
+                    $newRow[$key] = $val
                 }
+                $cleanData += $newRow
             }
+            
             $allData[$year] = $cleanData
+            Write-Host ("  Done {0}: {1} records." -f $year, $cleanData.Count)
+        }
+        else {
+            Write-Host "  ERROR: File not found."
         }
     }
+    catch {
+        Write-Host ("  CRITICAL ERROR processing {0} : {1}" -f $year, $_)
+    }
+}
 
-    $json = $allData | ConvertTo-Json -Depth 5
-    $jsContent = "const PLAYER_DATA = $json;"
-    Set-Content "data.js" $jsContent -Encoding UTF8
-    Write-Host "Done."
-}
-catch {
-    Write-Error $_
-}
+$json = $allData | ConvertTo-Json -Depth 5
+$jsContent = "const PLAYER_DATA = $json;"
+Set-Content "data.js" $jsContent -Encoding UTF8
+Write-Host "All done."
