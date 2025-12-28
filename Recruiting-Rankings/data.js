@@ -5462,7 +5462,7 @@
                      "INDUSTRY PRO":  "20.4",
                      "TEAM/HS":  "Link Academy (JPN)",
                      "EBY DIFF INDUSTRY":  "-22",
-                     "HEIGHT":  "6\u00277\"",
+                     "HEIGHT":  "6\u00279\"",
                      "PREP":  "14",
                      "PLAYER":  "Tajh Ariza",
                      "CONSENSUS":  "24.3",
