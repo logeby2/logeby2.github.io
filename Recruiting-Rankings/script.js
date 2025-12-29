@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         'TUR': 'tr', 'GRE': 'gr', 'NGA': 'ng', 'CRO': 'hr', 'DEN': 'dk',
                         'URU': 'uy', 'PUR': 'pr', 'ARG': 'ar', 'CHN': 'cn', 'GIN': 'gn', 'GUI': 'gn', 'BUR': 'bf',
                         'CZA': 'cz', 'CZE': 'cz', 'BIH': 'ba', 'POR': 'pt', 'AUT': 'at',
-                        'JPN': 'jp', 'DOM': 'do', 'POL': 'pl', 'COD': 'cd', 'BFA': 'bf', 'GHA': 'gh'
+                        'JPN': 'jp', 'DOM': 'do', 'POL': 'pl', 'COD': 'cd', 'BFA': 'bf', 'GHA': 'gh', 'ISR': 'il', 'NZL': 'nz'
                     };
                     flag = `https://flagcdn.com/20x15/${countryMap[code] || 'us'}.png`;
                 }
