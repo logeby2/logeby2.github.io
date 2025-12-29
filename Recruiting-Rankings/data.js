@@ -313,7 +313,7 @@
                      "TIER":  "3",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_14":  "",
-                     "OFFENSIVE ROLE":  "Scoring Wing",
+                     "OFFENSIVE ROLE":  "Off-Ball Wing",
                      "EBY":  "15",
                      "UNKNOWN_18":  "",
                      "MADE":  "",
