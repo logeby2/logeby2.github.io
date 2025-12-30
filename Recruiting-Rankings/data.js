@@ -5708,7 +5708,7 @@
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
                      "EBY":  "13",
                      "MADE":  "10",
-                     "COMMITMENT":  "?",
+                     "COMMITMENT":  "Duke",
                      "RIVALS":  "6",
                      "INDUSTRY PRO":  "9.4",
                      "TEAM/HS":  "Blair Academy",
