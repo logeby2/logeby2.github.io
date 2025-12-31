@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         'URU': 'uy', 'PUR': 'pr', 'ARG': 'ar', 'CHN': 'cn', 'GIN': 'gn', 'GUI': 'gn', 'BUR': 'bf',
                         'CZA': 'cz', 'CZE': 'cz', 'BIH': 'ba', 'POR': 'pt', 'AUT': 'at',
                         'JPN': 'jp', 'DOM': 'do', 'POL': 'pl', 'COD': 'cd', 'BFA': 'bf', 'GHA': 'gh', 'ISR': 'il', 'NZL': 'nz',
-                        'IND': 'in', 'VEN': 've', 'UKR': 'ua'
+                        'IND': 'in', 'VEN': 've', 'UKR': 'ua', 'MNE': 'me'
                     };
                     flag = `https://flagcdn.com/20x15/${countryMap[code] || 'us'}.png`;
                 }
