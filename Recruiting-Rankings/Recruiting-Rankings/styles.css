@@ -1,0 +1,168 @@
+:root {
+    --bg-color: #0d0d0d;
+    --card-bg: #1a1a1a;
+    --text-primary: #e0e0e0;
+    --text-secondary: #a0a0a0;
+    --accent-color: #8a2be2;
+    /* BlueViolet sort of obsidian vibe */
+    --accent-glow: rgba(138, 43, 226, 0.3);
+    --border-color: #333;
+    --hover-bg: #252525;
+    --table-header-bg: #1f1f1f;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #fff, #a0a0a0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px var(--accent-glow);
+}
+
+.search-bar {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 12px 20px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 25px;
+    color: var(--text-primary);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 15px var(--accent-glow);
+}
+
+.table-container {
+    background: var(--card-bg);
+    border-radius: 12px;
+    overflow-x: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--border-color);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 1000px;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+th {
+    background-color: var(--table-header-bg);
+    color: var(--text-secondary);
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.2s;
+    user-select: none;
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+}
+
+th:hover {
+    color: var(--accent-color);
+}
+
+tr:hover {
+    background-color: var(--hover-bg);
+}
+
+.player-cell {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+}
+
+.flag-icon {
+    width: 20px;
+    height: 15px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.team-logo {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    border-radius: 50%;
+    background: #fff;
+    /* Some logos might have transparent bg and need contrast */
+    padding: 2px;
+}
+
+.commitment-cell {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Position badges */
+.pos-badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.pos-guard {
+    background: rgba(59, 130, 246, 0.2);
+    color: #60a5fa;
+}
+
+.pos-wing {
+    background: rgba(168, 85, 247, 0.2);
+    color: #c084fc;
+}
+
+.pos-big {
+    background: rgba(239, 68, 68, 0.2);
+    color: #f87171;
+}
+
+/* Rank highlighting */
+.rank-top-10 {
+    color: #fbbf24;
+    /* Gold */
+    font-weight: 700;
+}
