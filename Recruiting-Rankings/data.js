@@ -1830,7 +1830,7 @@
     "2027":  [
                  {
                      "247":  "",
-                     "TIER":  "1",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Skilled Big",
@@ -1847,11 +1847,11 @@
                      "PLAYER":  "Joaquim Boumtje Boumtje",
                      "RANK":  null,
                      "CONSENSUS":  "6.5",
-                     "ESPN":  ""
+                     "C":  "1"
                  },
                  {
                      "247":  "",
-                     "TIER":  "1",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Helper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Scoring Wing",
@@ -1868,11 +1868,11 @@
                      "PLAYER":  "Nikola Kusturica",
                      "RANK":  null,
                      "CONSENSUS":  "16.5",
-                     "ESPN":  ""
+                     "C":  "1"
                  },
                  {
                      "247":  "",
-                     "TIER":  "1",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Scoring Wing",
@@ -1889,11 +1889,11 @@
                      "PLAYER":  "Nathan Soliman",
                      "RANK":  null,
                      "CONSENSUS":  "5.5",
-                     "ESPN":  ""
+                     "C":  "1"
                  },
                  {
                      "247":  "2",
-                     "TIER":  "1",
+                     "ESPN":  "2",
                      "DEFENSIVE ROLE":  "Versatile Forward",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Play Finishing Forward",
@@ -1910,11 +1910,11 @@
                      "PLAYER":  "CJ Rosser",
                      "RANK":  null,
                      "CONSENSUS":  "2.2",
-                     "ESPN":  "2"
+                     "C":  "1"
                  },
                  {
                      "247":  "",
-                     "TIER":  "1",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Wing Handler",
@@ -1931,11 +1931,11 @@
                      "PLAYER":  "Fabian Kayser",
                      "RANK":  null,
                      "CONSENSUS":  "7.5",
-                     "ESPN":  ""
+                     "C":  "1"
                  },
                  {
                      "247":  "1",
-                     "TIER":  "1",
+                     "ESPN":  "1",
                      "DEFENSIVE ROLE":  "Wrecking Ball",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Wing Finisher",
@@ -1952,11 +1952,11 @@
                      "PLAYER":  "Marcus Spears Jr.",
                      "RANK":  null,
                      "CONSENSUS":  "5.5",
-                     "ESPN":  "1"
+                     "C":  "1"
                  },
                  {
                      "247":  "3",
-                     "TIER":  "1",
+                     "ESPN":  "4",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
@@ -1973,11 +1973,11 @@
                      "PLAYER":  "Obinna Ekezie Jr.",
                      "RANK":  null,
                      "CONSENSUS":  "3.3",
-                     "ESPN":  "4"
+                     "C":  "1"
                  },
                  {
                      "247":  "5",
-                     "TIER":  "2",
+                     "ESPN":  "7",
                      "DEFENSIVE ROLE":  "Helper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Connector Play Finisher",
@@ -1994,11 +1994,11 @@
                      "PLAYER":  "Moussa Kamissko",
                      "RANK":  null,
                      "CONSENSUS":  "4.7",
-                     "ESPN":  "7"
+                     "C":  "2"
                  },
                  {
                      "247":  "8",
-                     "TIER":  "2",
+                     "ESPN":  "8",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
@@ -2015,11 +2015,11 @@
                      "PLAYER":  "Nasir Anderson",
                      "RANK":  null,
                      "CONSENSUS":  "8.0",
-                     "ESPN":  "8"
+                     "C":  "2"
                  },
                  {
                      "247":  "4",
-                     "TIER":  "2",
+                     "ESPN":  "3",
                      "DEFENSIVE ROLE":  "Versatile Big",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Play Finishing Forward",
@@ -2036,11 +2036,11 @@
                      "PLAYER":  "Paul Osayuri",
                      "RANK":  null,
                      "CONSENSUS":  "9.0",
-                     "ESPN":  "3"
+                     "C":  "2"
                  },
                  {
                      "247":  "11",
-                     "TIER":  "2",
+                     "ESPN":  "15",
                      "DEFENSIVE ROLE":  "Helper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Slasher",
@@ -2057,11 +2057,11 @@
                      "PLAYER":  "Dawson Battie",
                      "RANK":  null,
                      "CONSENSUS":  "14.7",
-                     "ESPN":  "15"
+                     "C":  "2"
                  },
                  {
                      "247":  "23",
-                     "TIER":  "2",
+                     "ESPN":  "21",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
@@ -2078,11 +2078,11 @@
                      "PLAYER":  "Reese Alston",
                      "RANK":  null,
                      "CONSENSUS":  "14.8",
-                     "ESPN":  "21"
+                     "C":  "2"
                  },
                  {
                      "247":  "7",
-                     "TIER":  "2",
+                     "ESPN":  "5",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Scoring Guard",
@@ -2099,36 +2099,15 @@
                      "PLAYER":  "Ryan Hampton",
                      "RANK":  null,
                      "CONSENSUS":  "11.0",
-                     "ESPN":  "5"
-                 },
-                 {
-                     "247":  "6",
-                     "TIER":  "2",
-                     "DEFENSIVE ROLE":  "Helper",
-                     "UNKNOWN_16":  "",
-                     "OFFENSIVE ROLE":  "Off-Ball Wing",
-                     "EBY":  "14",
-                     "MADE":  "44",
-                     "COMMITMENT":  "?",
-                     "UNKNOWN_17":  "",
-                     "RIVALS":  "15",
-                     "UNKNOWN_15":  "",
-                     "INDUSTRY PRO":  "17.0",
-                     "TEAM/HS":  "Monteverde",
-                     "HEIGHT":  "6\u002710\"",
-                     "PREP":  "10",
-                     "PLAYER":  "Lincoln Cosby",
-                     "RANK":  null,
-                     "CONSENSUS":  "16.5",
-                     "ESPN":  "10"
+                     "C":  "2"
                  },
                  {
                      "247":  "9",
-                     "TIER":  "2",
+                     "ESPN":  "14",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "15",
+                     "EBY":  "14",
                      "MADE":  "5",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2140,16 +2119,16 @@
                      "PREP":  "7",
                      "PLAYER":  "Jordan Page",
                      "RANK":  null,
-                     "CONSENSUS":  "11.2",
-                     "ESPN":  "14"
+                     "CONSENSUS":  "11.0",
+                     "C":  "2"
                  },
                  {
                      "247":  "",
-                     "TIER":  "3",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Chaser",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "16",
+                     "EBY":  "15",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2161,16 +2140,16 @@
                      "PREP":  "",
                      "PLAYER":  "Omer Kutluay",
                      "RANK":  null,
-                     "CONSENSUS":  "16.0",
-                     "ESPN":  ""
+                     "CONSENSUS":  "15.0",
+                     "C":  "3"
                  },
                  {
                      "247":  "",
-                     "TIER":  "3",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "???",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Wing Handler",
-                     "EBY":  "17",
+                     "EBY":  "16",
                      "MADE":  "32",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2182,16 +2161,16 @@
                      "PREP":  "",
                      "PLAYER":  "Matija Lukic",
                      "RANK":  null,
-                     "CONSENSUS":  "24.5",
-                     "ESPN":  ""
+                     "CONSENSUS":  "24.0",
+                     "C":  "3"
                  },
                  {
                      "247":  "15",
-                     "TIER":  "3",
+                     "ESPN":  "18",
                      "DEFENSIVE ROLE":  "Helper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Downhill Initiator",
-                     "EBY":  "18",
+                     "EBY":  "17",
                      "MADE":  "15",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2203,16 +2182,16 @@
                      "PREP":  "24",
                      "PLAYER":  "Demarcus Henry",
                      "RANK":  null,
-                     "CONSENSUS":  "18.2",
-                     "ESPN":  "18"
+                     "CONSENSUS":  "18.0",
+                     "C":  "3"
                  },
                  {
                      "247":  "19",
-                     "TIER":  "3",
+                     "ESPN":  "6",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "19",
+                     "EBY":  "18",
                      "MADE":  "19",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2224,16 +2203,16 @@
                      "PREP":  "16",
                      "PLAYER":  "Beckham Black",
                      "RANK":  null,
-                     "CONSENSUS":  "16.2",
-                     "ESPN":  "6"
+                     "CONSENSUS":  "16.0",
+                     "C":  "3"
                  },
                  {
                      "247":  "10",
-                     "TIER":  "3",
+                     "ESPN":  "23",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "20",
+                     "EBY":  "19",
                      "MADE":  "22",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2245,16 +2224,16 @@
                      "PREP":  "6",
                      "PLAYER":  "King Gibson",
                      "RANK":  null,
-                     "CONSENSUS":  "14.5",
-                     "ESPN":  "23"
+                     "CONSENSUS":  "14.3",
+                     "C":  "3"
                  },
                  {
                      "247":  "",
-                     "TIER":  "3",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Helper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Skilled Big",
-                     "EBY":  "21",
+                     "EBY":  "20",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2266,16 +2245,16 @@
                      "PREP":  "",
                      "PLAYER":  "Nikola Djurovic",
                      "RANK":  null,
-                     "CONSENSUS":  "21.0",
-                     "ESPN":  ""
+                     "CONSENSUS":  "20.0",
+                     "C":  "3"
                  },
                  {
                      "247":  "14",
-                     "TIER":  "3",
+                     "ESPN":  "20",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "22",
+                     "EBY":  "21",
                      "MADE":  "14",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2287,16 +2266,16 @@
                      "PREP":  "13",
                      "PLAYER":  "Cayden Daughtry",
                      "RANK":  null,
-                     "CONSENSUS":  "17.7",
-                     "ESPN":  "20"
+                     "CONSENSUS":  "17.5",
+                     "C":  "3"
                  },
                  {
                      "247":  "13",
-                     "TIER":  "3",
+                     "ESPN":  "11",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Scoring Guard",
-                     "EBY":  "23",
+                     "EBY":  "22",
                      "MADE":  "21",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2308,16 +2287,16 @@
                      "PREP":  "19",
                      "PLAYER":  "Gabe Nesmith",
                      "RANK":  null,
-                     "CONSENSUS":  "20.7",
-                     "ESPN":  "11"
+                     "CONSENSUS":  "20.5",
+                     "C":  "3"
                  },
                  {
                      "247":  "20",
-                     "TIER":  "3",
+                     "ESPN":  "13",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
-                     "EBY":  "24",
+                     "EBY":  "23",
                      "MADE":  "9",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2329,16 +2308,16 @@
                      "PREP":  "23",
                      "PLAYER":  "Malachi Jordan",
                      "RANK":  null,
-                     "CONSENSUS":  "16.0",
-                     "ESPN":  "13"
+                     "CONSENSUS":  "15.8",
+                     "C":  "3"
                  },
                  {
                      "247":  "17",
-                     "TIER":  "4",
+                     "ESPN":  "34",
                      "DEFENSIVE ROLE":  "Chaser",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "25",
+                     "EBY":  "24",
                      "MADE":  "7",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2350,16 +2329,16 @@
                      "PREP":  "5",
                      "PLAYER":  "Jalen Davis",
                      "RANK":  null,
-                     "CONSENSUS":  "18.0",
-                     "ESPN":  "34"
+                     "CONSENSUS":  "17.8",
+                     "C":  "4"
                  },
                  {
                      "247":  "16",
-                     "TIER":  "4",
+                     "ESPN":  "24",
                      "DEFENSIVE ROLE":  "???",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "26",
+                     "EBY":  "25",
                      "MADE":  "29",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2371,16 +2350,16 @@
                      "PREP":  "20",
                      "PLAYER":  "Davion Thompson",
                      "RANK":  null,
-                     "CONSENSUS":  "25.8",
-                     "ESPN":  "24"
+                     "CONSENSUS":  "25.7",
+                     "C":  "4"
                  },
                  {
                      "247":  "21",
-                     "TIER":  "4",
+                     "ESPN":  "29",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Scoring Wing",
-                     "EBY":  "27",
+                     "EBY":  "26",
                      "MADE":  "16",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2392,16 +2371,16 @@
                      "PREP":  "14",
                      "PLAYER":  "Josh Leonard",
                      "RANK":  null,
-                     "CONSENSUS":  "19.3",
-                     "ESPN":  "29"
+                     "CONSENSUS":  "19.2",
+                     "C":  "4"
                  },
                  {
                      "247":  "29",
-                     "TIER":  "4",
+                     "ESPN":  "53",
                      "DEFENSIVE ROLE":  "Helper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Wing Handler",
-                     "EBY":  "28",
+                     "EBY":  "27",
                      "MADE":  "25",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2413,16 +2392,16 @@
                      "PREP":  "18",
                      "PLAYER":  "Zion Green",
                      "RANK":  null,
-                     "CONSENSUS":  "27.2",
-                     "ESPN":  "53"
+                     "CONSENSUS":  "27.0",
+                     "C":  "4"
                  },
                  {
                      "247":  "",
-                     "TIER":  "4",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "29",
+                     "EBY":  "28",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2434,16 +2413,16 @@
                      "PREP":  "",
                      "PLAYER":  "Luke Roland Paul",
                      "RANK":  null,
-                     "CONSENSUS":  "29.0",
-                     "ESPN":  ""
+                     "CONSENSUS":  "28.0",
+                     "C":  "4"
                  },
                  {
                      "247":  "18",
-                     "TIER":  "4",
+                     "ESPN":  "12",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "30",
+                     "EBY":  "29",
                      "MADE":  "40",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2455,16 +2434,16 @@
                      "PREP":  "4",
                      "PLAYER":  "Isaiah Hill",
                      "RANK":  null,
-                     "CONSENSUS":  "21.7",
-                     "ESPN":  "12"
+                     "CONSENSUS":  "21.5",
+                     "C":  "4"
                  },
                  {
                      "247":  "12",
-                     "TIER":  "4",
+                     "ESPN":  "38",
                      "DEFENSIVE ROLE":  "Chaser",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Movement Shooter",
-                     "EBY":  "31",
+                     "EBY":  "30",
                      "MADE":  "62",
                      "COMMITMENT":  "Kansas",
                      "UNKNOWN_17":  "",
@@ -2476,16 +2455,16 @@
                      "PREP":  "",
                      "PLAYER":  "Javon Barwell",
                      "RANK":  null,
-                     "CONSENSUS":  "27.7",
-                     "ESPN":  "38"
+                     "CONSENSUS":  "27.5",
+                     "C":  "4"
                  },
                  {
                      "247":  "",
-                     "TIER":  "4",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "???",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Post Scorer",
-                     "EBY":  "32",
+                     "EBY":  "31",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2497,16 +2476,16 @@
                      "PREP":  "",
                      "PLAYER":  "Petar Bjelica",
                      "RANK":  null,
-                     "CONSENSUS":  "32.0",
-                     "ESPN":  ""
+                     "CONSENSUS":  "31.0",
+                     "C":  "4"
                  },
                  {
                      "247":  "33",
-                     "TIER":  "4",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Slasher",
-                     "EBY":  "33",
+                     "EBY":  "32",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2518,16 +2497,16 @@
                      "PREP":  "26",
                      "PLAYER":  "Donovan Davis",
                      "RANK":  null,
-                     "CONSENSUS":  "30.3",
-                     "ESPN":  ""
+                     "CONSENSUS":  "30.0",
+                     "C":  "4"
                  },
                  {
                      "247":  "48",
-                     "TIER":  "4",
+                     "ESPN":  "17",
                      "DEFENSIVE ROLE":  "???",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Scoring Wing",
-                     "EBY":  "34",
+                     "EBY":  "33",
                      "MADE":  "52",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2539,16 +2518,16 @@
                      "PREP":  "29",
                      "PLAYER":  "Jaylan Mitchell",
                      "RANK":  null,
-                     "CONSENSUS":  "33.2",
-                     "ESPN":  "17"
+                     "CONSENSUS":  "33.0",
+                     "C":  "4"
                  },
                  {
                      "247":  "30",
-                     "TIER":  "4",
+                     "ESPN":  "19",
                      "DEFENSIVE ROLE":  "Versatile Big",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "35",
+                     "EBY":  "34",
                      "MADE":  "26",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2560,16 +2539,16 @@
                      "PREP":  "21",
                      "PLAYER":  "Darius Wabbington",
                      "RANK":  null,
-                     "CONSENSUS":  "25.5",
-                     "ESPN":  "19"
+                     "CONSENSUS":  "25.3",
+                     "C":  "4"
                  },
                  {
                      "247":  "22",
-                     "TIER":  "4",
+                     "ESPN":  "22",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "36",
+                     "EBY":  "35",
                      "MADE":  "45",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2581,16 +2560,16 @@
                      "PREP":  "39",
                      "PLAYER":  "Anderson Diaz",
                      "RANK":  null,
-                     "CONSENSUS":  "32.7",
-                     "ESPN":  "22"
+                     "CONSENSUS":  "32.5",
+                     "C":  "4"
                  },
                  {
                      "247":  "",
-                     "TIER":  "4",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Helper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Scoring Wing",
-                     "EBY":  "37",
+                     "EBY":  "36",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2602,16 +2581,16 @@
                      "PREP":  "",
                      "PLAYER":  "Angelos Zoupas",
                      "RANK":  null,
-                     "CONSENSUS":  "37.0",
-                     "ESPN":  ""
+                     "CONSENSUS":  "36.0",
+                     "C":  "4"
                  },
                  {
                      "247":  "39",
-                     "TIER":  "4",
+                     "ESPN":  "26",
                      "DEFENSIVE ROLE":  "Helper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Scoring Forward",
-                     "EBY":  "38",
+                     "EBY":  "37",
                      "MADE":  "55",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2623,16 +2602,16 @@
                      "PREP":  "22",
                      "PLAYER":  "Jeremy Jenkins",
                      "RANK":  null,
-                     "CONSENSUS":  "34.7",
-                     "ESPN":  "26"
+                     "CONSENSUS":  "34.5",
+                     "C":  "4"
                  },
                  {
                      "247":  "34",
-                     "TIER":  "4",
+                     "ESPN":  "40",
                      "DEFENSIVE ROLE":  "Chaser",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "39",
+                     "EBY":  "38",
                      "MADE":  "28",
                      "COMMITMENT":  "Missouri",
                      "UNKNOWN_17":  "",
@@ -2644,16 +2623,16 @@
                      "PREP":  "35",
                      "PLAYER":  "Scottie Adkinson",
                      "RANK":  null,
-                     "CONSENSUS":  "37.3",
-                     "ESPN":  "40"
+                     "CONSENSUS":  "37.2",
+                     "C":  "4"
                  },
                  {
                      "247":  "62",
-                     "TIER":  "4",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Scoring Wing",
-                     "EBY":  "40",
+                     "EBY":  "39",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2665,16 +2644,16 @@
                      "PREP":  "37",
                      "PLAYER":  "Carson Crawford",
                      "RANK":  null,
-                     "CONSENSUS":  "43.8",
-                     "ESPN":  ""
+                     "CONSENSUS":  "43.5",
+                     "C":  "4"
                  },
                  {
                      "247":  "34",
-                     "TIER":  "4",
+                     "ESPN":  "32",
                      "DEFENSIVE ROLE":  "Versatile Big",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Stretch Big",
-                     "EBY":  "41",
+                     "EBY":  "40",
                      "MADE":  "48",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2686,16 +2665,16 @@
                      "PREP":  "47",
                      "PLAYER":  "Tyran Frazier",
                      "RANK":  null,
-                     "CONSENSUS":  "38.2",
-                     "ESPN":  "32"
+                     "CONSENSUS":  "38.0",
+                     "C":  "4"
                  },
                  {
                      "247":  "24",
-                     "TIER":  "4",
+                     "ESPN":  "16",
                      "DEFENSIVE ROLE":  "Versatile Big",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "42",
+                     "EBY":  "41",
                      "MADE":  "38",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2707,16 +2686,16 @@
                      "PREP":  "59",
                      "PLAYER":  "Ahmad Hudson",
                      "RANK":  null,
-                     "CONSENSUS":  "40.7",
-                     "ESPN":  "16"
+                     "CONSENSUS":  "40.5",
+                     "C":  "4"
                  },
                  {
                      "247":  "40",
-                     "TIER":  "4",
+                     "ESPN":  "28",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Combo Wing",
-                     "EBY":  "43",
+                     "EBY":  "42",
                      "MADE":  "39",
                      "COMMITMENT":  "Gonzaga",
                      "UNKNOWN_17":  "",
@@ -2728,16 +2707,16 @@
                      "PREP":  "41",
                      "PLAYER":  "Dooney Johnson",
                      "RANK":  null,
-                     "CONSENSUS":  "34.5",
-                     "ESPN":  "28"
+                     "CONSENSUS":  "34.3",
+                     "C":  "4"
                  },
                  {
                      "247":  "27",
-                     "TIER":  "4",
+                     "ESPN":  "9",
                      "DEFENSIVE ROLE":  "???",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Scoring Guard",
-                     "EBY":  "44",
+                     "EBY":  "43",
                      "MADE":  "",
                      "COMMITMENT":  "Ohio State",
                      "UNKNOWN_17":  "",
@@ -2749,16 +2728,16 @@
                      "PREP":  "34",
                      "PLAYER":  "LJ Smith",
                      "RANK":  null,
-                     "CONSENSUS":  "36.6",
-                     "ESPN":  "9"
+                     "CONSENSUS":  "36.4",
+                     "C":  "4"
                  },
                  {
                      "247":  "",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Helper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Movement Shooter",
-                     "EBY":  "45",
+                     "EBY":  "44",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2770,16 +2749,16 @@
                      "PREP":  "",
                      "PLAYER":  "Lucas Troels Smith",
                      "RANK":  null,
-                     "CONSENSUS":  "45.0",
-                     "ESPN":  ""
+                     "CONSENSUS":  "44.0",
+                     "C":  "5"
                  },
                  {
                      "247":  "",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "???",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Stretch Big",
-                     "EBY":  "46",
+                     "EBY":  "45",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2791,16 +2770,16 @@
                      "PREP":  "",
                      "PLAYER":  "Lun Jarc",
                      "RANK":  null,
-                     "CONSENSUS":  "46.0",
-                     "ESPN":  ""
+                     "CONSENSUS":  "45.0",
+                     "C":  "5"
                  },
                  {
                      "247":  "56",
-                     "TIER":  "5",
+                     "ESPN":  "42",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "47",
+                     "EBY":  "46",
                      "MADE":  "33",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2812,16 +2791,16 @@
                      "PREP":  "43",
                      "PLAYER":  "NaVorro Bowman Jr.",
                      "RANK":  null,
-                     "CONSENSUS":  "39.7",
-                     "ESPN":  "42"
+                     "CONSENSUS":  "39.5",
+                     "C":  "5"
                  },
                  {
                      "247":  "28",
-                     "TIER":  "5",
+                     "ESPN":  "37",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "48",
+                     "EBY":  "47",
                      "MADE":  "43",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2833,16 +2812,16 @@
                      "PREP":  "65",
                      "PLAYER":  "Jarvis Hayes Jr.",
                      "RANK":  null,
-                     "CONSENSUS":  "45.8",
-                     "ESPN":  "37"
+                     "CONSENSUS":  "45.7",
+                     "C":  "5"
                  },
                  {
                      "247":  "36",
-                     "TIER":  "5",
+                     "ESPN":  "25",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Combo Wing",
-                     "EBY":  "49",
+                     "EBY":  "48",
                      "MADE":  "66",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2854,16 +2833,16 @@
                      "PREP":  "60",
                      "PLAYER":  "Munir Greig",
                      "RANK":  null,
-                     "CONSENSUS":  "49.5",
-                     "ESPN":  "25"
+                     "CONSENSUS":  "49.3",
+                     "C":  "5"
                  },
                  {
                      "247":  "",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "50",
+                     "EBY":  "49",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2875,16 +2854,16 @@
                      "PREP":  "",
                      "PLAYER":  "Aaron Towo-Nansi",
                      "RANK":  null,
-                     "CONSENSUS":  "50.0",
-                     "ESPN":  ""
+                     "CONSENSUS":  "49.0",
+                     "C":  "5"
                  },
                  {
                      "247":  "47",
-                     "TIER":  "5",
+                     "ESPN":  "39",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Scoring Guard",
-                     "EBY":  "51",
+                     "EBY":  "50",
                      "MADE":  "64",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2896,16 +2875,16 @@
                      "PREP":  "45",
                      "PLAYER":  "Gene Roebuck",
                      "RANK":  null,
-                     "CONSENSUS":  "45.2",
-                     "ESPN":  "39"
+                     "CONSENSUS":  "45.0",
+                     "C":  "5"
                  },
                  {
                      "247":  "46",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "52",
+                     "EBY":  "51",
                      "MADE":  "",
                      "COMMITMENT":  "Iowa State",
                      "UNKNOWN_17":  "",
@@ -2917,16 +2896,16 @@
                      "PREP":  "45",
                      "PLAYER":  "Josiah Harrington",
                      "RANK":  null,
-                     "CONSENSUS":  "46.8",
-                     "ESPN":  ""
+                     "CONSENSUS":  "46.5",
+                     "C":  "5"
                  },
                  {
                      "247":  "43",
-                     "TIER":  "5",
+                     "ESPN":  "31",
                      "DEFENSIVE ROLE":  "Helper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Play Finishing Forward",
-                     "EBY":  "53",
+                     "EBY":  "52",
                      "MADE":  "82",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2938,16 +2917,16 @@
                      "PREP":  "27",
                      "PLAYER":  "Brandon Woodard",
                      "RANK":  null,
-                     "CONSENSUS":  "50.3",
-                     "ESPN":  "31"
+                     "CONSENSUS":  "50.2",
+                     "C":  "5"
                  },
                  {
                      "247":  "",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "???",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "54",
+                     "EBY":  "53",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -2959,16 +2938,16 @@
                      "PREP":  "",
                      "PLAYER":  "Gabrielius Buivydas",
                      "RANK":  null,
-                     "CONSENSUS":  "54.0",
-                     "ESPN":  ""
+                     "CONSENSUS":  "53.0",
+                     "C":  "5"
                  },
                  {
                      "247":  "32",
-                     "TIER":  "5",
+                     "ESPN":  "44",
                      "DEFENSIVE ROLE":  "???",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "55",
+                     "EBY":  "54",
                      "MADE":  "20",
                      "COMMITMENT":  "Indiana",
                      "UNKNOWN_17":  "",
@@ -2980,16 +2959,16 @@
                      "PREP":  "46",
                      "PLAYER":  "Chase Branham",
                      "RANK":  null,
-                     "CONSENSUS":  "41.3",
-                     "ESPN":  "44"
+                     "CONSENSUS":  "41.2",
+                     "C":  "5"
                  },
                  {
                      "247":  "26",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Helper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Slasher",
-                     "EBY":  "56",
+                     "EBY":  "55",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -3001,16 +2980,16 @@
                      "PREP":  "28",
                      "PLAYER":  "Jaydn Jenkins",
                      "RANK":  null,
-                     "CONSENSUS":  "38.8",
-                     "ESPN":  ""
+                     "CONSENSUS":  "38.5",
+                     "C":  "5"
                  },
                  {
                      "247":  "",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Helper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Downhill Initiator",
-                     "EBY":  "57",
+                     "EBY":  "56",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -3022,16 +3001,16 @@
                      "PREP":  "",
                      "PLAYER":  "Roger Villarejo",
                      "RANK":  null,
-                     "CONSENSUS":  "57.0",
-                     "ESPN":  ""
+                     "CONSENSUS":  "56.0",
+                     "C":  "5"
                  },
                  {
                      "247":  "35",
-                     "TIER":  "5",
+                     "ESPN":  "27",
                      "DEFENSIVE ROLE":  "???",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Scoring Guard",
-                     "EBY":  "58",
+                     "EBY":  "57",
                      "MADE":  "41",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -3043,16 +3022,16 @@
                      "PREP":  "32",
                      "PLAYER":  "Devin Cleveland",
                      "RANK":  null,
-                     "CONSENSUS":  "39.0",
-                     "ESPN":  "27"
+                     "CONSENSUS":  "38.8",
+                     "C":  "5"
                  },
                  {
                      "247":  "38",
-                     "TIER":  "5",
+                     "ESPN":  "30",
                      "DEFENSIVE ROLE":  "???",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "59",
+                     "EBY":  "58",
                      "MADE":  "51",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -3064,16 +3043,16 @@
                      "PREP":  "31",
                      "PLAYER":  "Tyrone Jamison",
                      "RANK":  null,
-                     "CONSENSUS":  "44.2",
-                     "ESPN":  "30"
+                     "CONSENSUS":  "44.0",
+                     "C":  "5"
                  },
                  {
                      "247":  "49",
-                     "TIER":  "5",
+                     "ESPN":  "48",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "60",
+                     "EBY":  "59",
                      "MADE":  "34",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -3085,16 +3064,16 @@
                      "PREP":  "48",
                      "PLAYER":  "Jaxson Davis",
                      "RANK":  null,
-                     "CONSENSUS":  "49.7",
-                     "ESPN":  "48"
+                     "CONSENSUS":  "49.5",
+                     "C":  "5"
                  },
                  {
                      "247":  "54",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Scoring Wing",
-                     "EBY":  "61",
+                     "EBY":  "60",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -3106,12 +3085,33 @@
                      "PREP":  "38",
                      "PLAYER":  "Henry Robinson Jr.",
                      "RANK":  null,
-                     "CONSENSUS":  "46.0",
-                     "ESPN":  ""
+                     "CONSENSUS":  "45.8",
+                     "C":  "5"
+                 },
+                 {
+                     "247":  "25",
+                     "ESPN":  "59",
+                     "DEFENSIVE ROLE":  "Point-of-Attack",
+                     "UNKNOWN_16":  "",
+                     "OFFENSIVE ROLE":  "Primary Ball Handler",
+                     "EBY":  "61",
+                     "MADE":  "",
+                     "COMMITMENT":  "?",
+                     "UNKNOWN_17":  "",
+                     "RIVALS":  "42",
+                     "UNKNOWN_15":  "",
+                     "INDUSTRY PRO":  "41.8",
+                     "TEAM/HS":  "Fishers",
+                     "HEIGHT":  "6\u00270\"",
+                     "PREP":  "41",
+                     "PLAYER":  "Jason Gardner Jr.",
+                     "RANK":  null,
+                     "CONSENSUS":  "57.0",
+                     "C":  "5"
                  },
                  {
                      "247":  "50",
-                     "TIER":  "5",
+                     "ESPN":  "47",
                      "DEFENSIVE ROLE":  "Helper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Slasher",
@@ -3128,11 +3128,11 @@
                      "PLAYER":  "Howard Williams",
                      "RANK":  null,
                      "CONSENSUS":  "43.2",
-                     "ESPN":  "47"
+                     "C":  "5"
                  },
                  {
                      "247":  "31",
-                     "TIER":  "5",
+                     "ESPN":  "36",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
@@ -3149,11 +3149,11 @@
                      "PLAYER":  "Kevin Savage",
                      "RANK":  null,
                      "CONSENSUS":  "62.7",
-                     "ESPN":  "36"
+                     "C":  "5"
                  },
                  {
                      "247":  "",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
@@ -3170,11 +3170,11 @@
                      "PLAYER":  "Ognjen Simjanovski",
                      "RANK":  null,
                      "CONSENSUS":  "64.0",
-                     "ESPN":  ""
+                     "C":  "5"
                  },
                  {
                      "247":  "57",
-                     "TIER":  "5",
+                     "ESPN":  "41",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
@@ -3191,11 +3191,11 @@
                      "PLAYER":  "Oneal Delancy",
                      "RANK":  null,
                      "CONSENSUS":  "54.4",
-                     "ESPN":  "41"
+                     "C":  "5"
                  },
                  {
                      "247":  "41",
-                     "TIER":  "5",
+                     "ESPN":  "49",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
@@ -3212,11 +3212,11 @@
                      "PLAYER":  "Martay Barnes",
                      "RANK":  null,
                      "CONSENSUS":  "59.7",
-                     "ESPN":  "49"
+                     "C":  "5"
                  },
                  {
                      "247":  "68",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
@@ -3233,11 +3233,11 @@
                      "PLAYER":  "Jomar Bernard",
                      "RANK":  null,
                      "CONSENSUS":  "65.2",
-                     "ESPN":  ""
+                     "C":  "5"
                  },
                  {
                      "247":  "97",
-                     "TIER":  "5",
+                     "ESPN":  "55",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
@@ -3254,11 +3254,11 @@
                      "PLAYER":  "Mahamadou Diop",
                      "RANK":  null,
                      "CONSENSUS":  "61.0",
-                     "ESPN":  "55"
+                     "C":  "5"
                  },
                  {
                      "247":  "65",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Scoring Wing",
@@ -3275,11 +3275,11 @@
                      "PLAYER":  "Dylan Jones",
                      "RANK":  null,
                      "CONSENSUS":  "59.0",
-                     "ESPN":  ""
+                     "C":  "5"
                  },
                  {
                      "247":  "53",
-                     "TIER":  "5",
+                     "ESPN":  "52",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
@@ -3296,11 +3296,11 @@
                      "PLAYER":  "J\u0027lon Lyons",
                      "RANK":  null,
                      "CONSENSUS":  "74.2",
-                     "ESPN":  "52"
+                     "C":  "5"
                  },
                  {
                      "247":  "37",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
@@ -3317,11 +3317,11 @@
                      "PLAYER":  "Ahmed Nur",
                      "RANK":  null,
                      "CONSENSUS":  "65.5",
-                     "ESPN":  ""
+                     "C":  "5"
                  },
                  {
                      "247":  "",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Versatile Big",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
@@ -3338,11 +3338,11 @@
                      "PLAYER":  "Messi Yangala",
                      "RANK":  null,
                      "CONSENSUS":  "72.0",
-                     "ESPN":  ""
+                     "C":  "5"
                  },
                  {
                      "247":  "52",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
@@ -3359,11 +3359,11 @@
                      "PLAYER":  "Theo Edema",
                      "RANK":  null,
                      "CONSENSUS":  "54.8",
-                     "ESPN":  ""
+                     "C":  "5"
                  },
                  {
                      "247":  "",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Helper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
@@ -3380,11 +3380,11 @@
                      "PLAYER":  "Giorgios Giantsidis",
                      "RANK":  null,
                      "CONSENSUS":  "74.0",
-                     "ESPN":  ""
+                     "C":  "5"
                  },
                  {
                      "247":  "60",
-                     "TIER":  "5",
+                     "ESPN":  "33",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
@@ -3401,15 +3401,36 @@
                      "PLAYER":  "Micah Gordon",
                      "RANK":  null,
                      "CONSENSUS":  "61.8",
-                     "ESPN":  "33"
+                     "C":  "5"
+                 },
+                 {
+                     "247":  "77",
+                     "ESPN":  "51",
+                     "DEFENSIVE ROLE":  "",
+                     "UNKNOWN_16":  "",
+                     "OFFENSIVE ROLE":  "",
+                     "EBY":  "76",
+                     "MADE":  "73",
+                     "COMMITMENT":  "?",
+                     "UNKNOWN_17":  "",
+                     "RIVALS":  "73",
+                     "UNKNOWN_15":  "",
+                     "INDUSTRY PRO":  "75.6",
+                     "TEAM/HS":  "Overtime Elite",
+                     "HEIGHT":  "6\u002710\"",
+                     "PREP":  "104",
+                     "PLAYER":  "Caleb Ourigou",
+                     "RANK":  null,
+                     "CONSENSUS":  "90.8",
+                     "C":  "5"
                  },
                  {
                      "247":  "",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Connector Big",
-                     "EBY":  "76",
+                     "EBY":  "77",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -3421,16 +3442,16 @@
                      "PREP":  "",
                      "PLAYER":  "Emils Steckis",
                      "RANK":  null,
-                     "CONSENSUS":  "76.0",
-                     "ESPN":  ""
+                     "CONSENSUS":  "77.0",
+                     "C":  "5"
                  },
                  {
                      "247":  "96",
-                     "TIER":  "5",
+                     "ESPN":  "50",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Scoring Wing",
-                     "EBY":  "77",
+                     "EBY":  "78",
                      "MADE":  "36",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -3442,16 +3463,16 @@
                      "PREP":  "82",
                      "PLAYER":  "Clyde Walters",
                      "RANK":  null,
-                     "CONSENSUS":  "70.5",
-                     "ESPN":  "50"
+                     "CONSENSUS":  "70.7",
+                     "C":  "5"
                  },
                  {
                      "247":  "92",
-                     "TIER":  "5",
+                     "ESPN":  "58",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "78",
+                     "EBY":  "79",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -3463,16 +3484,16 @@
                      "PREP":  "76",
                      "PLAYER":  "Jeremiah Profit",
                      "RANK":  null,
-                     "CONSENSUS":  "76.6",
-                     "ESPN":  "58"
+                     "CONSENSUS":  "76.8",
+                     "C":  "5"
                  },
                  {
                      "247":  "",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
-                     "EBY":  "79",
+                     "EBY":  "80",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -3484,16 +3505,16 @@
                      "PREP":  "",
                      "PLAYER":  "Gustav Drejer Erichsen",
                      "RANK":  null,
-                     "CONSENSUS":  "79.0",
-                     "ESPN":  ""
+                     "CONSENSUS":  "80.0",
+                     "C":  "5"
                  },
                  {
                      "247":  "138",
-                     "TIER":  "5",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Connector Wing",
-                     "EBY":  "80",
+                     "EBY":  "81",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "UNKNOWN_17":  "",
@@ -3505,33 +3526,12 @@
                      "PREP":  "81",
                      "PLAYER":  "London Dada",
                      "RANK":  null,
-                     "CONSENSUS":  "98.5",
-                     "ESPN":  ""
-                 },
-                 {
-                     "247":  "25",
-                     "TIER":  "",
-                     "DEFENSIVE ROLE":  "",
-                     "UNKNOWN_16":  "",
-                     "OFFENSIVE ROLE":  "",
-                     "EBY":  "",
-                     "MADE":  "",
-                     "COMMITMENT":  "?",
-                     "UNKNOWN_17":  "",
-                     "RIVALS":  "42",
-                     "UNKNOWN_15":  "",
-                     "INDUSTRY PRO":  "41.8",
-                     "TEAM/HS":  "Fishers",
-                     "HEIGHT":  "6\u00270\"",
-                     "PREP":  "41",
-                     "PLAYER":  "Jason Gardner Jr.",
-                     "RANK":  null,
-                     "CONSENSUS":  "41.8",
-                     "ESPN":  "59"
+                     "CONSENSUS":  "98.8",
+                     "C":  "5"
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3548,11 +3548,11 @@
                      "PLAYER":  "",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "51",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3569,11 +3569,11 @@
                      "PLAYER":  "RJ Moore",
                      "RANK":  null,
                      "CONSENSUS":  "52.7",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "88",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3590,11 +3590,11 @@
                      "PLAYER":  "Jack Kohnen",
                      "RANK":  null,
                      "CONSENSUS":  "59.3",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "82",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3611,11 +3611,11 @@
                      "PLAYER":  "Cherif Millongo",
                      "RANK":  null,
                      "CONSENSUS":  "59.3",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "44",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3632,11 +3632,11 @@
                      "PLAYER":  "Patrick Otey",
                      "RANK":  null,
                      "CONSENSUS":  "61.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3653,11 +3653,11 @@
                      "PLAYER":  "Brian Mitchell",
                      "RANK":  null,
                      "CONSENSUS":  "64.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "42",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3674,11 +3674,11 @@
                      "PLAYER":  "Antonio Pemberton",
                      "RANK":  null,
                      "CONSENSUS":  "64.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "55",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3695,11 +3695,11 @@
                      "PLAYER":  "Godson Okokoh",
                      "RANK":  null,
                      "CONSENSUS":  "67.7",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3716,11 +3716,11 @@
                      "PLAYER":  "Declan Griffiths",
                      "RANK":  null,
                      "CONSENSUS":  "71.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "73",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3737,11 +3737,11 @@
                      "PLAYER":  "Markus Kerr",
                      "RANK":  null,
                      "CONSENSUS":  "71.3",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "71",
-                     "TIER":  "",
+                     "ESPN":  "43",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3758,11 +3758,11 @@
                      "PLAYER":  "Jahari Miller",
                      "RANK":  null,
                      "CONSENSUS":  "72.5",
-                     "ESPN":  "43"
+                     "C":  ""
                  },
                  {
                      "247":  "99",
-                     "TIER":  "",
+                     "ESPN":  "50",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3779,11 +3779,11 @@
                      "PLAYER":  "Asa Montgomery",
                      "RANK":  null,
                      "CONSENSUS":  "73.0",
-                     "ESPN":  "50"
+                     "C":  ""
                  },
                  {
                      "247":  "85",
-                     "TIER":  "",
+                     "ESPN":  "46",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3800,11 +3800,11 @@
                      "PLAYER":  "Mekhi Robertson",
                      "RANK":  null,
                      "CONSENSUS":  "74.5",
-                     "ESPN":  "46"
+                     "C":  ""
                  },
                  {
                      "247":  "58",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
@@ -3821,11 +3821,11 @@
                      "PLAYER":  "Aaron Britt Jr.",
                      "RANK":  null,
                      "CONSENSUS":  "74.5",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "84",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3842,32 +3842,11 @@
                      "PLAYER":  "Chase Richardson",
                      "RANK":  null,
                      "CONSENSUS":  "74.7",
-                     "ESPN":  ""
-                 },
-                 {
-                     "247":  "77",
-                     "TIER":  "",
-                     "DEFENSIVE ROLE":  "",
-                     "UNKNOWN_16":  "",
-                     "OFFENSIVE ROLE":  "",
-                     "EBY":  "",
-                     "MADE":  "73",
-                     "COMMITMENT":  "?",
-                     "UNKNOWN_17":  "",
-                     "RIVALS":  "73",
-                     "UNKNOWN_15":  "",
-                     "INDUSTRY PRO":  "75.6",
-                     "TEAM/HS":  "Lawrence Woodmere Academy",
-                     "HEIGHT":  "6\u002710\"",
-                     "PREP":  "104",
-                     "PLAYER":  "Caleb Ourigou",
-                     "RANK":  null,
-                     "CONSENSUS":  "75.6",
-                     "ESPN":  "51"
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3884,11 +3863,11 @@
                      "PLAYER":  "DJ Hawkins",
                      "RANK":  null,
                      "CONSENSUS":  "76.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "64",
-                     "TIER":  "",
+                     "ESPN":  "57",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3905,11 +3884,11 @@
                      "PLAYER":  "Cameron Barnes",
                      "RANK":  null,
                      "CONSENSUS":  "76.6",
-                     "ESPN":  "57"
+                     "C":  ""
                  },
                  {
                      "247":  "69",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3926,11 +3905,11 @@
                      "PLAYER":  "Joshua Rivera",
                      "RANK":  null,
                      "CONSENSUS":  "78.7",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "70",
-                     "TIER":  "",
+                     "ESPN":  "36",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3947,11 +3926,11 @@
                      "PLAYER":  "Chase Lumpkin",
                      "RANK":  null,
                      "CONSENSUS":  "80.0",
-                     "ESPN":  "36"
+                     "C":  ""
                  },
                  {
                      "247":  "93",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3968,11 +3947,11 @@
                      "PLAYER":  "Nicolas Mitrovic",
                      "RANK":  null,
                      "CONSENSUS":  "81.7",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "80",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -3989,11 +3968,11 @@
                      "PLAYER":  "Griffin Starks",
                      "RANK":  null,
                      "CONSENSUS":  "82.3",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4010,11 +3989,11 @@
                      "PLAYER":  "Ben Kalonji",
                      "RANK":  null,
                      "CONSENSUS":  "84.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "67",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4031,11 +4010,11 @@
                      "PLAYER":  "Jalen Brown",
                      "RANK":  null,
                      "CONSENSUS":  "84.3",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "66",
-                     "TIER":  "",
+                     "ESPN":  "104",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4052,11 +4031,11 @@
                      "PLAYER":  "Kamsi Awaka",
                      "RANK":  null,
                      "CONSENSUS":  "86.3",
-                     "ESPN":  "104"
+                     "C":  ""
                  },
                  {
                      "247":  "102",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4073,11 +4052,11 @@
                      "PLAYER":  "Lyris Robinson",
                      "RANK":  null,
                      "CONSENSUS":  "86.7",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "76",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4094,11 +4073,11 @@
                      "PLAYER":  "Payton Jones",
                      "RANK":  null,
                      "CONSENSUS":  "88.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "91",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4115,11 +4094,11 @@
                      "PLAYER":  "Miguel Orbe",
                      "RANK":  null,
                      "CONSENSUS":  "89.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "59",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4136,11 +4115,11 @@
                      "PLAYER":  "Joshua Tyson",
                      "RANK":  null,
                      "CONSENSUS":  "89.3",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4157,11 +4136,11 @@
                      "PLAYER":  "Ben McKinney",
                      "RANK":  null,
                      "CONSENSUS":  "90.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "134",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4178,11 +4157,11 @@
                      "PLAYER":  "Charles Pur",
                      "RANK":  null,
                      "CONSENSUS":  "91.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "83",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4199,11 +4178,11 @@
                      "PLAYER":  "Brandon Mason Jr.",
                      "RANK":  null,
                      "CONSENSUS":  "91.5",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "86",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4220,11 +4199,11 @@
                      "PLAYER":  "Jamaal McKnight",
                      "RANK":  null,
                      "CONSENSUS":  "92.5",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "94",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Chaser",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Scoring Guard",
@@ -4241,11 +4220,11 @@
                      "PLAYER":  "Tavid Johnson",
                      "RANK":  null,
                      "CONSENSUS":  "92.7",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "72",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4262,11 +4241,11 @@
                      "PLAYER":  "Keaundre Morris",
                      "RANK":  null,
                      "CONSENSUS":  "92.7",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "87",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4283,11 +4262,11 @@
                      "PLAYER":  "Justin Wise",
                      "RANK":  null,
                      "CONSENSUS":  "93.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "61",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4304,11 +4283,11 @@
                      "PLAYER":  "Tre Keith",
                      "RANK":  null,
                      "CONSENSUS":  "93.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4325,11 +4304,11 @@
                      "PLAYER":  "Crew Fotheringham",
                      "RANK":  null,
                      "CONSENSUS":  "93.5",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "95",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4346,11 +4325,11 @@
                      "PLAYER":  "Quincy Douby Jr.",
                      "RANK":  null,
                      "CONSENSUS":  "93.7",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "74",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4367,11 +4346,11 @@
                      "PLAYER":  "Myles Fuentes",
                      "RANK":  null,
                      "CONSENSUS":  "93.7",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "131",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4388,11 +4367,11 @@
                      "PLAYER":  "Kager Knueppel",
                      "RANK":  null,
                      "CONSENSUS":  "96.3",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4409,11 +4388,11 @@
                      "PLAYER":  "Nate Blenman",
                      "RANK":  null,
                      "CONSENSUS":  "97.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "79",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4430,11 +4409,11 @@
                      "PLAYER":  "Andrew Kretkowski",
                      "RANK":  null,
                      "CONSENSUS":  "97.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "118",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4451,11 +4430,11 @@
                      "PLAYER":  "Mustafa Mohamed",
                      "RANK":  null,
                      "CONSENSUS":  "98.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4472,11 +4451,11 @@
                      "PLAYER":  "James Minlend",
                      "RANK":  null,
                      "CONSENSUS":  "99.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4493,11 +4472,11 @@
                      "PLAYER":  "Deuce McDuffie",
                      "RANK":  null,
                      "CONSENSUS":  "101.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "101",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4514,11 +4493,11 @@
                      "PLAYER":  "Patrese Feamster",
                      "RANK":  null,
                      "CONSENSUS":  "101.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4535,11 +4514,11 @@
                      "PLAYER":  "Sekou Cisse",
                      "RANK":  null,
                      "CONSENSUS":  "101.5",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4556,11 +4535,11 @@
                      "PLAYER":  "Geren Holmes",
                      "RANK":  null,
                      "CONSENSUS":  "102.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "78",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4577,11 +4556,11 @@
                      "PLAYER":  "Isaiah Santos",
                      "RANK":  null,
                      "CONSENSUS":  "102.7",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "149",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4598,11 +4577,11 @@
                      "PLAYER":  "Baboucarr Ann",
                      "RANK":  null,
                      "CONSENSUS":  "103.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4619,11 +4598,11 @@
                      "PLAYER":  "Koang Bol Kuany",
                      "RANK":  null,
                      "CONSENSUS":  "103.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "98",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4640,11 +4619,11 @@
                      "PLAYER":  "David Baliraine",
                      "RANK":  null,
                      "CONSENSUS":  "103.5",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "100",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4661,11 +4640,11 @@
                      "PLAYER":  "Marri Wesley",
                      "RANK":  null,
                      "CONSENSUS":  "104.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "104",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4682,11 +4661,11 @@
                      "PLAYER":  "Lucai Anderson",
                      "RANK":  null,
                      "CONSENSUS":  "104.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "105",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Post Scorer",
@@ -4703,11 +4682,11 @@
                      "PLAYER":  "Derek Daniels",
                      "RANK":  null,
                      "CONSENSUS":  "105.3",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "81",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4724,11 +4703,11 @@
                      "PLAYER":  "Darrell Davis",
                      "RANK":  null,
                      "CONSENSUS":  "105.7",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4745,11 +4724,11 @@
                      "PLAYER":  "Kenneth Lampley",
                      "RANK":  null,
                      "CONSENSUS":  "106.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "106",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4766,11 +4745,11 @@
                      "PLAYER":  "Shawn Foster",
                      "RANK":  null,
                      "CONSENSUS":  "106.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "90",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4787,11 +4766,11 @@
                      "PLAYER":  "Jacob Canton",
                      "RANK":  null,
                      "CONSENSUS":  "106.7",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4808,11 +4787,11 @@
                      "PLAYER":  "Mark Bruns",
                      "RANK":  null,
                      "CONSENSUS":  "107.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "107",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4829,11 +4808,11 @@
                      "PLAYER":  "Malcom Price",
                      "RANK":  null,
                      "CONSENSUS":  "107.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4850,11 +4829,11 @@
                      "PLAYER":  "Stefan Ilic",
                      "RANK":  null,
                      "CONSENSUS":  "109.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "119",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
@@ -4871,11 +4850,11 @@
                      "PLAYER":  "Ty Schlagel",
                      "RANK":  null,
                      "CONSENSUS":  "109.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4892,11 +4871,11 @@
                      "PLAYER":  "Jahmai Drayton",
                      "RANK":  null,
                      "CONSENSUS":  "111.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "121",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4913,11 +4892,11 @@
                      "PLAYER":  "Christopher Brown",
                      "RANK":  null,
                      "CONSENSUS":  "112.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4934,11 +4913,11 @@
                      "PLAYER":  "Greyson Pierce",
                      "RANK":  null,
                      "CONSENSUS":  "113.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "123",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4955,11 +4934,11 @@
                      "PLAYER":  "Thomas Vickery",
                      "RANK":  null,
                      "CONSENSUS":  "113.7",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "75",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4976,11 +4955,11 @@
                      "PLAYER":  "Jalen White",
                      "RANK":  null,
                      "CONSENSUS":  "114.3",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "114",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -4997,11 +4976,11 @@
                      "PLAYER":  "Quinton Kitt",
                      "RANK":  null,
                      "CONSENSUS":  "116.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "103",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -5018,11 +4997,11 @@
                      "PLAYER":  "Josiah Nance",
                      "RANK":  null,
                      "CONSENSUS":  "116.5",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "125",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -5039,11 +5018,11 @@
                      "PLAYER":  "Jacques Mitchell",
                      "RANK":  null,
                      "CONSENSUS":  "123.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
@@ -5060,11 +5039,11 @@
                      "PLAYER":  "Ty Cobb",
                      "RANK":  null,
                      "CONSENSUS":  "124.5",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "128",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -5081,11 +5060,11 @@
                      "PLAYER":  "Jacoby Briscoe",
                      "RANK":  null,
                      "CONSENSUS":  "127.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "146",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -5102,11 +5081,11 @@
                      "PLAYER":  "Marlon Martinez",
                      "RANK":  null,
                      "CONSENSUS":  "129.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "143",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -5123,11 +5102,11 @@
                      "PLAYER":  "Jordan Hunter",
                      "RANK":  null,
                      "CONSENSUS":  "129.0",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "129",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Scoring Guard",
@@ -5144,11 +5123,11 @@
                      "PLAYER":  "Deshawn Dillon",
                      "RANK":  null,
                      "CONSENSUS":  "132.5",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "89",
-                     "TIER":  "",
+                     "ESPN":  "45",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -5165,11 +5144,11 @@
                      "PLAYER":  "Jimmie Haywood",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  "45"
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -5186,11 +5165,11 @@
                      "PLAYER":  "Zhenhe Liu",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -5207,11 +5186,11 @@
                      "PLAYER":  "Emmanuel Iyowoicho Onoja",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -5228,11 +5207,11 @@
                      "PLAYER":  "Joachim Basson",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Combo Wing",
@@ -5249,11 +5228,11 @@
                      "PLAYER":  "Jakob Siftar",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
@@ -5270,11 +5249,11 @@
                      "PLAYER":  "Darius Karutasu",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -5291,11 +5270,11 @@
                      "PLAYER":  "Rafa Corta",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
@@ -5312,11 +5291,11 @@
                      "PLAYER":  "Ousmane Diarra",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Post Scorer",
@@ -5333,11 +5312,11 @@
                      "PLAYER":  "Abdrahamane Kone",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -5354,11 +5333,11 @@
                      "PLAYER":  "Andrej Fantic",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -5375,11 +5354,11 @@
                      "PLAYER":  "Matej Buben",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Connector Wing",
@@ -5396,11 +5375,11 @@
                      "PLAYER":  "Marek Houska",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Paint Presence",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Skilled Forward",
@@ -5417,11 +5396,11 @@
                      "PLAYER":  "Paul Julius-Plato",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
@@ -5438,11 +5417,11 @@
                      "PLAYER":  "Ari Amiel",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -5459,11 +5438,11 @@
                      "PLAYER":  "Moussa Coulibaly",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
@@ -5480,11 +5459,11 @@
                      "PLAYER":  "Mahamadou Landoure",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
@@ -5501,11 +5480,11 @@
                      "PLAYER":  "Imran Subasic",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -5522,11 +5501,11 @@
                      "PLAYER":  "Miguel Sousa",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "",
@@ -5543,11 +5522,11 @@
                      "PLAYER":  "Caspar Vossenberg",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "???",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
@@ -5564,11 +5543,11 @@
                      "PLAYER":  "Demir Ozturk",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
@@ -5585,11 +5564,11 @@
                      "PLAYER":  "Tawhiri Cate",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
@@ -5606,11 +5585,11 @@
                      "PLAYER":  "Jackson Ball",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  },
                  {
                      "247":  "",
-                     "TIER":  "",
+                     "ESPN":  "",
                      "DEFENSIVE ROLE":  "Perimeter Disruptor",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
@@ -5627,7 +5606,7 @@
                      "PLAYER":  "Ismael Zounamo",
                      "RANK":  null,
                      "CONSENSUS":  "",
-                     "ESPN":  ""
+                     "C":  ""
                  }
              ],
     "2029":  [
@@ -7095,21 +7074,39 @@
                      "ESPN":  "23"
                  },
                  {
+                     "247":  "26",
+                     "TIER":  "4",
+                     "DEFENSIVE ROLE":  "Perimeter Stopper",
+                     "OFFENSIVE ROLE":  "Scoring Guard",
+                     "EBY":  "25",
+                     "MADE":  "34",
+                     "COMMITMENT":  "Arkansas",
+                     "RIVALS":  "30",
+                     "INDUSTRY PRO":  "32.0",
+                     "TEAM/HS":  "Notre Dame (GUI)",
+                     "EBY DIFF INDUSTRY":  "6",
+                     "HEIGHT":  "6\u00274\"",
+                     "PREP":  "36",
+                     "PLAYER":  "Abdou Toure",
+                     "CONSENSUS":  "30.8",
+                     "ESPN":  "34"
+                 },
+                 {
                      "247":  "17",
                      "TIER":  "4",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Skilled Big",
-                     "EBY":  "25",
+                     "EBY":  "26",
                      "MADE":  "31",
                      "COMMITMENT":  "USC",
                      "RIVALS":  "17",
                      "INDUSTRY PRO":  "19.4",
                      "TEAM/HS":  "Archbishop Stepanic",
-                     "EBY DIFF INDUSTRY":  "-6.25",
+                     "EBY DIFF INDUSTRY":  "-7.25",
                      "HEIGHT":  "6\u002710\"",
                      "PREP":  "22",
                      "PLAYER":  "Adonis Ratliff",
-                     "CONSENSUS":  "20.3",
+                     "CONSENSUS":  "20.5",
                      "ESPN":  "10"
                  },
                  {
@@ -7117,17 +7114,17 @@
                      "TIER":  "4",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Slasher",
-                     "EBY":  "26",
+                     "EBY":  "27",
                      "MADE":  "11",
                      "COMMITMENT":  "Miami",
                      "RIVALS":  "5",
                      "INDUSTRY PRO":  "12.4",
                      "TEAM/HS":  "Columbus",
-                     "EBY DIFF INDUSTRY":  "-13.75",
+                     "EBY DIFF INDUSTRY":  "-14.75",
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "13",
                      "PLAYER":  "Caleb Gaskins",
-                     "CONSENSUS":  "14.7",
+                     "CONSENSUS":  "14.8",
                      "ESPN":  "13"
                  },
                  {
@@ -7135,17 +7132,17 @@
                      "TIER":  "4",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Play Finishing Forward",
-                     "EBY":  "27",
+                     "EBY":  "28",
                      "MADE":  "49",
                      "COMMITMENT":  "Missouri",
                      "RIVALS":  "39",
                      "INDUSTRY PRO":  "32.2",
                      "TEAM/HS":  "Southeastern Prep",
-                     "EBY DIFF INDUSTRY":  "5.25",
+                     "EBY DIFF INDUSTRY":  "4.25",
                      "HEIGHT":  "6\u002710\"",
                      "PREP":  "32",
                      "PLAYER":  "Toni Bryant",
-                     "CONSENSUS":  "31.3",
+                     "CONSENSUS":  "31.5",
                      "ESPN":  "14"
                  },
                  {
@@ -7153,17 +7150,17 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
-                     "EBY":  "28",
+                     "EBY":  "29",
                      "MADE":  "91",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
                      "INDUSTRY PRO":  "91.0",
                      "TEAM/HS":  "Chalon (SUI)",
-                     "EBY DIFF INDUSTRY":  "-5.25",
+                     "EBY DIFF INDUSTRY":  "-6.25",
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "",
                      "PLAYER":  "Klark Riethauser",
-                     "CONSENSUS":  "59.5",
+                     "CONSENSUS":  "60.0",
                      "ESPN":  ""
                  },
                  {
@@ -7171,36 +7168,18 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Chaser",
                      "OFFENSIVE ROLE":  "Combo Wing",
-                     "EBY":  "29",
+                     "EBY":  "30",
                      "MADE":  "50",
                      "COMMITMENT":  "Gonzaga",
                      "RIVALS":  "46",
                      "INDUSTRY PRO":  "43.4",
                      "TEAM/HS":  "Link Academy",
-                     "EBY DIFF INDUSTRY":  "16",
+                     "EBY DIFF INDUSTRY":  "15",
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "37",
                      "PLAYER":  "Luca Foster",
-                     "CONSENSUS":  "41.0",
+                     "CONSENSUS":  "41.2",
                      "ESPN":  "45"
-                 },
-                 {
-                     "247":  "26",
-                     "TIER":  "5",
-                     "DEFENSIVE ROLE":  "Perimeter Stopper",
-                     "OFFENSIVE ROLE":  "Scoring Guard",
-                     "EBY":  "30",
-                     "MADE":  "34",
-                     "COMMITMENT":  "Arkansas",
-                     "RIVALS":  "30",
-                     "INDUSTRY PRO":  "32.0",
-                     "TEAM/HS":  "Notre Dame (GUI)",
-                     "EBY DIFF INDUSTRY":  "1",
-                     "HEIGHT":  "6\u00274\"",
-                     "PREP":  "36",
-                     "PLAYER":  "Abdou Toure",
-                     "CONSENSUS":  "31.7",
-                     "ESPN":  "34"
                  },
                  {
                      "247":  "28",
@@ -7365,39 +7344,93 @@
                      "ESPN":  "21"
                  },
                  {
+                     "247":  "34",
+                     "TIER":  "5",
+                     "DEFENSIVE ROLE":  "Perimeter Stopper",
+                     "OFFENSIVE ROLE":  "Combo Guard",
+                     "EBY":  "40",
+                     "MADE":  "58",
+                     "COMMITMENT":  "Wake Forest",
+                     "RIVALS":  "75",
+                     "INDUSTRY PRO":  "76.6",
+                     "TEAM/HS":  "The Principia School",
+                     "EBY DIFF INDUSTRY":  "33",
+                     "HEIGHT":  "6\u00274\"",
+                     "PREP":  "91",
+                     "PLAYER":  "Quentin Coleman",
+                     "CONSENSUS":  "70.5",
+                     "ESPN":  "125"
+                 },
+                 {
                      "247":  "21",
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Perimeter Disruptor",
                      "OFFENSIVE ROLE":  "Slasher",
-                     "EBY":  "40",
+                     "EBY":  "41",
                      "MADE":  "22",
                      "COMMITMENT":  "?",
                      "RIVALS":  "54",
                      "INDUSTRY PRO":  "26.0",
                      "TEAM/HS":  "Southeastern Prep",
-                     "EBY DIFF INDUSTRY":  "-12",
+                     "EBY DIFF INDUSTRY":  "-13",
                      "HEIGHT":  "6\u00276\"",
                      "PREP":  "18",
                      "PLAYER":  "Jaxon Richardson",
-                     "CONSENSUS":  "28.3",
+                     "CONSENSUS":  "28.5",
                      "ESPN":  "15"
+                 },
+                 {
+                     "247":  "29",
+                     "TIER":  "5",
+                     "DEFENSIVE ROLE":  "???",
+                     "OFFENSIVE ROLE":  "Scoring Wing",
+                     "EBY":  "42",
+                     "MADE":  "29",
+                     "COMMITMENT":  "Arizona",
+                     "RIVALS":  "61",
+                     "INDUSTRY PRO":  "39.2",
+                     "TEAM/HS":  "Millenium",
+                     "EBY DIFF INDUSTRY":  "-2.75",
+                     "HEIGHT":  "6\u00278\"",
+                     "PREP":  "39",
+                     "PLAYER":  "Cameron Holmes",
+                     "CONSENSUS":  "39.7",
+                     "ESPN":  "38"
+                 },
+                 {
+                     "247":  "",
+                     "TIER":  "5",
+                     "DEFENSIVE ROLE":  "Helper",
+                     "OFFENSIVE ROLE":  "Off-Ball Wing",
+                     "EBY":  "43",
+                     "MADE":  "",
+                     "COMMITMENT":  "?",
+                     "RIVALS":  "",
+                     "INDUSTRY PRO":  "",
+                     "TEAM/HS":  "Monteverde",
+                     "EBY DIFF INDUSTRY":  null,
+                     "HEIGHT":  "6\u002710\"",
+                     "PREP":  "",
+                     "PLAYER":  "Lincoln Cosby",
+                     "CONSENSUS":  "",
+                     "ESPN":  ""
                  },
                  {
                      "247":  "",
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "???",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "41",
+                     "EBY":  "44",
                      "MADE":  "54",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
                      "INDUSTRY PRO":  "27.0",
                      "TEAM/HS":  "Partizan (FIN)",
-                     "EBY DIFF INDUSTRY":  "-27.5",
+                     "EBY DIFF INDUSTRY":  "-30.5",
                      "HEIGHT":  "6\u002711\"",
                      "PREP":  "",
                      "PLAYER":  "Miikka Muurinen",
-                     "CONSENSUS":  "47.5",
+                     "CONSENSUS":  "49.0",
                      "ESPN":  ""
                  },
                  {
@@ -7405,53 +7438,35 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Versatile Big",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "42",
+                     "EBY":  "45",
                      "MADE":  "44",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
                      "INDUSTRY PRO":  "44.0",
                      "TEAM/HS":  "Cedevita Olimpija (FRA)",
-                     "EBY DIFF INDUSTRY":  "-31",
+                     "EBY DIFF INDUSTRY":  "-34",
                      "HEIGHT":  "6\u00279\"",
                      "PREP":  "",
                      "PLAYER":  "Cameron Houindo",
-                     "CONSENSUS":  "43.0",
+                     "CONSENSUS":  "44.5",
                      "ESPN":  ""
-                 },
-                 {
-                     "247":  "29",
-                     "TIER":  "5",
-                     "DEFENSIVE ROLE":  "???",
-                     "OFFENSIVE ROLE":  "Scoring Wing",
-                     "EBY":  "43",
-                     "MADE":  "29",
-                     "COMMITMENT":  "Arizona",
-                     "RIVALS":  "61",
-                     "INDUSTRY PRO":  "39.2",
-                     "TEAM/HS":  "Millenium",
-                     "EBY DIFF INDUSTRY":  "-3.75",
-                     "HEIGHT":  "6\u00278\"",
-                     "PREP":  "39",
-                     "PLAYER":  "Cameron Holmes",
-                     "CONSENSUS":  "39.8",
-                     "ESPN":  "38"
                  },
                  {
                      "247":  "24",
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Post Scorer",
-                     "EBY":  "44",
+                     "EBY":  "46",
                      "MADE":  "30",
                      "COMMITMENT":  "Oklahoma State",
                      "RIVALS":  "32",
                      "INDUSTRY PRO":  "31.6",
                      "TEAM/HS":  "Petersburg",
-                     "EBY DIFF INDUSTRY":  "-12",
+                     "EBY DIFF INDUSTRY":  "-14",
                      "HEIGHT":  "6\u00278\"",
                      "PREP":  "30",
                      "PLAYER":  "Latrell Allmond",
-                     "CONSENSUS":  "33.7",
+                     "CONSENSUS":  "34.0",
                      "ESPN":  "42"
                  },
                  {
@@ -7459,7 +7474,7 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Paint Prescence",
                      "OFFENSIVE ROLE":  "Skilled Big",
-                     "EBY":  "45",
+                     "EBY":  "47",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -7469,43 +7484,25 @@
                      "HEIGHT":  "6\u002710\"",
                      "PREP":  "",
                      "PLAYER":  "Ilia Frolov",
-                     "CONSENSUS":  "45.0",
+                     "CONSENSUS":  "47.0",
                      "ESPN":  ""
-                 },
-                 {
-                     "247":  "34",
-                     "TIER":  "5",
-                     "DEFENSIVE ROLE":  "Perimeter Stopper",
-                     "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "46",
-                     "MADE":  "58",
-                     "COMMITMENT":  "Wake Forest",
-                     "RIVALS":  "75",
-                     "INDUSTRY PRO":  "76.6",
-                     "TEAM/HS":  "The Principia School",
-                     "EBY DIFF INDUSTRY":  "27",
-                     "HEIGHT":  "6\u00274\"",
-                     "PREP":  "91",
-                     "PLAYER":  "Quentin Coleman",
-                     "CONSENSUS":  "71.5",
-                     "ESPN":  "125"
                  },
                  {
                      "247":  "38",
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "???",
                      "OFFENSIVE ROLE":  "Movement Shooter",
-                     "EBY":  "47",
+                     "EBY":  "48",
                      "MADE":  "41",
                      "COMMITMENT":  "Texas",
                      "RIVALS":  "37",
                      "INDUSTRY PRO":  "36.6",
                      "TEAM/HS":  "Westlake",
-                     "EBY DIFF INDUSTRY":  "-7.25",
+                     "EBY DIFF INDUSTRY":  "-8.25",
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "24",
                      "PLAYER":  "Bo Ogden",
-                     "CONSENSUS":  "38.3",
+                     "CONSENSUS":  "38.5",
                      "ESPN":  "43"
                  },
                  {
@@ -7513,7 +7510,7 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Chaser",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
-                     "EBY":  "48",
+                     "EBY":  "49",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -7523,7 +7520,7 @@
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "",
                      "PLAYER":  "Diego Niebla",
-                     "CONSENSUS":  "48.0",
+                     "CONSENSUS":  "49.0",
                      "ESPN":  ""
                  },
                  {
@@ -7531,17 +7528,17 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Perimeter Disruptor",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
-                     "EBY":  "49",
+                     "EBY":  "50",
                      "MADE":  "103",
                      "COMMITMENT":  "Texas Tech",
                      "RIVALS":  "85",
                      "INDUSTRY PRO":  "71.6",
                      "TEAM/HS":  "Dynamic Prep",
-                     "EBY DIFF INDUSTRY":  "18.25",
+                     "EBY DIFF INDUSTRY":  "17.25",
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "89",
                      "PLAYER":  "Dakari Spear",
-                     "CONSENSUS":  "67.8",
+                     "CONSENSUS":  "68.0",
                      "ESPN":  "35"
                  },
                  {
@@ -7549,17 +7546,17 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
-                     "EBY":  "50",
+                     "EBY":  "51",
                      "MADE":  "81",
                      "COMMITMENT":  "Alabama",
                      "RIVALS":  "87",
                      "INDUSTRY PRO":  "56.2",
                      "TEAM/HS":  "SPIRE Academy",
-                     "EBY DIFF INDUSTRY":  "10.25",
+                     "EBY DIFF INDUSTRY":  "9.25",
                      "HEIGHT":  "6\u00276\"",
                      "PREP":  "40",
                      "PLAYER":  "Tarris Bouie",
-                     "CONSENSUS":  "55.2",
+                     "CONSENSUS":  "55.3",
                      "ESPN":  "33"
                  },
                  {
@@ -7567,17 +7564,17 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "???",
                      "OFFENSIVE ROLE":  "Scoring Guard",
-                     "EBY":  "51",
+                     "EBY":  "52",
                      "MADE":  "39",
                      "COMMITMENT":  "Michigan St.",
                      "RIVALS":  "23",
                      "INDUSTRY PRO":  "34.4",
                      "TEAM/HS":  "Archbishop Stepanic",
-                     "EBY DIFF INDUSTRY":  "-19.5",
+                     "EBY DIFF INDUSTRY":  "-20.5",
                      "HEIGHT":  "6\u00274\"",
                      "PREP":  "46",
                      "PLAYER":  "Jasiah Jervis",
-                     "CONSENSUS":  "37.2",
+                     "CONSENSUS":  "37.3",
                      "ESPN":  "31"
                  },
                  {
@@ -7585,7 +7582,7 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Chaser",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "52",
+                     "EBY":  "53",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -7595,7 +7592,7 @@
                      "HEIGHT":  "6\u00273\"",
                      "PREP":  "",
                      "PLAYER":  "Mate Khatiashvili",
-                     "CONSENSUS":  "52.0",
+                     "CONSENSUS":  "53.0",
                      "ESPN":  ""
                  },
                  {
@@ -7603,17 +7600,17 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Chaser",
                      "OFFENSIVE ROLE":  "Combo Wing",
-                     "EBY":  "53",
+                     "EBY":  "54",
                      "MADE":  "93",
                      "COMMITMENT":  "?",
                      "RIVALS":  "27",
                      "INDUSTRY PRO":  "52.4",
                      "TEAM/HS":  "AZ Compass Prep",
-                     "EBY DIFF INDUSTRY":  "1.25",
+                     "EBY DIFF INDUSTRY":  "0.25",
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "45",
                      "PLAYER":  "Quincy Wadley",
-                     "CONSENSUS":  "52.5",
+                     "CONSENSUS":  "52.7",
                      "ESPN":  "55"
                  },
                  {
@@ -7621,7 +7618,7 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Perimeter Disruptor",
                      "OFFENSIVE ROLE":  "Play Finishing Forward",
-                     "EBY":  "54",
+                     "EBY":  "55",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -7631,7 +7628,7 @@
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "",
                      "PLAYER":  "Cheichk Niang",
-                     "CONSENSUS":  "54.0",
+                     "CONSENSUS":  "55.0",
                      "ESPN":  ""
                  },
                  {
@@ -7639,17 +7636,17 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "???",
                      "OFFENSIVE ROLE":  "Scoring Wing",
-                     "EBY":  "55",
+                     "EBY":  "56",
                      "MADE":  "53",
                      "COMMITMENT":  "Georgetown",
                      "RIVALS":  "16",
                      "INDUSTRY PRO":  "33.4",
                      "TEAM/HS":  "SPIRE Academy (DOM)",
-                     "EBY DIFF INDUSTRY":  "-18",
+                     "EBY DIFF INDUSTRY":  "-19",
                      "HEIGHT":  "6\u00278\"",
                      "PREP":  "19",
                      "PLAYER":  "Alex Constanza",
-                     "CONSENSUS":  "37.0",
+                     "CONSENSUS":  "37.2",
                      "ESPN":  "28"
                  },
                  {
@@ -7657,17 +7654,17 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "56",
+                     "EBY":  "57",
                      "MADE":  "43",
                      "COMMITMENT":  "Texas A\u0026M",
                      "RIVALS":  "41",
                      "INDUSTRY PRO":  "57.8",
                      "TEAM/HS":  "Pasadena",
-                     "EBY DIFF INDUSTRY":  "4.25",
+                     "EBY DIFF INDUSTRY":  "3.25",
                      "HEIGHT":  "6\u002711\"",
                      "PREP":  "48",
                      "PLAYER":  "Josh Irving",
-                     "CONSENSUS":  "57.5",
+                     "CONSENSUS":  "57.7",
                      "ESPN":  "98"
                  },
                  {
@@ -7675,17 +7672,17 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "57",
+                     "EBY":  "58",
                      "MADE":  "47",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
                      "INDUSTRY PRO":  "47.0",
                      "TEAM/HS":  "INSEP (FRA)",
-                     "EBY DIFF INDUSTRY":  "-45.25",
+                     "EBY DIFF INDUSTRY":  "-46.25",
                      "HEIGHT":  "6\u00274\"",
                      "PREP":  "",
                      "PLAYER":  "Matthys Mahop",
-                     "CONSENSUS":  "52.0",
+                     "CONSENSUS":  "52.5",
                      "ESPN":  ""
                  },
                  {
@@ -7693,17 +7690,17 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Versatile Big",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "58",
+                     "EBY":  "59",
                      "MADE":  "28",
                      "COMMITMENT":  "Kansas",
                      "RIVALS":  "28",
                      "INDUSTRY PRO":  "40.6",
                      "TEAM/HS":  "Prolific Prep",
-                     "EBY DIFF INDUSTRY":  "-13",
+                     "EBY DIFF INDUSTRY":  "-14",
                      "HEIGHT":  "6\u00279\"",
                      "PREP":  "23",
                      "PLAYER":  "Davion Adkins",
-                     "CONSENSUS":  "43.5",
+                     "CONSENSUS":  "43.7",
                      "ESPN":  "56"
                  },
                  {
@@ -7711,36 +7708,18 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "59",
+                     "EBY":  "60",
                      "MADE":  "79",
                      "COMMITMENT":  "Houston",
                      "RIVALS":  "36",
                      "INDUSTRY PRO":  "48.6",
                      "TEAM/HS":  "Dream City Christian (NGA)",
-                     "EBY DIFF INDUSTRY":  "-8.75",
+                     "EBY DIFF INDUSTRY":  "-9.75",
                      "HEIGHT":  "6\u00272\"",
                      "PREP":  "42",
                      "PLAYER":  "Ikenna Alozie",
-                     "CONSENSUS":  "50.3",
+                     "CONSENSUS":  "50.5",
                      "ESPN":  "32"
-                 },
-                 {
-                     "247":  "63",
-                     "TIER":  "5",
-                     "DEFENSIVE ROLE":  "???",
-                     "OFFENSIVE ROLE":  "Movement Shooter",
-                     "EBY":  "60",
-                     "MADE":  "63",
-                     "COMMITMENT":  "Purdue",
-                     "RIVALS":  "34",
-                     "INDUSTRY PRO":  "58.8",
-                     "TEAM/HS":  "La Lumiere",
-                     "EBY DIFF INDUSTRY":  "4.75",
-                     "HEIGHT":  "6\u00277\"",
-                     "PREP":  "35",
-                     "PLAYER":  "Jacob Webber",
-                     "CONSENSUS":  "59.0",
-                     "ESPN":  "99"
                  },
                  {
                      "247":  "53",
@@ -7779,21 +7758,39 @@
                      "ESPN":  ""
                  },
                  {
+                     "247":  "63",
+                     "TIER":  "5",
+                     "DEFENSIVE ROLE":  "???",
+                     "OFFENSIVE ROLE":  "Movement Shooter",
+                     "EBY":  "63",
+                     "MADE":  "63",
+                     "COMMITMENT":  "Purdue",
+                     "RIVALS":  "34",
+                     "INDUSTRY PRO":  "58.8",
+                     "TEAM/HS":  "La Lumiere",
+                     "EBY DIFF INDUSTRY":  "1.75",
+                     "HEIGHT":  "6\u00277\"",
+                     "PREP":  "35",
+                     "PLAYER":  "Jacob Webber",
+                     "CONSENSUS":  "59.5",
+                     "ESPN":  "99"
+                 },
+                 {
                      "247":  "41",
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "63",
+                     "EBY":  "64",
                      "MADE":  "109",
                      "COMMITMENT":  "Purdue",
                      "RIVALS":  "53",
                      "INDUSTRY PRO":  "63.6",
                      "TEAM/HS":  "Mt. Vernon",
-                     "EBY DIFF INDUSTRY":  "0.75",
+                     "EBY DIFF INDUSTRY":  "-0.25",
                      "HEIGHT":  "6\u00271\"",
                      "PREP":  "63",
                      "PLAYER":  "Luke Ertel",
-                     "CONSENSUS":  "63.5",
+                     "CONSENSUS":  "63.7",
                      "ESPN":  "52"
                  },
                  {
@@ -7801,17 +7798,17 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "???",
                      "OFFENSIVE ROLE":  "Combo Wing",
-                     "EBY":  "64",
+                     "EBY":  "65",
                      "MADE":  "51",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
                      "INDUSTRY PRO":  "51.0",
                      "TEAM/HS":  "Zalgris (LTU)",
-                     "EBY DIFF INDUSTRY":  "-51.25",
+                     "EBY DIFF INDUSTRY":  "-52.25",
                      "HEIGHT":  "6\u00276\"",
                      "PREP":  "",
                      "PLAYER":  "Dovydas Buika",
-                     "CONSENSUS":  "57.5",
+                     "CONSENSUS":  "58.0",
                      "ESPN":  ""
                  },
                  {
@@ -7819,17 +7816,17 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "65",
+                     "EBY":  "66",
                      "MADE":  "86",
                      "COMMITMENT":  "Creighton",
                      "RIVALS":  "110",
                      "INDUSTRY PRO":  "77.0",
                      "TEAM/HS":  "Wasatch Academy",
-                     "EBY DIFF INDUSTRY":  "12.5",
+                     "EBY DIFF INDUSTRY":  "11.5",
                      "HEIGHT":  "6\u00273\"",
                      "PREP":  "75",
                      "PLAYER":  "Katrell Harmon",
-                     "CONSENSUS":  "75.0",
+                     "CONSENSUS":  "75.2",
                      "ESPN":  "59"
                  },
                  {
@@ -7837,17 +7834,17 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Perimeter Disruptor",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "66",
+                     "EBY":  "67",
                      "MADE":  "148",
                      "COMMITMENT":  "Maryland",
                      "RIVALS":  "56",
                      "INDUSTRY PRO":  "67.6",
                      "TEAM/HS":  "AZ Compass Prep",
-                     "EBY DIFF INDUSTRY":  "9",
+                     "EBY DIFF INDUSTRY":  "8",
                      "HEIGHT":  "6\u00274\"",
                      "PREP":  "38",
                      "PLAYER":  "Kaden House",
-                     "CONSENSUS":  "67.3",
+                     "CONSENSUS":  "67.5",
                      "ESPN":  "53"
                  },
                  {
@@ -7855,17 +7852,17 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "???",
                      "OFFENSIVE ROLE":  "Skilled Big",
-                     "EBY":  "67",
+                     "EBY":  "68",
                      "MADE":  "72",
                      "COMMITMENT":  "Michigan",
                      "RIVALS":  "33",
                      "INDUSTRY PRO":  "41.8",
                      "TEAM/HS":  "Newman School",
-                     "EBY DIFF INDUSTRY":  "-22.5",
+                     "EBY DIFF INDUSTRY":  "-23.5",
                      "HEIGHT":  "6\u00279\"",
                      "PREP":  "31",
                      "PLAYER":  "Quinn Costello",
-                     "CONSENSUS":  "46.0",
+                     "CONSENSUS":  "46.2",
                      "ESPN":  "29"
                  },
                  {
@@ -7873,17 +7870,17 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "68",
+                     "EBY":  "69",
                      "MADE":  "56",
                      "COMMITMENT":  "Mississippi State",
                      "RIVALS":  "69",
                      "INDUSTRY PRO":  "68.8",
                      "TEAM/HS":  "Link Academy",
-                     "EBY DIFF INDUSTRY":  "-1.25",
+                     "EBY DIFF INDUSTRY":  "-2.25",
                      "HEIGHT":  "6\u00279\"",
                      "PREP":  "77",
                      "PLAYER":  "Tristan Reed",
-                     "CONSENSUS":  "68.7",
+                     "CONSENSUS":  "68.8",
                      "ESPN":  "80"
                  },
                  {
@@ -7891,17 +7888,17 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Perimeter Disruptor",
                      "OFFENSIVE ROLE":  "Play Finishing Forward",
-                     "EBY":  "69",
+                     "EBY":  "70",
                      "MADE":  "97",
                      "COMMITMENT":  "?",
                      "RIVALS":  "46",
                      "INDUSTRY PRO":  "61.0",
                      "TEAM/HS":  "Providence Christian Aca.",
-                     "EBY DIFF INDUSTRY":  "-6.5",
+                     "EBY DIFF INDUSTRY":  "-7.5",
                      "HEIGHT":  "6\u00279\"",
                      "PREP":  "55",
                      "PLAYER":  "Chris Washington Jr.",
-                     "CONSENSUS":  "62.3",
+                     "CONSENSUS":  "62.5",
                      "ESPN":  "59"
                  },
                  {
@@ -7909,17 +7906,17 @@
                      "TIER":  "5",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Slasher",
-                     "EBY":  "70",
+                     "EBY":  "71",
                      "MADE":  "85",
                      "COMMITMENT":  "Pittsburgh",
                      "RIVALS":  "66",
                      "INDUSTRY PRO":  "59.6",
                      "TEAM/HS":  "Utah Prep",
-                     "EBY DIFF INDUSTRY":  "-9",
+                     "EBY DIFF INDUSTRY":  "-10",
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "54",
                      "PLAYER":  "Anthony Felesi",
-                     "CONSENSUS":  "61.3",
+                     "CONSENSUS":  "61.5",
                      "ESPN":  "58"
                  },
                  {
@@ -7927,7 +7924,7 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "???",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "71",
+                     "EBY":  "72",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -7937,7 +7934,7 @@
                      "HEIGHT":  "6\u00274\"",
                      "PREP":  "",
                      "PLAYER":  "Andrej Bjelic",
-                     "CONSENSUS":  "71.0",
+                     "CONSENSUS":  "72.0",
                      "ESPN":  ""
                  },
                  {
@@ -7945,17 +7942,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Skilled Big",
-                     "EBY":  "72",
+                     "EBY":  "73",
                      "MADE":  "108",
                      "COMMITMENT":  "Gonzaga",
                      "RIVALS":  "48",
                      "INDUSTRY PRO":  "83.0",
                      "TEAM/HS":  "Germantown",
-                     "EBY DIFF INDUSTRY":  "20",
+                     "EBY DIFF INDUSTRY":  "19",
                      "HEIGHT":  "7\u00270\"",
                      "PREP":  "47",
                      "PLAYER":  "Sam Funches",
-                     "CONSENSUS":  "81.2",
+                     "CONSENSUS":  "81.3",
                      "ESPN":  "125"
                  },
                  {
@@ -7963,7 +7960,7 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Chaser",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "73",
+                     "EBY":  "74",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -7973,7 +7970,7 @@
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "",
                      "PLAYER":  "Ricards Aizpurs",
-                     "CONSENSUS":  "73.0",
+                     "CONSENSUS":  "74.0",
                      "ESPN":  ""
                  },
                  {
@@ -7981,17 +7978,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "???",
                      "OFFENSIVE ROLE":  "Wing Handler",
-                     "EBY":  "74",
+                     "EBY":  "75",
                      "MADE":  "76",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
                      "INDUSTRY PRO":  "76.0",
                      "TEAM/HS":  "KK Mega (SRB)",
-                     "EBY DIFF INDUSTRY":  "-55",
+                     "EBY DIFF INDUSTRY":  "-56",
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "",
                      "PLAYER":  "Ognjen Srzentic",
-                     "CONSENSUS":  "75.0",
+                     "CONSENSUS":  "75.5",
                      "ESPN":  ""
                  },
                  {
@@ -7999,7 +7996,7 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Connector Wing",
-                     "EBY":  "75",
+                     "EBY":  "76",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -8009,7 +8006,7 @@
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "",
                      "PLAYER":  "Nikola Karalic",
-                     "CONSENSUS":  "75.0",
+                     "CONSENSUS":  "76.0",
                      "ESPN":  ""
                  },
                  {
@@ -8017,7 +8014,7 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
-                     "EBY":  "76",
+                     "EBY":  "77",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -8027,7 +8024,7 @@
                      "HEIGHT":  "6\u00279\"",
                      "PREP":  "",
                      "PLAYER":  "Swann Penda",
-                     "CONSENSUS":  "76.0",
+                     "CONSENSUS":  "77.0",
                      "ESPN":  ""
                  },
                  {
@@ -8035,17 +8032,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Play Finishing Forward",
-                     "EBY":  "77",
+                     "EBY":  "78",
                      "MADE":  "48",
                      "COMMITMENT":  "?",
                      "RIVALS":  "50",
                      "INDUSTRY PRO":  "51.4",
                      "TEAM/HS":  "Monteverde",
-                     "EBY DIFF INDUSTRY":  "-23.75",
+                     "EBY DIFF INDUSTRY":  "-24.75",
                      "HEIGHT":  "6\u00278\"",
                      "PREP":  "44",
                      "PLAYER":  "Joe Philon",
-                     "CONSENSUS":  "55.7",
+                     "CONSENSUS":  "55.8",
                      "ESPN":  "46"
                  },
                  {
@@ -8053,17 +8050,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "78",
+                     "EBY":  "79",
                      "MADE":  "73",
                      "COMMITMENT":  "Michigan St.",
                      "RIVALS":  "68",
                      "INDUSTRY PRO":  "65.6",
                      "TEAM/HS":  "Link Academy",
-                     "EBY DIFF INDUSTRY":  "-14.5",
+                     "EBY DIFF INDUSTRY":  "-15.5",
                      "HEIGHT":  "5\u002711\"",
                      "PREP":  "74",
                      "PLAYER":  "Carlos Medlock Jr.",
-                     "CONSENSUS":  "67.7",
+                     "CONSENSUS":  "67.8",
                      "ESPN":  "68"
                  },
                  {
@@ -8071,17 +8068,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Point Forward",
-                     "EBY":  "79",
+                     "EBY":  "80",
                      "MADE":  "84",
                      "COMMITMENT":  "?",
                      "RIVALS":  "107",
                      "INDUSTRY PRO":  "83.4",
                      "TEAM/HS":  "Briarcrest Christian",
-                     "EBY DIFF INDUSTRY":  "12.75",
+                     "EBY DIFF INDUSTRY":  "11.75",
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "50",
                      "PLAYER":  "Fred Smith Jr.",
-                     "CONSENSUS":  "82.7",
+                     "CONSENSUS":  "82.8",
                      "ESPN":  "90"
                  },
                  {
@@ -8089,17 +8086,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "80",
+                     "EBY":  "81",
                      "MADE":  "96",
                      "COMMITMENT":  "Purdue",
                      "RIVALS":  "38",
                      "INDUSTRY PRO":  "72.6",
                      "TEAM/HS":  "Georgetown Prep (CHN)",
-                     "EBY DIFF INDUSTRY":  "-6.5",
+                     "EBY DIFF INDUSTRY":  "-7.5",
                      "HEIGHT":  "7\u00270\"",
                      "PREP":  "69",
                      "PLAYER":  "Sinan Huan",
-                     "CONSENSUS":  "73.8",
+                     "CONSENSUS":  "74.0",
                      "ESPN":  "79"
                  },
                  {
@@ -8107,17 +8104,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Wing Handler",
-                     "EBY":  "81",
+                     "EBY":  "82",
                      "MADE":  "40",
                      "COMMITMENT":  "VCU",
                      "RIVALS":  "51",
                      "INDUSTRY PRO":  "55.4",
                      "TEAM/HS":  "Roman Catholic",
-                     "EBY DIFF INDUSTRY":  "-26.25",
+                     "EBY DIFF INDUSTRY":  "-27.25",
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "58",
                      "PLAYER":  "Sammy Jackson",
-                     "CONSENSUS":  "59.7",
+                     "CONSENSUS":  "59.8",
                      "ESPN":  "72"
                  },
                  {
@@ -8125,17 +8122,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "???",
                      "OFFENSIVE ROLE":  "Scoring Wing",
-                     "EBY":  "82",
+                     "EBY":  "83",
                      "MADE":  "57",
                      "COMMITMENT":  "St. John\u0027s",
                      "RIVALS":  "57",
                      "INDUSTRY PRO":  "53.4",
                      "TEAM/HS":  "Overtime Elite",
-                     "EBY DIFF INDUSTRY":  "-30.75",
+                     "EBY DIFF INDUSTRY":  "-31.75",
                      "HEIGHT":  "6\u00276\"",
                      "PREP":  "62",
                      "PLAYER":  "Adam Oumiddoch",
-                     "CONSENSUS":  "58.2",
+                     "CONSENSUS":  "58.3",
                      "ESPN":  "39"
                  },
                  {
@@ -8143,17 +8140,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Chaser",
                      "OFFENSIVE ROLE":  "Movement Shooter",
-                     "EBY":  "83",
+                     "EBY":  "84",
                      "MADE":  "67",
                      "COMMITMENT":  "Nebraska",
                      "RIVALS":  "71",
                      "INDUSTRY PRO":  "82.6",
                      "TEAM/HS":  "Waukee Northwest",
-                     "EBY DIFF INDUSTRY":  "-5.25",
+                     "EBY DIFF INDUSTRY":  "-6.25",
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "102",
                      "PLAYER":  "Colin Rice",
-                     "CONSENSUS":  "82.7",
+                     "CONSENSUS":  "82.8",
                      "ESPN":  "94"
                  },
                  {
@@ -8161,17 +8158,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Combo Wing",
-                     "EBY":  "84",
+                     "EBY":  "85",
                      "MADE":  "59",
                      "COMMITMENT":  "Illinois",
                      "RIVALS":  "21",
                      "INDUSTRY PRO":  "58.8",
                      "TEAM/HS":  "Newman School (DOM)",
-                     "EBY DIFF INDUSTRY":  "-26.5",
+                     "EBY DIFF INDUSTRY":  "-27.5",
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "64",
                      "PLAYER":  "Lucas Morillo",
-                     "CONSENSUS":  "63.0",
+                     "CONSENSUS":  "63.2",
                      "ESPN":  "92"
                  },
                  {
@@ -8179,17 +8176,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
-                     "EBY":  "85",
+                     "EBY":  "86",
                      "MADE":  "",
                      "COMMITMENT":  "Marquette",
                      "RIVALS":  "106",
                      "INDUSTRY PRO":  "49.6",
                      "TEAM/HS":  "Lawrence Academy",
-                     "EBY DIFF INDUSTRY":  "-23",
+                     "EBY DIFF INDUSTRY":  "-24",
                      "HEIGHT":  "6\u00276\"",
                      "PREP":  "117",
                      "PLAYER":  "Alex Egbuonu",
-                     "CONSENSUS":  "75.0",
+                     "CONSENSUS":  "75.2",
                      "ESPN":  "65"
                  },
                  {
@@ -8197,7 +8194,7 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "86",
+                     "EBY":  "87",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -8207,7 +8204,7 @@
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "",
                      "PLAYER":  "Meissa Faye",
-                     "CONSENSUS":  "86.0",
+                     "CONSENSUS":  "87.0",
                      "ESPN":  ""
                  },
                  {
@@ -8215,17 +8212,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "???",
                      "OFFENSIVE ROLE":  "Scoring Guard",
-                     "EBY":  "87",
+                     "EBY":  "88",
                      "MADE":  "116",
                      "COMMITMENT":  "South Carolina",
                      "RIVALS":  "108",
                      "INDUSTRY PRO":  "73.6",
                      "TEAM/HS":  "Garfield Heights",
-                     "EBY DIFF INDUSTRY":  "-5.75",
+                     "EBY DIFF INDUSTRY":  "-6.75",
                      "HEIGHT":  "6\u00272\"",
                      "PREP":  "43",
                      "PLAYER":  "Marcus Johnson",
-                     "CONSENSUS":  "75.8",
+                     "CONSENSUS":  "76.0",
                      "ESPN":  "41"
                  },
                  {
@@ -8233,17 +8230,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Versatile Big",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "88",
+                     "EBY":  "89",
                      "MADE":  "80",
                      "COMMITMENT":  "VCU",
                      "RIVALS":  "44",
                      "INDUSTRY PRO":  "98.4",
                      "TEAM/HS":  "SPIRE Academy (Postgrad)",
-                     "EBY DIFF INDUSTRY":  "13.75",
+                     "EBY DIFF INDUSTRY":  "12.75",
                      "HEIGHT":  "6\u002710\"",
                      "PREP":  "85",
                      "PLAYER":  "Collin Ross",
-                     "CONSENSUS":  "96.7",
+                     "CONSENSUS":  "96.8",
                      "ESPN":  "150"
                  },
                  {
@@ -8251,17 +8248,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
-                     "EBY":  "89",
+                     "EBY":  "90",
                      "MADE":  "66",
                      "COMMITMENT":  "Stanford",
                      "RIVALS":  "78",
                      "INDUSTRY PRO":  "66.0",
                      "TEAM/HS":  "IMG Academy (CAN)",
-                     "EBY DIFF INDUSTRY":  "-21.75",
+                     "EBY DIFF INDUSTRY":  "-22.75",
                      "HEIGHT":  "6\u00276\"",
                      "PREP":  "61",
                      "PLAYER":  "Aziz Olajuwon",
-                     "CONSENSUS":  "69.8",
+                     "CONSENSUS":  "70.0",
                      "ESPN":  "61"
                  },
                  {
@@ -8269,7 +8266,7 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "90",
+                     "EBY":  "91",
                      "MADE":  "",
                      "COMMITMENT":  "Indiana",
                      "RIVALS":  "",
@@ -8279,7 +8276,7 @@
                      "HEIGHT":  "6\u00274\"",
                      "PREP":  "119",
                      "PLAYER":  "Prince Alexander Moody",
-                     "CONSENSUS":  "103.0",
+                     "CONSENSUS":  "103.3",
                      "ESPN":  "125"
                  },
                  {
@@ -8287,7 +8284,7 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "91",
+                     "EBY":  "92",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -8297,7 +8294,7 @@
                      "HEIGHT":  "7\u00271\"",
                      "PREP":  "",
                      "PLAYER":  "Amadou Seini",
-                     "CONSENSUS":  "91.0",
+                     "CONSENSUS":  "92.0",
                      "ESPN":  ""
                  },
                  {
@@ -8305,17 +8302,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
-                     "EBY":  "92",
+                     "EBY":  "93",
                      "MADE":  "105",
                      "COMMITMENT":  "LSU",
                      "RIVALS":  "86",
                      "INDUSTRY PRO":  "107.0",
                      "TEAM/HS":  "Villages Charter",
-                     "EBY DIFF INDUSTRY":  "11.75",
+                     "EBY DIFF INDUSTRY":  "10.75",
                      "HEIGHT":  "6\u00276\"",
                      "PREP":  "120",
                      "PLAYER":  "Herly Brutus",
-                     "CONSENSUS":  "104.5",
+                     "CONSENSUS":  "104.7",
                      "ESPN":  "88"
                  },
                  {
@@ -8323,17 +8320,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Skilled Forward",
-                     "EBY":  "93",
+                     "EBY":  "94",
                      "MADE":  "71",
                      "COMMITMENT":  "Iowa",
                      "RIVALS":  "73",
                      "INDUSTRY PRO":  "93.4",
                      "TEAM/HS":  "Camas",
-                     "EBY DIFF INDUSTRY":  "-2.25",
+                     "EBY DIFF INDUSTRY":  "-3.25",
                      "HEIGHT":  "6\u00278\"",
                      "PREP":  "104",
                      "PLAYER":  "Ethan Harris",
-                     "CONSENSUS":  "93.3",
+                     "CONSENSUS":  "93.5",
                      "ESPN":  "110"
                  },
                  {
@@ -8341,17 +8338,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Chaser",
                      "OFFENSIVE ROLE":  "Movement Shooter",
-                     "EBY":  "94",
+                     "EBY":  "95",
                      "MADE":  "133",
                      "COMMITMENT":  "Missouri",
                      "RIVALS":  "150",
                      "INDUSTRY PRO":  "104.0",
                      "TEAM/HS":  "The New School",
-                     "EBY DIFF INDUSTRY":  "16.5",
+                     "EBY DIFF INDUSTRY":  "15.5",
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "78",
                      "PLAYER":  "Aidan Chronister",
-                     "CONSENSUS":  "102.3",
+                     "CONSENSUS":  "102.5",
                      "ESPN":  "89"
                  },
                  {
@@ -8359,17 +8356,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Scoring Wing",
-                     "EBY":  "95",
+                     "EBY":  "96",
                      "MADE":  "55",
                      "COMMITMENT":  "Baylor",
                      "RIVALS":  "60",
                      "INDUSTRY PRO":  "44.6",
                      "TEAM/HS":  "TMI Episcopal",
-                     "EBY DIFF INDUSTRY":  "-52",
+                     "EBY DIFF INDUSTRY":  "-53",
                      "HEIGHT":  "6\u00276\"",
                      "PREP":  "51",
                      "PLAYER":  "Elijah Williams",
-                     "CONSENSUS":  "53.0",
+                     "CONSENSUS":  "53.2",
                      "ESPN":  "27"
                  },
                  {
@@ -8377,7 +8374,7 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Chaser",
                      "OFFENSIVE ROLE":  "Wing Handler",
-                     "EBY":  "96",
+                     "EBY":  "97",
                      "MADE":  "95",
                      "COMMITMENT":  "?",
                      "RIVALS":  "72",
@@ -8387,7 +8384,7 @@
                      "HEIGHT":  "6\u00276\"",
                      "PREP":  "",
                      "PLAYER":  "Felipe Minzer",
-                     "CONSENSUS":  "87.7",
+                     "CONSENSUS":  "88.0",
                      "ESPN":  ""
                  },
                  {
@@ -8395,17 +8392,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Scoring Guard",
-                     "EBY":  "97",
+                     "EBY":  "98",
                      "MADE":  "65",
                      "COMMITMENT":  "Cincinnati",
                      "RIVALS":  "49",
                      "INDUSTRY PRO":  "58.8",
                      "TEAM/HS":  "Long Island Lutheran",
-                     "EBY DIFF INDUSTRY":  "-37.5",
+                     "EBY DIFF INDUSTRY":  "-38.5",
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "56",
                      "PLAYER":  "Kayden Allen",
-                     "CONSENSUS":  "65.2",
+                     "CONSENSUS":  "65.3",
                      "ESPN":  "75"
                  },
                  {
@@ -8413,17 +8410,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Slasher",
-                     "EBY":  "98",
+                     "EBY":  "99",
                      "MADE":  "70",
                      "COMMITMENT":  "Providence",
                      "RIVALS":  "121",
                      "INDUSTRY PRO":  "67.8",
                      "TEAM/HS":  "SPIRE Academy",
-                     "EBY DIFF INDUSTRY":  "-26.5",
+                     "EBY DIFF INDUSTRY":  "-27.5",
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "53",
                      "PLAYER":  "Aiden Derkack",
-                     "CONSENSUS":  "72.8",
+                     "CONSENSUS":  "73.0",
                      "ESPN":  "48"
                  },
                  {
@@ -8431,17 +8428,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Scoring Wing",
-                     "EBY":  "99",
+                     "EBY":  "100",
                      "MADE":  "89",
                      "COMMITMENT":  "Indiana",
                      "RIVALS":  "62",
                      "INDUSTRY PRO":  "63.6",
                      "TEAM/HS":  "Bella Vista Prep",
-                     "EBY DIFF INDUSTRY":  "-39.75",
+                     "EBY DIFF INDUSTRY":  "-40.75",
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "81",
                      "PLAYER":  "Vaughn Karvala",
-                     "CONSENSUS":  "69.5",
+                     "CONSENSUS":  "69.7",
                      "ESPN":  "36"
                  },
                  {
@@ -8449,17 +8446,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Play Finishing Forward",
-                     "EBY":  "100",
+                     "EBY":  "101",
                      "MADE":  "78",
                      "COMMITMENT":  "Oklahoma",
                      "RIVALS":  "82",
                      "INDUSTRY PRO":  "71.4",
                      "TEAM/HS":  "Hale County",
-                     "EBY DIFF INDUSTRY":  "-25",
+                     "EBY DIFF INDUSTRY":  "-26",
                      "HEIGHT":  "6\u00278\"",
                      "PREP":  "57",
                      "PLAYER":  "Gage Mayfield",
-                     "CONSENSUS":  "76.2",
+                     "CONSENSUS":  "76.3",
                      "ESPN":  "69"
                  },
                  {
@@ -8467,17 +8464,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Scoring Forward",
-                     "EBY":  "101",
+                     "EBY":  "102",
                      "MADE":  "69",
                      "COMMITMENT":  "Pittsburgh",
                      "RIVALS":  "40",
                      "INDUSTRY PRO":  "52.2",
                      "TEAM/HS":  "IMG Academy",
-                     "EBY DIFF INDUSTRY":  "-52.75",
+                     "EBY DIFF INDUSTRY":  "-53.75",
                      "HEIGHT":  "6\u00278\"",
                      "PREP":  "68",
                      "PLAYER":  "Chase Foster",
-                     "CONSENSUS":  "60.3",
+                     "CONSENSUS":  "60.5",
                      "ESPN":  "47"
                  },
                  {
@@ -8485,7 +8482,7 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Low Activity",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "102",
+                     "EBY":  "103",
                      "MADE":  "113",
                      "COMMITMENT":  "Notre Dame",
                      "RIVALS":  "98",
@@ -8495,7 +8492,7 @@
                      "HEIGHT":  "6\u00272\"",
                      "PREP":  "72",
                      "PLAYER":  "Jonathan Sanderson",
-                     "CONSENSUS":  "102.4",
+                     "CONSENSUS":  "102.6",
                      "ESPN":  "66"
                  },
                  {
@@ -8503,17 +8500,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Chaser",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "103",
+                     "EBY":  "104",
                      "MADE":  "112",
                      "COMMITMENT":  "Texas",
                      "RIVALS":  "138",
                      "INDUSTRY PRO":  "112.6",
                      "TEAM/HS":  "Harvard Westlake",
-                     "EBY DIFF INDUSTRY":  "9",
+                     "EBY DIFF INDUSTRY":  "8",
                      "HEIGHT":  "6\u00273\"",
                      "PREP":  "115",
                      "PLAYER":  "Joe Sterling",
-                     "CONSENSUS":  "111.0",
+                     "CONSENSUS":  "111.2",
                      "ESPN":  "100"
                  },
                  {
@@ -8521,7 +8518,7 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "104",
+                     "EBY":  "105",
                      "MADE":  "128",
                      "COMMITMENT":  "Iowa State",
                      "RIVALS":  "",
@@ -8531,25 +8528,43 @@
                      "HEIGHT":  "6\u002711\"",
                      "PREP":  "70",
                      "PLAYER":  "Dorian Rinaldo-Komlan",
-                     "CONSENSUS":  "100.5",
+                     "CONSENSUS":  "100.8",
                      "ESPN":  ""
+                 },
+                 {
+                     "247":  "112",
+                     "TIER":  "6",
+                     "DEFENSIVE ROLE":  "Point-of-Attack",
+                     "OFFENSIVE ROLE":  "Combo Guard",
+                     "EBY":  "106",
+                     "MADE":  "",
+                     "COMMITMENT":  "Ole Miss",
+                     "RIVALS":  "",
+                     "INDUSTRY PRO":  "117.7",
+                     "TEAM/HS":  "Combine Academy/OTE",
+                     "EBY DIFF INDUSTRY":  "-46.75",
+                     "HEIGHT":  "6\u00272\"",
+                     "PREP":  "116",
+                     "PLAYER":  "Yohance Connor",
+                     "CONSENSUS":  "114.8",
+                     "ESPN":  "125"
                  },
                  {
                      "247":  "95",
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Chaser",
                      "OFFENSIVE ROLE":  "Movement Shooter",
-                     "EBY":  "105",
+                     "EBY":  "107",
                      "MADE":  "92",
                      "COMMITMENT":  "Oklahoma State",
                      "RIVALS":  "70",
                      "INDUSTRY PRO":  "71.8",
                      "TEAM/HS":  "Owasso",
-                     "EBY DIFF INDUSTRY":  "-28.25",
+                     "EBY DIFF INDUSTRY":  "-30.25",
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "52",
                      "PLAYER":  "Jalen Montonati",
-                     "CONSENSUS":  "77.3",
+                     "CONSENSUS":  "77.7",
                      "ESPN":  "50"
                  },
                  {
@@ -8557,17 +8572,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Scoring Forward",
-                     "EBY":  "106",
+                     "EBY":  "108",
                      "MADE":  "141",
                      "COMMITMENT":  "Wake Forest",
                      "RIVALS":  "45",
                      "INDUSTRY PRO":  "72.4",
                      "TEAM/HS":  "Family Faith Academy",
-                     "EBY DIFF INDUSTRY":  "-27.75",
+                     "EBY DIFF INDUSTRY":  "-29.75",
                      "HEIGHT":  "6\u00279\"",
                      "PREP":  "49",
                      "PLAYER":  "Gavin Placide",
-                     "CONSENSUS":  "78.0",
+                     "CONSENSUS":  "78.3",
                      "ESPN":  "60"
                  },
                  {
@@ -8575,7 +8590,7 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "",
                      "OFFENSIVE ROLE":  "",
-                     "EBY":  "107",
+                     "EBY":  "109",
                      "MADE":  "",
                      "COMMITMENT":  "Indiana",
                      "RIVALS":  "",
@@ -8593,7 +8608,7 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Paint Prescence",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "108",
+                     "EBY":  "110",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -8603,7 +8618,7 @@
                      "HEIGHT":  "6\u002710\"",
                      "PREP":  "",
                      "PLAYER":  "Ignas Stombergas",
-                     "CONSENSUS":  "108.0",
+                     "CONSENSUS":  "110.0",
                      "ESPN":  ""
                  },
                  {
@@ -8611,7 +8626,7 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Scoring Wing",
-                     "EBY":  "109",
+                     "EBY":  "111",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -8621,43 +8636,43 @@
                      "HEIGHT":  "6\u00276\"",
                      "PREP":  "",
                      "PLAYER":  "Louka Letailleur",
-                     "CONSENSUS":  "109.0",
+                     "CONSENSUS":  "111.0",
                      "ESPN":  ""
                  },
                  {
-                     "247":  "112",
+                     "247":  "115",
                      "TIER":  "6",
-                     "DEFENSIVE ROLE":  "Point-of-Attack",
-                     "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "110",
+                     "DEFENSIVE ROLE":  "Perimeter Disruptor",
+                     "OFFENSIVE ROLE":  "Slasher",
+                     "EBY":  "112",
                      "MADE":  "",
-                     "COMMITMENT":  "Ole Miss",
-                     "RIVALS":  "",
-                     "INDUSTRY PRO":  "117.7",
-                     "TEAM/HS":  "Combine Academy/OTE",
-                     "EBY DIFF INDUSTRY":  "-50.75",
-                     "HEIGHT":  "6\u00272\"",
-                     "PREP":  "116",
-                     "PLAYER":  "Yohance Connor",
-                     "CONSENSUS":  "115.8",
-                     "ESPN":  "125"
+                     "COMMITMENT":  "?",
+                     "RIVALS":  "103",
+                     "INDUSTRY PRO":  "92.3",
+                     "TEAM/HS":  "Wasatch Academy",
+                     "EBY DIFF INDUSTRY":  null,
+                     "HEIGHT":  "6\u00277\"",
+                     "PREP":  "88",
+                     "PLAYER":  "Chidi Nwigwe",
+                     "CONSENSUS":  "96.2",
+                     "ESPN":  "63"
                  },
                  {
                      "247":  "125",
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "111",
+                     "EBY":  "113",
                      "MADE":  "37",
                      "COMMITMENT":  "UCF",
                      "RIVALS":  "80",
                      "INDUSTRY PRO":  "70.0",
                      "TEAM/HS":  "Tennessee Collegiate Academy",
-                     "EBY DIFF INDUSTRY":  "-33.75",
+                     "EBY DIFF INDUSTRY":  "-35.75",
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "41",
                      "PLAYER":  "Christian Gibson",
-                     "CONSENSUS":  "76.8",
+                     "CONSENSUS":  "77.2",
                      "ESPN":  "67"
                  },
                  {
@@ -8665,7 +8680,7 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
-                     "EBY":  "112",
+                     "EBY":  "114",
                      "MADE":  "64",
                      "COMMITMENT":  "Michigan St.",
                      "RIVALS":  "79",
@@ -8675,7 +8690,7 @@
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "65",
                      "PLAYER":  "Julius Avent",
-                     "CONSENSUS":  "81.0",
+                     "CONSENSUS":  "81.3",
                      "ESPN":  "82"
                  },
                  {
@@ -8683,17 +8698,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "113",
+                     "EBY":  "115",
                      "MADE":  "132",
                      "COMMITMENT":  "NC State",
                      "RIVALS":  "100",
-                     "INDUSTRY PRO":  "",
+                     "INDUSTRY PRO":  "109.8",
                      "TEAM/HS":  "SoCal Academy",
                      "EBY DIFF INDUSTRY":  null,
                      "HEIGHT":  "6\u002711\"",
                      "PREP":  "105",
                      "PLAYER":  "Trevon Carter-Givens",
-                     "CONSENSUS":  "",
+                     "CONSENSUS":  "110.8",
                      "ESPN":  ""
                  },
                  {
@@ -8701,7 +8716,7 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Chaser",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "114",
+                     "EBY":  "116",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -8711,7 +8726,7 @@
                      "HEIGHT":  "6\u00273\"",
                      "PREP":  "",
                      "PLAYER":  "Joaquim Taboada",
-                     "CONSENSUS":  "114.0",
+                     "CONSENSUS":  "116.0",
                      "ESPN":  ""
                  },
                  {
@@ -8719,17 +8734,17 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Connector Big",
-                     "EBY":  "115",
+                     "EBY":  "117",
                      "MADE":  "99",
                      "COMMITMENT":  "Duke",
                      "RIVALS":  "77",
                      "INDUSTRY PRO":  "88.6",
                      "TEAM/HS":  "IMG Academy (CAN)",
-                     "EBY DIFF INDUSTRY":  "-19.25",
+                     "EBY DIFF INDUSTRY":  "-21.25",
                      "HEIGHT":  "7\u00272\"",
                      "PREP":  "60",
                      "PLAYER":  "Maxime Meyer",
-                     "CONSENSUS":  "93.0",
+                     "CONSENSUS":  "93.3",
                      "ESPN":  "125"
                  },
                  {
@@ -8737,7 +8752,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "",
                      "OFFENSIVE ROLE":  "",
-                     "EBY":  "116",
+                     "EBY":  "118",
                      "MADE":  "94",
                      "COMMITMENT":  "?",
                      "RIVALS":  "122",
@@ -8747,7 +8762,7 @@
                      "HEIGHT":  "6\u00273\"",
                      "PREP":  "175",
                      "PLAYER":  "Josiah Johnson",
-                     "CONSENSUS":  "142.8",
+                     "CONSENSUS":  "143.2",
                      "ESPN":  "150"
                  },
                  {
@@ -8755,17 +8770,17 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "117",
+                     "EBY":  "119",
                      "MADE":  "107",
                      "COMMITMENT":  "Florida St.",
                      "RIVALS":  "47",
                      "INDUSTRY PRO":  "56.4",
                      "TEAM/HS":  "Gilion Basketball Academy",
-                     "EBY DIFF INDUSTRY":  "-46.5",
+                     "EBY DIFF INDUSTRY":  "-48.5",
                      "HEIGHT":  "6\u002711\"",
                      "PREP":  "84",
                      "PLAYER":  "Marcis Ponder",
-                     "CONSENSUS":  "80.5",
+                     "CONSENSUS":  "80.8",
                      "ESPN":  "62"
                  },
                  {
@@ -8773,7 +8788,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "???",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "118",
+                     "EBY":  "120",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -8783,7 +8798,7 @@
                      "HEIGHT":  "6\u00273\"",
                      "PREP":  "",
                      "PLAYER":  "Tomslav Vuckovic",
-                     "CONSENSUS":  "118.0",
+                     "CONSENSUS":  "120.0",
                      "ESPN":  ""
                  },
                  {
@@ -8791,7 +8806,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Versatile Big",
                      "OFFENSIVE ROLE":  "Slasher",
-                     "EBY":  "119",
+                     "EBY":  "121",
                      "MADE":  "137",
                      "COMMITMENT":  "Maryland",
                      "RIVALS":  "94",
@@ -8801,7 +8816,7 @@
                      "HEIGHT":  "6\u00278\"",
                      "PREP":  "110",
                      "PLAYER":  "Adama Tambedou",
-                     "CONSENSUS":  "122.8",
+                     "CONSENSUS":  "123.2",
                      "ESPN":  "150"
                  },
                  {
@@ -8809,7 +8824,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Wing Handler",
-                     "EBY":  "120",
+                     "EBY":  "122",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -8819,7 +8834,7 @@
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "",
                      "PLAYER":  "Ian Lazerevski",
-                     "CONSENSUS":  "120.0",
+                     "CONSENSUS":  "122.0",
                      "ESPN":  ""
                  },
                  {
@@ -8827,17 +8842,17 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
-                     "EBY":  "121",
+                     "EBY":  "124",
                      "MADE":  "114",
                      "COMMITMENT":  "Wake Forest",
                      "RIVALS":  "58",
                      "INDUSTRY PRO":  "90.0",
                      "TEAM/HS":  "Family Faith Academy",
-                     "EBY DIFF INDUSTRY":  "-28.5",
+                     "EBY DIFF INDUSTRY":  "-31.5",
                      "HEIGHT":  "6\u00278\"",
                      "PREP":  "80",
                      "PLAYER":  "Gallagher Placide",
-                     "CONSENSUS":  "95.2",
+                     "CONSENSUS":  "95.7",
                      "ESPN":  "125"
                  },
                  {
@@ -8845,7 +8860,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "122",
+                     "EBY":  "125",
                      "MADE":  "147",
                      "COMMITMENT":  "Stanford",
                      "RIVALS":  "",
@@ -8855,7 +8870,7 @@
                      "HEIGHT":  "6\u00274\"",
                      "PREP":  "159",
                      "PLAYER":  "Elias Obenyah",
-                     "CONSENSUS":  "131.8",
+                     "CONSENSUS":  "132.5",
                      "ESPN":  ""
                  },
                  {
@@ -8863,7 +8878,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "???",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "124",
+                     "EBY":  "126",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -8873,7 +8888,7 @@
                      "HEIGHT":  "6\u00274\"",
                      "PREP":  "",
                      "PLAYER":  "Aleksandr Panasiuk",
-                     "CONSENSUS":  "124.0",
+                     "CONSENSUS":  "126.0",
                      "ESPN":  ""
                  },
                  {
@@ -8881,7 +8896,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "125",
+                     "EBY":  "127",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -8891,7 +8906,7 @@
                      "HEIGHT":  "6\u00274\"",
                      "PREP":  "",
                      "PLAYER":  "Karl Kouame",
-                     "CONSENSUS":  "125.0",
+                     "CONSENSUS":  "127.0",
                      "ESPN":  ""
                  },
                  {
@@ -8899,17 +8914,17 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "126",
+                     "EBY":  "128",
                      "MADE":  "106",
                      "COMMITMENT":  "High Point",
                      "RIVALS":  "125",
                      "INDUSTRY PRO":  "125.0",
                      "TEAM/HS":  "Pope John Paul II",
-                     "EBY DIFF INDUSTRY":  "-0.25",
+                     "EBY DIFF INDUSTRY":  "-2.25",
                      "HEIGHT":  "6\u00272\"",
                      "PREP":  "122",
                      "PLAYER":  "Trey Pearson",
-                     "CONSENSUS":  "125.2",
+                     "CONSENSUS":  "125.5",
                      "ESPN":  "150"
                  },
                  {
@@ -8917,7 +8932,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "???",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "127",
+                     "EBY":  "129",
                      "MADE":  "101",
                      "COMMITMENT":  "?",
                      "RIVALS":  "99",
@@ -8927,7 +8942,7 @@
                      "HEIGHT":  "6\u00270\"",
                      "PREP":  "98",
                      "PLAYER":  "Darius Bivens",
-                     "CONSENSUS":  "93.2",
+                     "CONSENSUS":  "93.5",
                      "ESPN":  "51"
                  },
                  {
@@ -8935,7 +8950,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Combo Wing",
-                     "EBY":  "128",
+                     "EBY":  "130",
                      "MADE":  "",
                      "COMMITMENT":  "Florida Atlantic",
                      "RIVALS":  "",
@@ -8945,7 +8960,7 @@
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "86",
                      "PLAYER":  "Felipe Quinones",
-                     "CONSENSUS":  "86.8",
+                     "CONSENSUS":  "87.2",
                      "ESPN":  "74"
                  },
                  {
@@ -8953,7 +8968,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "129",
+                     "EBY":  "131",
                      "MADE":  "119",
                      "COMMITMENT":  "Liberty",
                      "RIVALS":  "135",
@@ -8963,7 +8978,7 @@
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "121",
                      "PLAYER":  "Eli Sancomb",
-                     "CONSENSUS":  "121.7",
+                     "CONSENSUS":  "122.0",
                      "ESPN":  "125"
                  },
                  {
@@ -8971,7 +8986,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Scoring Wing",
-                     "EBY":  "130",
+                     "EBY":  "132",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -8981,7 +8996,7 @@
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "",
                      "PLAYER":  "Joao Gluck",
-                     "CONSENSUS":  "130.0",
+                     "CONSENSUS":  "132.0",
                      "ESPN":  ""
                  },
                  {
@@ -8989,7 +9004,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Combo Wing",
-                     "EBY":  "131",
+                     "EBY":  "133",
                      "MADE":  "122",
                      "COMMITMENT":  "Saint Mary\u0027s",
                      "RIVALS":  "130",
@@ -8999,7 +9014,7 @@
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "160",
                      "PLAYER":  "JRob Croy",
-                     "CONSENSUS":  "132.8",
+                     "CONSENSUS":  "133.2",
                      "ESPN":  ""
                  },
                  {
@@ -9007,7 +9022,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Scoring Guard",
-                     "EBY":  "132",
+                     "EBY":  "134",
                      "MADE":  "",
                      "COMMITMENT":  "Nebraska",
                      "RIVALS":  "127",
@@ -9017,7 +9032,7 @@
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "101",
                      "PLAYER":  "Jacob Lanier",
-                     "CONSENSUS":  "107.8",
+                     "CONSENSUS":  "108.2",
                      "ESPN":  "86"
                  },
                  {
@@ -9025,7 +9040,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "133",
+                     "EBY":  "135",
                      "MADE":  "",
                      "COMMITMENT":  "",
                      "RIVALS":  "",
@@ -9035,7 +9050,7 @@
                      "HEIGHT":  "6\u002711\"",
                      "PREP":  "",
                      "PLAYER":  "David Ugonna Ike",
-                     "CONSENSUS":  "133.0",
+                     "CONSENSUS":  "135.0",
                      "ESPN":  ""
                  },
                  {
@@ -9043,17 +9058,17 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "134",
+                     "EBY":  "136",
                      "MADE":  "45",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
                      "INDUSTRY PRO":  "45.0",
                      "TEAM/HS":  "Ratiopharm Ulm (NED)",
-                     "EBY DIFF INDUSTRY":  "-122.75",
+                     "EBY DIFF INDUSTRY":  "-124.75",
                      "HEIGHT":  "6\u002711\"",
                      "PREP":  "",
                      "PLAYER":  "Endurance Aiyamenkhue",
-                     "CONSENSUS":  "89.5",
+                     "CONSENSUS":  "90.5",
                      "ESPN":  ""
                  },
                  {
@@ -9061,7 +9076,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Stretch Forward",
-                     "EBY":  "135",
+                     "EBY":  "137",
                      "MADE":  "129",
                      "COMMITMENT":  "Ohio State",
                      "RIVALS":  "97",
@@ -9071,7 +9086,7 @@
                      "HEIGHT":  "6\u00278\"",
                      "PREP":  "79",
                      "PLAYER":  "Alex Smith",
-                     "CONSENSUS":  "114.0",
+                     "CONSENSUS":  "114.3",
                      "ESPN":  "125"
                  },
                  {
@@ -9079,7 +9094,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Slasher",
-                     "EBY":  "136",
+                     "EBY":  "138",
                      "MADE":  "62",
                      "COMMITMENT":  "Northwestern",
                      "RIVALS":  "81",
@@ -9089,7 +9104,7 @@
                      "HEIGHT":  "6\u00276\"",
                      "PREP":  "67",
                      "PLAYER":  "Jayden Hodge",
-                     "CONSENSUS":  "85.3",
+                     "CONSENSUS":  "85.7",
                      "ESPN":  "81"
                  },
                  {
@@ -9097,17 +9112,17 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Movement Shooter",
-                     "EBY":  "137",
+                     "EBY":  "139",
                      "MADE":  "140",
                      "COMMITMENT":  "Kansas",
                      "RIVALS":  "115",
                      "INDUSTRY PRO":  "128.6",
                      "TEAM/HS":  "Mater Dei",
-                     "EBY DIFF INDUSTRY":  "-7.75",
+                     "EBY DIFF INDUSTRY":  "-9.75",
                      "HEIGHT":  "6\u00273\"",
                      "PREP":  "126",
                      "PLAYER":  "Luke Barnett",
-                     "CONSENSUS":  "130.0",
+                     "CONSENSUS":  "130.3",
                      "ESPN":  "125"
                  },
                  {
@@ -9115,7 +9130,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
-                     "EBY":  "138",
+                     "EBY":  "140",
                      "MADE":  "102",
                      "COMMITMENT":  "Kansas",
                      "RIVALS":  "142",
@@ -9125,7 +9140,7 @@
                      "HEIGHT":  "6\u00274\"",
                      "PREP":  "114",
                      "PLAYER":  "Trent Perry",
-                     "CONSENSUS":  "133.0",
+                     "CONSENSUS":  "133.4",
                      "ESPN":  "78"
                  },
                  {
@@ -9133,17 +9148,17 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "139",
+                     "EBY":  "141",
                      "MADE":  "124",
                      "COMMITMENT":  "Georgia Tech",
                      "RIVALS":  "136",
                      "INDUSTRY PRO":  "121.6",
                      "TEAM/HS":  "Santa Margarita Catholic",
-                     "EBY DIFF INDUSTRY":  "-12",
+                     "EBY DIFF INDUSTRY":  "-14",
                      "HEIGHT":  "6\u00272\"",
                      "PREP":  "100",
                      "PLAYER":  "Kaiden Bailey",
-                     "CONSENSUS":  "124.5",
+                     "CONSENSUS":  "124.8",
                      "ESPN":  "125"
                  },
                  {
@@ -9151,7 +9166,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "140",
+                     "EBY":  "142",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "123",
@@ -9161,7 +9176,7 @@
                      "HEIGHT":  "6\u00272\"",
                      "PREP":  "",
                      "PLAYER":  "Mason Williams",
-                     "CONSENSUS":  "123.0",
+                     "CONSENSUS":  "123.7",
                      "ESPN":  ""
                  },
                  {
@@ -9169,7 +9184,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "141",
+                     "EBY":  "143",
                      "MADE":  "",
                      "COMMITMENT":  "Stanford",
                      "RIVALS":  "",
@@ -9179,7 +9194,7 @@
                      "HEIGHT":  "6\u00272\"",
                      "PREP":  "",
                      "PLAYER":  "Julius Price",
-                     "CONSENSUS":  "114.5",
+                     "CONSENSUS":  "115.5",
                      "ESPN":  ""
                  },
                  {
@@ -9187,7 +9202,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "???",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "142",
+                     "EBY":  "144",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -9197,7 +9212,7 @@
                      "HEIGHT":  "6\u00272\"",
                      "PREP":  "",
                      "PLAYER":  "Patrick Hassan",
-                     "CONSENSUS":  "142.0",
+                     "CONSENSUS":  "144.0",
                      "ESPN":  ""
                  },
                  {
@@ -9205,7 +9220,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "143",
+                     "EBY":  "145",
                      "MADE":  "126",
                      "COMMITMENT":  "Stanford",
                      "RIVALS":  "129",
@@ -9215,7 +9230,7 @@
                      "HEIGHT":  "6\u00272\"",
                      "PREP":  "127",
                      "PLAYER":  "Slim Rogers",
-                     "CONSENSUS":  "126.2",
+                     "CONSENSUS":  "126.5",
                      "ESPN":  "125"
                  },
                  {
@@ -9223,7 +9238,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Play Finishing Forward",
-                     "EBY":  "144",
+                     "EBY":  "146",
                      "MADE":  "125",
                      "COMMITMENT":  "George Mason",
                      "RIVALS":  "96",
@@ -9233,7 +9248,7 @@
                      "HEIGHT":  "6\u00278\"",
                      "PREP":  "148",
                      "PLAYER":  "Shane Pendergrass",
-                     "CONSENSUS":  "130.6",
+                     "CONSENSUS":  "131.0",
                      "ESPN":  ""
                  },
                  {
@@ -9241,7 +9256,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "145",
+                     "EBY":  "147",
                      "MADE":  "142",
                      "COMMITMENT":  "Georgia Tech",
                      "RIVALS":  "83",
@@ -9251,7 +9266,7 @@
                      "HEIGHT":  "6\u002710\"",
                      "PREP":  "83",
                      "PLAYER":  "Moustapha Diop",
-                     "CONSENSUS":  "114.7",
+                     "CONSENSUS":  "115.0",
                      "ESPN":  "125"
                  },
                  {
@@ -9577,24 +9592,6 @@
                      "PLAYER":  "Darien Moore",
                      "CONSENSUS":  "126.0",
                      "ESPN":  ""
-                 },
-                 {
-                     "247":  "115",
-                     "TIER":  "",
-                     "DEFENSIVE ROLE":  "Perimeter Disruptor",
-                     "OFFENSIVE ROLE":  "Slasher",
-                     "EBY":  "",
-                     "MADE":  "",
-                     "COMMITMENT":  "?",
-                     "RIVALS":  "103",
-                     "INDUSTRY PRO":  "92.3",
-                     "TEAM/HS":  "Wasatch Academy",
-                     "EBY DIFF INDUSTRY":  null,
-                     "HEIGHT":  "6\u00277\"",
-                     "PREP":  "88",
-                     "PLAYER":  "Chidi Nwigwe",
-                     "CONSENSUS":  "92.3",
-                     "ESPN":  "63"
                  },
                  {
                      "247":  "116",
