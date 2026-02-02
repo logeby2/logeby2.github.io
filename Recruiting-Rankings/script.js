@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'Tajh Ariza', 'Aziz Olajuwon', 'Lucas Morillo', 'Sinan Huan', 'Adama Tambedou', 'Moustapha Diop', 'Mathias Vazquez', 'Cherif Millongo', 'Mahamadou Diop', 'Liam Mitakaro',
             'Herbert Wekem Agamba', 'Chudier Diew Yak', 'Kiir Nang', 'Mamadou Issa Sow', 'Mapak Majak Machar', 'Turic Chol Gol', 'Flory Kuminga', 'Benjamin Berrouet',
             'Koang Bol Kuany', 'Stefan Ilic', 'Zhenhe Liu', 'Alex Constanza',
-            'Gan-Erdne Solongo', 'Dorian Rinaldo-Komlan', 'Aliou Dioum'
+            'Gan-Erdne Solongo', 'Dorian Rinaldo-Komlan', 'Aliou Dioum', 'Symon Ghai'
         ];
 
         if (teamHsString) {
