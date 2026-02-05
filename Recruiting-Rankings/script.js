@@ -61,7 +61,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'Tajh Ariza', 'Aziz Olajuwon', 'Lucas Morillo', 'Sinan Huan', 'Adama Tambedou', 'Moustapha Diop', 'Mathias Vazquez', 'Cherif Millongo', 'Mahamadou Diop', 'Liam Mitakaro',
             'Herbert Wekem Agamba', 'Chudier Diew Yak', 'Kiir Nang', 'Mamadou Issa Sow', 'Mapak Majak Machar', 'Turic Chol Gol', 'Flory Kuminga', 'Benjamin Berrouet',
             'Koang Bol Kuany', 'Stefan Ilic', 'Zhenhe Liu', 'Alex Constanza',
-            'Gan-Erdne Solongo', 'Dorian Rinaldo-Komlan', 'Aliou Dioum', 'Symon Ghai'
+            'Gan-Erdne Solongo', 'Dorian Rinaldo-Komlan', 'Aliou Dioum', 'Symon Ghai',
+            'Baboucarr Ann', 'JJ Watts'
         ];
 
         if (teamHsString) {
@@ -87,7 +88,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         'URU': 'uy', 'PUR': 'pr', 'ARG': 'ar', 'CHN': 'cn', 'GIN': 'gn', 'GUI': 'gn', 'BUR': 'bf',
                         'CZA': 'cz', 'CZE': 'cz', 'BIH': 'ba', 'POR': 'pt', 'AUT': 'at',
                         'JPN': 'jp', 'DOM': 'do', 'POL': 'pl', 'COD': 'cd', 'BFA': 'bf', 'GHA': 'gh', 'ISR': 'il', 'NZL': 'nz',
-                        'IND': 'in', 'VEN': 've', 'UKR': 'ua', 'MNE': 'me', 'DEU': 'de', 'MNG': 'mn'
+                        'IND': 'in', 'VEN': 've', 'UKR': 'ua', 'MNE': 'me', 'DEU': 'de', 'MNG': 'mn',
+                        'GMB': 'gm', 'BAH': 'bs'
                     };
                     flag = `https://flagcdn.com/20x15/${countryMap[code] || 'us'}.png`;
                 }
