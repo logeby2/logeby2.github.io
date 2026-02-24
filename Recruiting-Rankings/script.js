@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'Herbert Wekem Agamba', 'Chudier Diew Yak', 'Kiir Nang', 'Mamadou Issa Sow', 'Mapak Majak Machar', 'Turic Chol Gol', 'Flory Kuminga', 'Benjamin Berrouet',
             'Koang Bol Kuany', 'Stefan Ilic', 'Zhenhe Liu', 'Alex Constanza',
             'Gan-Erdne Solongo', 'Dorian Rinaldo-Komlan', 'Aliou Dioum', 'Symon Ghai',
-            'Baboucarr Ann', 'JJ Watts', 'Maximo Adams'
+            'Baboucarr Ann', 'JJ Watts', 'Maximo Adams', 'Anderson Diaz', 'Gene Roebuck'
         ];
 
         if (teamHsString) {
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         'CZA': 'cz', 'CZE': 'cz', 'BIH': 'ba', 'POR': 'pt', 'AUT': 'at',
                         'JPN': 'jp', 'DOM': 'do', 'POL': 'pl', 'COD': 'cd', 'BFA': 'bf', 'GHA': 'gh', 'ISR': 'il', 'NZL': 'nz',
                         'IND': 'in', 'VEN': 've', 'UKR': 'ua', 'MNE': 'me', 'DEU': 'de', 'MNG': 'mn',
-                        'GMB': 'gm', 'BAH': 'bs'
+                        'GMB': 'gm', 'BAH': 'bs', 'HON': 'hn', 'HND': 'hn'
                     };
                     flag = `https://flagcdn.com/20x15/${countryMap[code] || 'us'}.png`;
                 }

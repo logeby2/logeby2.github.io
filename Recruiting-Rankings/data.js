@@ -2798,7 +2798,7 @@
                      "RIVALS":  "32",
                      "UNKNOWN_15":  "",
                      "INDUSTRY PRO":  "28.2",
-                     "TEAM/HS":  "Overtime Elite",
+                     "TEAM/HS":  "Overtime Elite (DOM)",
                      "HEIGHT":  "6\u00271\"",
                      "PREP":  "39",
                      "PLAYER":  "Anderson Diaz",
