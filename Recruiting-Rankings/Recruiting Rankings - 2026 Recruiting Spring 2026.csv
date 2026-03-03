@@ -6,7 +6,7 @@ TIER,PLAYER,TEAM/HS,COMMITMENT,OFFENSIVE ROLE,DEFENSIVE ROLE,HEIGHT,RIVALS,247,P
 3,Jordan Smith Jr.,St. Paul IV,Arkansas,Combo Guard,Perimeter Disruptor,"6'2""",6,2,3,2,6,5,4.0,3.8,-1
 3,Caleb Holt,Prolific Prep,?,Scoring Wing,Perimeter Stopper,"6'7""",4,4,4,4,8,6,5.0,4.8,-1
 3,Brandon McCoy,Sierra Canyon,?,Combo Wing,Perimeter Disruptor,"6'5""",12,14,10,18,7,7,11.3,12.2,5.75
-3,Bruce Branch III,Prolific Prep,?,Scoring Wing,Perimeter Stopper,"6'7""",13,6,7,6,2,8,8.4,6.8,-1.25
+3,Bruce Branch III,Prolific Prep,BYU,Scoring Wing,Perimeter Stopper,"6'7""",13,6,7,6,2,8,8.4,6.8,-1.25
 3,Cameron Williams,St. Mary's,Duke,Skilled Big,Versatile Big,"6'11""",5,3,6,3,9,9,5.8,5.2,-4
 3,Hugo Yimga Mourkouri,Nantarre 92 (FRA),?,Scoring Wing,Perimeter Stopper,"6'6""",,,,,14,10,12.0,14.0,-6.5
 3,Christian Collins,St. John Bosco,?,Play Finishing Forward,Versatile Big,"6'9""",3,9,8,5,17,11,8.8,8.4,-2.5
@@ -172,7 +172,7 @@ TIER,PLAYER,TEAM/HS,COMMITMENT,OFFENSIVE ROLE,DEFENSIVE ROLE,HEIGHT,RIVALS,247,P
 ,Gan-Erdne Solongo,La Lumiere (MNG),Notre Dame,Play Finishing Big,Rim Protector,"7'0""",106,,122,,88,,105.3,105.3,
 ,Jackson Sheffield,Hoover,Vanderbilt,Play Finishing Big,Paint Prescence,"6'9""",101,138,123,95,121,,115.6,115.6,
 ,Will Stevens,Davidson Day,Clemson,,,"6'9""",116,142,124,,68,,112.5,90.0,
-,Manu Manciel,Wasatch Academy,Steven F. Austin,Combo Guard,Perimeter Stopper,"6'4""",,,125,,,,,,
+,Manu Manciel,Wasatch Academy,Stephen F. Austin,Combo Guard,Perimeter Stopper,"6'4""",,,125,,,,,,
 ,Jalan Wingfield,Tri-Cities,Georgia Tech,Play Finishing Big,Helper,"6'8""",,104,133,,,,118.5,118.5,
 ,Joseph Hartman,The Rock School,Michigan,Combo Wing,Perimeter Stopper,"6'6""",65,92,137,91,104,,97.8,97.8,
 ,Steven Reynolds,Arlington Martin,?,,,"6'5""",,126,140,,,,133.0,133.0,
