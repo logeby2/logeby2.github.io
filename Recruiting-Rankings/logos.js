@@ -113,6 +113,9 @@ const TEAM_LOGOS = {
     "St. John's": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
     "Oklahoma State": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
     "Texas A&M": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+    "Arizona State": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
+    "Steven F. Austin": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png",
+    "Stephen F. Austin": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png",
 
     "UNF": "https://a.espncdn.com/i/teamlogos/ncaa/500/2454.png",
     "Oregon State Beavers": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
