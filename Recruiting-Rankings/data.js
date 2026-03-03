@@ -1620,7 +1620,7 @@
                      "RIVALS":  "59",
                      "UNKNOWN_15":  "",
                      "UNKNOWN_16":  "",
-                     "TEAM/HS":  "Winston Salem Christian School",
+                     "TEAM/HS":  "Winston Salem Christian (CAN)",
                      "HEIGHT":  "6\u00272\"",
                      "PREP":  "",
                      "PLAYER":  "Kenyon St. Louis",
