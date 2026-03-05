@@ -8009,7 +8009,7 @@
                      "OFFENSIVE ROLE":  "Slasher",
                      "EBY":  "31",
                      "MADE":  "22",
-                     "COMMITMENT":  "?",
+                     "COMMITMENT":  "Alabama",
                      "RIVALS":  "61",
                      "INDUSTRY PRO":  "29.2",
                      "TEAM/HS":  "Southeastern Prep",
