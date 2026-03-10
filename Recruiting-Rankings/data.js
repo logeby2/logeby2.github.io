@@ -7577,7 +7577,7 @@
                      "OFFENSIVE ROLE":  "Scoring Wing",
                      "EBY":  "6",
                      "MADE":  "8",
-                     "COMMITMENT":  "?",
+                     "COMMITMENT":  "Arizona",
                      "RIVALS":  "4",
                      "INDUSTRY PRO":  "4.8",
                      "TEAM/HS":  "Prolific Prep",
