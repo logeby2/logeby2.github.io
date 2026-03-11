@@ -46,9 +46,12 @@ document.addEventListener('DOMContentLoaded', () => {
         let flag = `https://flagcdn.com/20x15/us.png`;
         let isInternational = false;
 
+        // Normalize playerName (remove newlines and extra whitespace)
+        const normalizedPlayerName = playerName ? playerName.replace(/\r?\n|\r/g, ' ').replace(/\s+/g, ' ').trim() : '';
+
         // Exception List for players who should count as International despite invalid/USA code
         const forcedInternational = ['Rhys Robinson', 'Joaquim Boumtje Boumtje', 'Demario Mayfield Jr.'];
-        if (forcedInternational.includes(playerName)) {
+        if (forcedInternational.includes(normalizedPlayerName)) {
             isInternational = true;
         }
 
@@ -62,39 +65,46 @@ document.addEventListener('DOMContentLoaded', () => {
             'Herbert Wekem Agamba', 'Chudier Diew Yak', 'Kiir Nang', 'Mamadou Issa Sow', 'Mapak Majak Machar', 'Turic Chol Gol', 'Flory Kuminga', 'Benjamin Berrouet',
             'Koang Bol Kuany', 'Stefan Ilic', 'Zhenhe Liu', 'Alex Constanza',
             'Gan-Erdne Solongo', 'Dorian Rinaldo-Komlan', 'Aliou Dioum', 'Symon Ghai',
-            'Baboucarr Ann', 'JJ Watts', 'Maximo Adams', 'Anderson Diaz', 'Gene Roebuck', 'Yohane Kabongo', 'Dionycius Bakare', 'Jeremy Gohier', 'Settima Yugo', 'Kenyon St. Louis'
+            'Baboucarr Ann', 'JJ Watts', 'Maximo Adams', 'Anderson Diaz', 'Gene Roebuck', 'Yohane Kabongo', 'Dionycius Bakare', 'Jeremy Gohier', 'Settima Yugo', 'Kenyon St. Louis', 'Lewis Uvwo', 'Sekou Cisse', 'Ahmed Nur'
         ];
 
-        if (teamHsString) {
-            const match = teamHsString.match(/\(([A-Z]{3})\)/);
-            if (match) {
-                const code = match[1];
-                if (code !== 'USA') {
-                    isInternational = true;
-                    // Start Override: if in forcedUSA, treat as not international
-                    if (forcedUSA.includes(playerName)) {
-                        isInternational = false;
-                    }
+        const searchString = `${teamHsString || ''} ${playerName || ''}`;
+        const match = searchString.match(/\(([A-Z]{3})\)/);
 
-                    // Map 3 letter IOC codes to 2 letter ISO codes for flagcdn
-                    const countryMap = {
-                        'FRA': 'fr', 'ESP': 'es', 'ITA': 'it', 'LTU': 'lt',
-                        'SRB': 'rs', 'RUS': 'ru', 'CAN': 'ca', 'AUS': 'au',
-                        'GER': 'de', 'SEN': 'sn', 'CMR': 'cm', 'SSD': 'ss',
-                        'CIV': 'ci', 'BEL': 'be',
-                        'MLI': 'ml', 'LAT': 'lv', 'SLO': 'si', 'NED': 'nl',
-                        'FIN': 'fi', 'BRA': 'br', 'GEO': 'ge', 'SUI': 'ch',
-                        'TUR': 'tr', 'GRE': 'gr', 'NGA': 'ng', 'CRO': 'hr', 'DEN': 'dk',
-                        'URU': 'uy', 'PUR': 'pr', 'ARG': 'ar', 'CHN': 'cn', 'GIN': 'gn', 'GUI': 'gn', 'BUR': 'bf',
-                        'CZA': 'cz', 'CZE': 'cz', 'BIH': 'ba', 'POR': 'pt', 'AUT': 'at',
-                        'JPN': 'jp', 'DOM': 'do', 'POL': 'pl', 'COD': 'cd', 'BFA': 'bf', 'GHA': 'gh', 'ISR': 'il', 'NZL': 'nz',
-                        'IND': 'in', 'VEN': 've', 'UKR': 'ua', 'MNE': 'me', 'DEU': 'de', 'MNG': 'mn',
-                        'GMB': 'gm', 'BAH': 'bs', 'HON': 'hn', 'HND': 'hn'
-                    };
-                    flag = `https://flagcdn.com/20x15/${countryMap[code] || 'us'}.png`;
+        if (match) {
+            const code = match[1];
+            if (code !== 'USA') {
+                isInternational = true;
+                // Start Override: if in forcedUSA, treat as not international
+                if (forcedUSA.includes(normalizedPlayerName)) {
+                    isInternational = false;
                 }
+
+                // Map 3 letter IOC codes to 2 letter ISO codes for flagcdn
+                const countryMap = {
+                    'FRA': 'fr', 'ESP': 'es', 'ITA': 'it', 'LTU': 'lt',
+                    'SRB': 'rs', 'RUS': 'ru', 'CAN': 'ca', 'AUS': 'au',
+                    'GER': 'de', 'SEN': 'sn', 'CMR': 'cm', 'SSD': 'ss',
+                    'CIV': 'ci', 'BEL': 'be',
+                    'MLI': 'ml', 'LAT': 'lv', 'SLO': 'si', 'NED': 'nl',
+                    'FIN': 'fi', 'BRA': 'br', 'GEO': 'ge', 'SUI': 'ch',
+                    'TUR': 'tr', 'GRE': 'gr', 'NGA': 'ng', 'NGE': 'ng', 'CRO': 'hr', 'DEN': 'dk',
+                    'URU': 'uy', 'PUR': 'pr', 'ARG': 'ar', 'CHN': 'cn', 'GIN': 'gn', 'GUI': 'gn', 'BUR': 'bf',
+                    'CZA': 'cz', 'CZE': 'cz', 'BIH': 'ba', 'POR': 'pt', 'AUT': 'at',
+                    'JPN': 'jp', 'DOM': 'do', 'POL': 'pl', 'COD': 'cd', 'BFA': 'bf', 'GHA': 'gh', 'ISR': 'il', 'NZL': 'nz',
+                    'IND': 'in', 'VEN': 've', 'UKR': 'ua', 'MNE': 'me', 'DEU': 'de', 'MNG': 'mn',
+                    'GMB': 'gm', 'BAH': 'bs', 'HON': 'hn', 'HND': 'hn', 'SOM': 'so'
+                };
+                flag = `https://flagcdn.com/20x15/${countryMap[code] || 'us'}.png`;
             }
         }
+
+        // Specific override for Ahmed Nur (Somalia flag, HS ranking)
+        if (normalizedPlayerName === 'Ahmed Nur') {
+            flag = `https://flagcdn.com/20x15/so.png`;
+            isInternational = false;
+        }
+
         return { flag, isInternational };
     }
 
