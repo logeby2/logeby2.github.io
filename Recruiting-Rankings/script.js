@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'Herbert Wekem Agamba', 'Chudier Diew Yak', 'Kiir Nang', 'Mamadou Issa Sow', 'Mapak Majak Machar', 'Turic Chol Gol', 'Flory Kuminga', 'Benjamin Berrouet',
             'Koang Bol Kuany', 'Stefan Ilic', 'Zhenhe Liu', 'Alex Constanza',
             'Gan-Erdne Solongo', 'Dorian Rinaldo-Komlan', 'Aliou Dioum', 'Symon Ghai',
-            'Baboucarr Ann', 'JJ Watts', 'Maximo Adams', 'Anderson Diaz', 'Gene Roebuck', 'Yohane Kabongo', 'Dionycius Bakare', 'Jeremy Gohier', 'Settima Yugo', 'Kenyon St. Louis', 'Lewis Uvwo', 'Sekou Cisse', 'Ahmed Nur'
+            'Baboucarr Ann', 'JJ Watts', 'Maximo Adams', 'Anderson Diaz', 'Gene Roebuck', 'Yohane Kabongo', 'Dionycius Bakare', 'Jeremy Gohier', 'Settima Yugo', 'Kenyon St. Louis', 'Lewis Uvwo', 'Sekou Cisse', 'Ahmed Nur', 'K\'Nard Callendar'
         ];
 
         const searchString = `${teamHsString || ''} ${playerName || ''}`;
@@ -102,6 +102,12 @@ document.addEventListener('DOMContentLoaded', () => {
         // Specific override for Ahmed Nur (Somalia flag, HS ranking)
         if (normalizedPlayerName === 'Ahmed Nur') {
             flag = `https://flagcdn.com/20x15/so.png`;
+            isInternational = false;
+        }
+
+        // Specific override for K'Nard Callendar (US Virgin Islands flag, HS ranking)
+        if (normalizedPlayerName === 'K\'Nard Callendar') {
+            flag = `https://flagcdn.com/20x15/vi.png`;
             isInternational = false;
         }
 
