@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'Herbert Wekem Agamba', 'Chudier Diew Yak', 'Kiir Nang', 'Mamadou Issa Sow', 'Mapak Majak Machar', 'Turic Chol Gol', 'Flory Kuminga', 'Benjamin Berrouet',
             'Koang Bol Kuany', 'Stefan Ilic', 'Zhenhe Liu', 'Alex Constanza',
             'Gan-Erdne Solongo', 'Dorian Rinaldo-Komlan', 'Aliou Dioum', 'Symon Ghai',
-            'Baboucarr Ann', 'JJ Watts', 'Maximo Adams', 'Anderson Diaz', 'Gene Roebuck', 'Yohane Kabongo', 'Dionycius Bakare', 'Jeremy Gohier', 'Settima Yugo', 'Kenyon St. Louis', 'Lewis Uvwo', 'Sekou Cisse', 'Ahmed Nur', 'K\'Nard Callendar'
+            'Baboucarr Ann', 'JJ Watts', 'Maximo Adams', 'Anderson Diaz', 'Gene Roebuck', 'Yohane Kabongo', 'Dionycius Bakare', 'Jeremy Gohier', 'Settima Yugo', 'Kenyon St. Louis', 'Lewis Uvwo', 'Sekou Cisse', 'Ahmed Nur', 'K\'Nard Callendar', 'Ethan Mgbako'
         ];
 
         const searchString = `${teamHsString || ''} ${playerName || ''}`;
@@ -113,6 +113,12 @@ document.addEventListener('DOMContentLoaded', () => {
             isInternational = false;
         }
 
+        // Specific override for Ethan Mgbako (Haitian flag, HS ranking)
+        if (normalizedPlayerName === 'Ethan Mgbako') {
+            flag = `https://flagcdn.com/20x15/ht.png`;
+            isInternational = false;
+        }
+
         return { flag, isInternational };
     }
 
@@ -120,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function getConference(teamName) {
         if (!teamName || teamName === '?' || teamName === '') return 'Uncommitted';
 
-        const acc = ['Duke', 'UNC', 'Miami', 'Florida St.', 'Virginia', 'Wake Forest', 'Syracuse', 'Pittsburgh', 'Pittsburg', 'Clemson', 'Louisville', 'Notre Dame', 'Georgia Tech', 'Stanford', 'Boston College', 'Cal', 'SMU'];
+        const acc = ['Duke', 'UNC', 'Miami', 'Florida St.', 'Virginia', 'Wake Forest', 'Syracuse', 'Pittsburgh', 'Pittsburg', 'Clemson', 'Louisville', 'Notre Dame', 'Georgia Tech', 'Stanford', 'Boston College', 'Cal', 'SMU', 'NC State'];
         const sec = ['Kentucky', 'Alabama', 'Auburn', 'Arkansas', 'Tennessee', 'Florida', 'Texas', 'Oklahoma', 'Texas A&M', 'LSU', 'Missouri', 'Ole Miss', 'Mississippi State', 'South Carolina', 'Vanderbilt', 'Georgia'];
         const bigTen = ['Michigan St.', 'Michigan', 'Purdue', 'Indiana', 'Illinois', 'Ohio State', 'Maryland', 'Rutgers', 'UCLA', 'USC', 'Oregon', 'Washington', 'Iowa', 'Nebraska', 'Northwestern', 'Wisconsin', 'Minnesota', 'Penn State'];
         const big12 = ['Kansas', 'Baylor', 'Houston', 'Arizona', 'Arizona State', 'Iowa State', 'Texas Tech', 'West Virginia', 'Cincinnati', 'BYU', 'UCF', 'Oklahoma State', 'Kansas State', 'TCU', 'Utah', 'Colorado'];
