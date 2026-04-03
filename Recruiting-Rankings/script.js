@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const regionFilterSelect = document.getElementById('region-filter');
     const offensiveRoleSelect = document.getElementById('offensive-role-filter');
     const defensiveRoleSelect = document.getElementById('defensive-role-filter');
+    const conferenceFilterSelect = document.getElementById('conference-filter');
     const searchInput = document.getElementById('search-input');
 
     let playersData = [];
@@ -11,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentRegion = '';
     let currentOffensiveRole = '';
     let currentDefensiveRole = '';
+    let currentConference = '';
     let currentSearch = '';
 
     // Helper to parse Height to inches for sorting/logic
@@ -112,6 +114,28 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         return { flag, isInternational };
+    }
+
+    // Helper to get Conference from Team Name
+    function getConference(teamName) {
+        if (!teamName || teamName === '?' || teamName === '') return 'Uncommitted';
+
+        const acc = ['Duke', 'UNC', 'Miami', 'Florida St.', 'Virginia', 'Wake Forest', 'Syracuse', 'Pittsburgh', 'Pittsburg', 'Clemson', 'Louisville', 'Notre Dame', 'Georgia Tech', 'Stanford', 'Boston College', 'Cal', 'SMU'];
+        const sec = ['Kentucky', 'Alabama', 'Auburn', 'Arkansas', 'Tennessee', 'Florida', 'Texas', 'Oklahoma', 'Texas A&M', 'LSU', 'Missouri', 'Ole Miss', 'Mississippi State', 'South Carolina', 'Vanderbilt', 'Georgia'];
+        const bigTen = ['Michigan St.', 'Michigan', 'Purdue', 'Indiana', 'Illinois', 'Ohio State', 'Maryland', 'Rutgers', 'UCLA', 'USC', 'Oregon', 'Washington', 'Iowa', 'Nebraska', 'Northwestern', 'Wisconsin', 'Minnesota', 'Penn State'];
+        const big12 = ['Kansas', 'Baylor', 'Houston', 'Arizona', 'Arizona State', 'Iowa State', 'Texas Tech', 'West Virginia', 'Cincinnati', 'BYU', 'UCF', 'Oklahoma State', 'Kansas State', 'TCU', 'Utah', 'Colorado'];
+        const bigEast = ['UConn', 'Marquette', 'Villanova', 'Creighton', 'St. John\'s', 'Providence', 'Georgetown', 'Xavier', 'Seton Hall', 'Butler', 'DePaul'];
+
+        if (acc.includes(teamName)) return 'ACC';
+        if (sec.includes(teamName)) return 'SEC';
+        if (bigTen.includes(teamName)) return 'Big Ten';
+        if (big12.includes(teamName)) return 'Big 12';
+        if (bigEast.includes(teamName)) return 'Big East';
+
+        // Additional manual check logic can go here (like 'G-League' etc if needed).
+        if (teamName === 'Pro' || teamName === 'Overtime Elite' || teamName === 'NBL' || teamName === 'G-League Ignite') return 'Pro';
+
+        return 'Mid-Major';
     }
 
     // Process Data
@@ -233,7 +257,12 @@ document.addEventListener('DOMContentLoaded', () => {
             displayData = displayData.filter(p => p.defensive_role === currentDefensiveRole);
         }
 
-        // 1.7 Search
+        // 1.8 Filter by Conference
+        if (currentConference) {
+            displayData = displayData.filter(p => getConference(p.commitment) === currentConference);
+        }
+
+        // 1.9 Search
         if (currentSearch) {
             const lowerTerm = currentSearch.toLowerCase();
             displayData = displayData.filter(p =>
@@ -328,6 +357,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (defensiveRoleSelect) {
         defensiveRoleSelect.addEventListener('change', (e) => {
             currentDefensiveRole = e.target.value;
+            applyFilterAndSort();
+        });
+    }
+
+    // Event Listeners: Conference
+    if (conferenceFilterSelect) {
+        conferenceFilterSelect.addEventListener('change', (e) => {
+            currentConference = e.target.value;
             applyFilterAndSort();
         });
     }
