@@ -1,4 +1,4 @@
-﻿const TEAM_COLORS = {
+const TEAM_COLORS = {
     // ACC
     "Duke": "#0069B0", // Duke Royal Blue (Lightened)
     "UNC": "#7BAFD4", // Carolina Blue
@@ -60,6 +60,7 @@
     "UCLA": "#2D68C4", // Blue
     "USC": "#9D2235", // Cardinal
     "Oregon": "#154733", // Green
+    "Oregon State": "#DC4405", // Orange
     "Washington": "#4B2E83", // Purple
     "Iowa": "#FFCD00", // Gold
     "Nebraska": "#E41C38", // Scarlet
@@ -119,6 +120,7 @@ const TEAM_LOGOS = {
 
     "UNF": "https://a.espncdn.com/i/teamlogos/ncaa/500/2454.png",
     "Oregon State Beavers": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+    "Oregon State": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
     "Arkansas State Red Wolves": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
     "FIU": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
     "UT Rio Grande Valley Vaqueros": "https://a.espncdn.com/i/teamlogos/ncaa/500/292.png",
