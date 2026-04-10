@@ -9555,7 +9555,7 @@
                      "OFFENSIVE ROLE":  "Wing Handler",
                      "EBY":  "103",
                      "MADE":  "99",
-                     "COMMITMENT":  "?",
+                     "COMMITMENT":  "Austin Peay",
                      "RIVALS":  "80",
                      "INDUSTRY PRO":  "89.5",
                      "TEAM/HS":  "Academy of Central Florida (ARG)",
