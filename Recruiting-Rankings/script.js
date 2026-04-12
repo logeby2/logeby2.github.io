@@ -119,6 +119,12 @@ document.addEventListener('DOMContentLoaded', () => {
             isInternational = false;
         }
 
+        // Specific override for Somto Patrick (Bahrain flag, HS ranking)
+        if (normalizedPlayerName === 'Somto Patrick') {
+            flag = `https://flagcdn.com/20x15/bh.png`;
+            isInternational = false;
+        }
+
         return { flag, isInternational };
     }
 
