@@ -1,8 +1,8 @@
 
 $filesSource = @(
-    @{ Year = "2026"; Path = "Recruiting Rankings - 2026 Recruiting Spring 2026.csv" },
-    @{ Year = "2027"; Path = "Recruiting Rankings - 2027 Recruiting Spring 2026.csv" },
-    @{ Year = "2028"; Path = "Recruiting Rankings - 2028 Recruiting Spring 2026.csv" },
+    @{ Year = "2026"; Path = "Recruiting Rankings - 2026 Recruiting Summer 2026.csv" },
+    @{ Year = "2027"; Path = "Recruiting Rankings - 2027 Recruiting Summer 2026.csv" },
+    @{ Year = "2028"; Path = "Recruiting Rankings - 2028 Recruiting Summer 2026.csv" },
     @{ Year = "2029"; Path = "Recruiting Rankings - 2029 Recruiting Summer 2026.csv" }
 )
 
