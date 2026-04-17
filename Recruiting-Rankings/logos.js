@@ -92,6 +92,8 @@ const TEAM_COLORS = {
     "High Point": "#280071", // Purple
     "George Mason": "#006633", // Green
     "Harvard": "#A51C30", // Crimson
+    "Cal State Dominguez Hills": "#8A002A", // Cardinal
+    "CS Dominguez Hills": "#8A002A", 
 };
 
 // Function to get color
@@ -248,6 +250,8 @@ const TEAM_LOGOS = {
     "Greyhounds": "https://a.espncdn.com/i/teamlogos/ncaa/500/2352.png",
     "Ohio Bobcats": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
     "Northern Illinois Huskies": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+    "Cal State Dominguez Hills": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Cal_State_Dominguez_Hills_Toros_logo.svg/500px-Cal_State_Dominguez_Hills_Toros_logo.svg.png",
+    "CS Dominguez Hills": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Cal_State_Dominguez_Hills_Toros_logo.svg/500px-Cal_State_Dominguez_Hills_Toros_logo.svg.png",
     "Kent State Golden Flashes": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
     "COFC": "https://a.espncdn.com/i/teamlogos/ncaa/500/232.png",
     "Texas Tech Red Raiders": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",

@@ -34,9 +34,9 @@ TIER,PLAYER,TEAM/HS,COMMITMENT,OFFENSIVE ROLE,DEFENSIVE ROLE,HEIGHT,RIVALS,247,P
 5,Jaxon Richardson,Southeastern Prep,Alabama,Slasher,Perimeter Disruptor,"6'6""",61,21,25,17,22,33,29.8,29.2,-2.75
 5,Darius Ratliff,Archbishop Stepanic,USC,Play Finishing Big,Rim Protector,"7'0""",14,23,24,29,27,34,25.2,23.4,-10.75
 5,Junior County,Wasatch Academy,UConn,Combo Guard,Perimeter Stopper,"6'4""",70,36,44,43,31,35,43.2,44.8,10
-5,Egor Amosov,Real Madrid (RUS),?,Connector Wing,???,"6'8""",,,,,,36,36.0,,
-5,Cole Cloer,IMG Academy (Early Enroll),NC State,Movement Shooter,???,"6'7""",,,,,42,37,39.5,10.5,-26.5
-5,Cameron Holmes,Millenium,Arizona,Scoring Wing,???,"6'8""",46,29,38,50,29,38,38.3,38.4,0.5
+5,Egor Amosov,Real Madrid (RUS),?,Connector Wing,Helper,"6'8""",,,,,,36,36.0,,
+5,Cole Cloer,IMG Academy (Early Enroll),Alabama,Movement Shooter,Chaser,"6'7""",,,,,42,37,39.5,10.5,-26.5
+5,Cameron Holmes,Millenium,Arizona,Scoring Wing,Helper,"6'8""",46,29,38,50,29,38,38.3,38.4,0.5
 5,Cameron Houindo,Cedevita Olimpija (FRA),?,Play Finishing Big,Versatile Big,"6'9""",,,,,44,39,41.5,44.0,-28
 5,Caleb Gaskins,Columbus,Miami,Slasher,Perimeter Stopper,"6'7""",8,20,14,10,11,40,17.2,12.6,-27.75
 5,Lincoln Cosby,Monteverde,Michigan,Off-Ball Wing,Helper,"6'10""",32,,46,45,45,41,52.3,56.0,
@@ -46,29 +46,29 @@ TIER,PLAYER,TEAM/HS,COMMITMENT,OFFENSIVE ROLE,DEFENSIVE ROLE,HEIGHT,RIVALS,247,P
 5,Jason Crowe Jr.,Inglewood,Missouri,Primary Ball Handler,Low Activity,"6'2""",16,5,13,7,12,45,16.3,10.6,-35
 5,Latrell Allmond,Petersburg,Oklahoma State,Post Scorer,Helper,"6'8""",35,24,29,34,30,46,33.0,30.4,-15.25
 5,Ilia Frolov,Real Madrid (RUS),?,Skilled Big,Paint Prescence,"6'10""",,,,,,47,47.0,,
-5,Bo Ogden,Westlake,Texas,Movement Shooter,???,"6'5""",45,38,37,42,41,48,41.8,40.6,-6.5
+5,Bo Ogden,Westlake,Texas,Movement Shooter,Chaser,"6'5""",45,38,37,42,41,48,41.8,40.6,-6.5
 5,Anthony Felesi,Utah Prep,Pittsburgh,Slasher,Perimeter Stopper,"6'5""",43,35,21,63,87,49,49.7,49.8,8
 5,Tarris Bouie,SPIRE Academy,Alabama,Off-Ball Wing,Helper,"6'6""",90,40,43,33,83,50,56.5,57.8,11.5
-5,Alex Constanza,SPIRE Academy (DOM),?,Scoring Wing,???,"6'8""",39,51,45,35,55,51,46.0,45.0,-6
-5,Miikka Muurinen,Partizan (FIN),?,Play Finishing Big,???,"6'11""",,,,,56,52,54.0,28.0,-38
+5,Alex Constanza,SPIRE Academy (DOM),?,Scoring Wing,Helper,"6'8""",39,51,45,35,55,51,46.0,45.0,-6
+5,Miikka Muurinen,Partizan (FIN),?,Play Finishing Big,Helper,"6'11""",,,,,56,52,54.0,28.0,-38
 5,Mate Khatiashvili,Baskonia (GEO),?,Primary Ball Handler,Chaser,"6'3""",,,,,,53,53.0,,
 5,Quincy Wadley,AZ Compass Prep,?,Combo Wing,Chaser,"6'5""",41,42,50,57,96,54,56.7,57.2,5
 5,Diego Niebla,Joventut (ESP),?,Off-Ball Wing,Chaser,"6'7""",,,,,,55,55.0,,
 5,Diego Garavaglia,Ratiopharm Ulm (ITA),?,Connector Wing,Perimeter Disruptor,"6'6""",,,,,26,56,41.0,,
 5,Matthys Mahop,INSEP (FRA),?,Primary Ball Handler,Point-of-Attack,"6'4""",,,,,48,57,52.5,48.0,-45
 5,Josh Irving,Pasadena,Texas A&M,Play Finishing Big,Rim Protector,"6'11""",52,59,28,97,43,58,56.2,55.8,4.75
-5,Boyuan Zhang,Veritas Prep (CHN),?,Movement Shooter,???,"6'7""",25,74,93,48,,59,59.8,120.0,
+5,Boyuan Zhang,Veritas Prep (CHN),?,Movement Shooter,Chaser,"6'7""",25,74,93,48,,59,59.8,120.0,
 5,Aiden Derkack,SPIRE Academy,Dayton,Slasher,Perimeter Stopper,"6'5""",79,47,62,65,72,60,64.2,65.0,5.75
 5,Tajh Ariza,Link Academy (JPN),Oregon,Slasher,Perimeter Stopper,"6'9""",56,32,36,36,24,61,40.8,36.8,-24
-5,Ralph Scott,IMG Academy,Tennessee,Play Finishing Forward,Helper,"6'8""",63,53,55,61,38,62,55.3,54.0,-8.25
-5,Jacob Webber,La Lumiere,Purdue,Movement Shooter,???,"6'7""",34,63,42,98,65,63,60.8,60.4,2
-5,Luke Ertel,Mt. Vernon,Purdue,Primary Ball Handler,Point-of-Attack,"6'1""",48,41,51,46,113,64,60.5,59.8,-2
-5,Kaden House,AZ Compass Prep,Maryland,Primary Ball Handler,Perimeter Disruptor,"6'4""",36,43,40,56,151,65,65.2,65.2,6.5
+5,Jacob Webber,La Lumiere,Purdue,Movement Shooter,Chaser,"6'7""",34,63,42,98,65,62,60.7,60.4,3
+5,Luke Ertel,Mt. Vernon,Purdue,Primary Ball Handler,Point-of-Attack,"6'1""",48,41,51,46,113,63,60.3,59.8,-1
+5,Kaden House,AZ Compass Prep,Maryland,Primary Ball Handler,Perimeter Disruptor,"6'4""",36,43,40,56,151,64,65.0,65.2,7.5
+5,Tristan Reed,Link Academy,Mississippi State,Play Finishing Big,Rim Protector,"6'9""",66,62,32,66,58,65,58.2,56.8,-2
 5,Collin Paul,Calvary Christian Academy,Florida St.,Wing Handler,Perimeter Disruptor,"6'7""",109,105,110,,119,66,101.8,110.8,
 5,Swann Penda,Le Mans (FRA),?,Off-Ball Wing,Helper,"6'9""",,,,,,67,67.0,,
-5,Dovydas Buika,Zalgris (LTU),?,Combo Wing,???,"6'6""",,,,,52,68,60.0,52.0,-55
-5,Tristan Reed,Link Academy,Mississippi State,Play Finishing Big,Rim Protector,"6'9""",66,62,32,66,58,69,58.8,56.8,-6
-6,Joe Philon,Monteverde,UCLA,Play Finishing Forward,Helper,"6'8""",53,69,70,52,49,70,60.5,58.6,-14.25
+5,Dovydas Buika,Zalgris (LTU),?,Combo Wing,Perimeter Stopper,"6'6""",,,,,52,68,60.0,52.0,-55
+6,Joe Philon,Monteverde,UCLA,Play Finishing Forward,Helper,"6'8""",53,69,70,52,49,69,60.3,58.6,-13.25
+6,Ralph Scott,IMG Academy,Tennessee,Play Finishing Forward,Helper,"6'8""",63,53,55,61,38,70,56.7,54.0,-16.25
 6,Andrej Bjelic,Real Madrid (SRB),?,Combo Guard,Chaser,"6'4""",,,,,,71,71.0,,
 6,Carlos Medlock Jr.,Link Academy,Michigan St.,Primary Ball Handler,Point-of-Attack,"5'11""",49,45,53,47,75,72,56.8,53.8,-18
 6,Ikenna Alozie,Dream City Christian (NGA),Houston,Primary Ball Handler,Point-of-Attack,"6'2""",38,54,49,38,81,73,55.5,52.0,-20.25
@@ -76,98 +76,99 @@ TIER,PLAYER,TEAM/HS,COMMITMENT,OFFENSIVE ROLE,DEFENSIVE ROLE,HEIGHT,RIVALS,247,P
 6,Collin Ross,SPIRE Academy (Postgrad),VCU,Play Finishing Big,Versatile Big,"6'10""",60,133,89,,82,75,87.8,91.0,-6.25
 6,Ethan Harris,Camas,Iowa,Skilled Forward,Helper,"6'8""",81,109,97,,73,76,72.7,72.0,-10.25
 6,Davion Adkins,Prolific Prep,Kansas,Play Finishing Big,Versatile Big,"6'9""",44,68,47,62,28,77,54.3,49.8,-26.5
-6,Quinn Costello,Newman School,Michigan,Skilled Big,???,"6'9""",30,44,30,28,74,78,47.3,41.2,-34
-6,Jasiah Jervis,Archbishop Stepanic,Michigan St.,Scoring Guard,???,"6'4""",23,33,34,25,39,79,38.8,30.8,-49
+6,Quinn Costello,Newman School,Michigan,Skilled Big,Helper,"6'9""",30,44,30,28,74,78,47.3,41.2,-34
+6,Jasiah Jervis,Archbishop Stepanic,Michigan St.,Scoring Guard,Perimeter Stopper,"6'4""",23,33,34,25,39,79,38.8,30.8,-49
 6,Fred Smith Jr.,Briarcrest Christian,Memphis,Point Forward,Helper,"6'7""",107,86,95,84,86,80,89.7,91.6,10.75
 6,Sam Funches,Germantown,Gonzaga,Skilled Big,Rim Protector,"7'0""",54,87,58,,112,81,78.4,62.2,-17.75
-6,Ricards Aizpurs,Stella Azzurra (LAT),?,Combo Guard,Chaser,"6'5""",,,,,,82,82.0,,
-6,Nikola Karalic,KK Mega (SRB),?,Connector Wing,Perimeter Stopper,"6'7""",,,,,,83,83.0,,
+6,Lucas Morillo,Newman School (DOM),Illinois,Combo Wing,Helper,"6'7""",28,58,69,59,61,82,59.5,55.0,-30.5
 6,Aziz Olajuwon,IMG Academy (CAN),Stanford,Off-Ball Wing,Perimeter Stopper,"6'6""",69,64,68,67,68,84,70.0,67.2,-17
-6,Ognjen Srzentic,KK Mega (SRB),?,Wing Handler,???,"6'7""",,,,,78,85,81.5,78.0,-65.5
-6,Sinan Huan,Georgetown Prep (CHN),Purdue,Play Finishing Big,Rim Protector,"7'0""",57,81,71,83,100,86,79.7,78.4,-5.75
-6,Yohance Connor,Overtime Elite,Ole Miss,Combo Guard,Point-of-Attack,"6'2""",,112,130,,,87,109.7,80.7,-59
+6,Ognjen Srzentic,KK Mega (SRB),?,Wing Handler,Perimeter Stopper,"6'7""",,,,,78,84,81.0,78.0,-64.5
+6,Sinan Huan,Georgetown Prep (CHN),Purdue,Play Finishing Big,Rim Protector,"7'0""",57,81,71,83,100,85,79.5,78.4,-4.75
+6,Yohance Connor,Overtime Elite,Ole Miss,Combo Guard,Point-of-Attack,"6'2""",,112,130,,,86,109.3,80.7,-58
+6,Dorian Rinaldo-Komlan,SPIRE Academy (FRA),Iowa State,Play Finishing Big,Rim Protector,"6'11""",77,100,57,,132,87,90.6,91.5,
 6,Colin Rice,Waukee Northwest,Nebraska,Movement Shooter,Chaser,"6'7""",76,79,83,94,69,88,81.5,80.2,-8.5
-6,Adam Oumiddoch,Overtime Elite,?,Scoring Wing,???,"6'6""",67,52,67,54,59,89,64.7,59.8,-31
-6,Chris Washington Jr.,Providence Christian Aca.,?,Play Finishing Forward,Perimeter Disruptor,"6'9""",33,48,63,53,101,90,64.7,59.6,-31.25
-6,Lucas Morillo,Newman School (DOM),Illinois,Combo Wing,Helper,"6'7""",28,58,69,59,61,91,61.0,55.0,-39.5
-6,Alex Egbuonu,Lawrence Academy,Marquette,Off-Ball Wing,Perimeter Stopper,"6'6""",112,77,76,71,85,92,85.5,69.0,-5.75
-6,Dean Reuckert,Timpview,BYU,Movement Shooter,Low Activity,"6'7""",42,75,59,79,62,93,82.0,63.4,
-6,Meissa Faye,Ratiopharm Ulm (FRA),?,Combo Guard,Perimeter Stopper,"6'5""",,,,,,94,94.0,,
-6,Martay Barnes,Academy of Central Florida,Florida St.,Primary Ball Handler,Point-of-Attack,"6'2""",,,99,60,94,95,87.0,84.3,
-6,Trevor Manhertz,Christ School,Indiana,Scoring Wing,Perimeter Stopper,"6'7""",71,,61,80,54,96,90.5,88.7,
-6,Prince Alexander Moody,Bishop McNamara,Indiana,Combo Guard,Perimeter Stopper,"6'4""",92,78,84,,,97,87.8,84.7,
-6,Dorian Rinaldo-Komlan,SPIRE Academy (FRA),Iowa State,Play Finishing Big,Rim Protector,"6'11""",77,100,57,,132,98,92.8,91.5,
+6,Adam Oumiddoch,Overtime Elite,?,Scoring Wing,Perimeter Stopper,"6'6""",67,52,67,54,59,89,64.7,59.8,-31
+6,Chris Washington Jr.,Providence Christian Aca.,Tennessee,Play Finishing Forward,Perimeter Disruptor,"6'9""",33,48,63,53,101,90,64.7,59.6,-31.25
+6,Alex Egbuonu,Lawrence Academy,Marquette,Off-Ball Wing,Perimeter Stopper,"6'6""",112,77,76,71,85,91,85.3,69.0,-4.75
+6,Ricards Aizpurs,Stella Azzurra (LAT),?,Combo Guard,Chaser,"6'5""",,,,,,92,92.0,,
+6,Nikola Karalic,KK Mega (SRB),?,Connector Wing,Perimeter Stopper,"6'7""",,,,,,93,93.0,,
+6,Dean Reuckert,Timpview,BYU,Movement Shooter,Low Activity,"6'7""",42,75,59,79,62,94,82.2,63.4,
+6,Meissa Faye,Ratiopharm Ulm (FRA),?,Combo Guard,Perimeter Stopper,"6'5""",,,,,,95,95.0,,
+6,Martay Barnes,Academy of Central Florida,Florida St.,Primary Ball Handler,Point-of-Attack,"6'2""",,,99,60,94,96,87.3,84.3,
+6,Trevor Manhertz,Christ School,Indiana,Scoring Wing,Perimeter Stopper,"6'7""",71,,61,80,54,97,90.8,88.7,
+6,Prince Alexander Moody,Bishop McNamara,Indiana,Combo Guard,Perimeter Stopper,"6'4""",92,78,84,,,98,88.0,84.7,
 6,Julius Avent,Bergen Catholic,Michigan St.,Off-Ball Wing,Helper,"6'7""",84,84,88,87,66,99,84.7,81.8,
 6,Sammy Jackson,Roman Catholic,VCU,Wing Handler,Perimeter Stopper,"6'7""",55,56,64,75,40,100,65.0,58.0,-43.5
 6,Trevon Carter-Givens,SoCal Academy,NC State,Play Finishing Big,Rim Protector,"6'11""",102,102,102,,136,101,108.6,110.5,
-6,Marcus Johnson,Garfield Heights,South Carolina,Scoring Guard,???,"6'2""",121,60,52,49,120,102,84.0,80.4,-14.5
-6,Felipe Minzer,Academy of Central Florida (ARG),Austin Peay,Wing Handler,Chaser,"6'6""",80,,,,99,103,94.0,89.5,
-6,Josiah Johnson,Mayfair,?,Primary Ball Handler,Perimeter Stopper,"6'3""",,57,100,,98,104,89.8,127.5,
-6,Marcis Ponder,Gilion Basketball Academy,Florida St.,Play Finishing Big,Rim Protector,"6'11""",50,66,92,39,111,105,77.2,53.2,-38.5
-6,Vaughn Karvala,Bella Vista Prep,Indiana,Scoring Wing,Helper,"6'7""",74,50,66,41,91,106,71.3,64.4,-42
-6,Elijah Williams,TMI Episcopal,Baylor,Scoring Wing,Perimeter Stopper,"6'6""",62,30,56,32,57,107,57.3,47.4,-61.75
-6,Will Stevens,Davidson Day,Clemson,Connector Big,Paint Prescence,"6'9""",116,142,124,,70,108,112.0,113.0,
+6,Felipe Minzer,Academy of Central Florida (ARG),Austin Peay,Wing Handler,Chaser,"6'6""",80,,,,99,102,93.7,89.5,
+6,Josiah Johnson,Mayfair,?,Primary Ball Handler,Perimeter Stopper,"6'3""",,57,100,,98,103,89.5,127.5,
+6,Marcis Ponder,Gilion Basketball Academy,Florida St.,Play Finishing Big,Rim Protector,"6'11""",50,66,92,39,111,104,77.0,53.2,-37.5
+6,Vaughn Karvala,Bella Vista Prep,Indiana,Scoring Wing,Helper,"6'7""",74,50,66,41,91,105,71.2,64.4,-41
+6,Elijah Williams,TMI Episcopal,Baylor,Scoring Wing,Perimeter Stopper,"6'6""",62,30,56,32,57,106,57.2,47.4,-60.75
+6,Will Stevens,Davidson Day,Clemson,Connector Big,Paint Prescence,"6'9""",116,142,124,,70,107,111.8,113.0,
+6,Marcus Johnson,Garfield Heights,South Carolina,Scoring Guard,Point-of-Attack,"6'2""",121,60,52,49,120,108,85.0,80.4,-20.5
 6,Maxime Meyer,IMG Academy (CAN),Duke,Connector Big,Rim Protector,"7'2""",103,82,48,,102,109,88.8,67.0,-37.25
 6,Aidan Chronister,The New School,Missouri,Movement Shooter,Chaser,"6'7""",,70,82,92,137,110,98.2,95.3,-35.25
 6,Gavin Placide,Faith Family Academy,Wake Forest,Scoring Forward,Helper,"6'9""",68,67,77,89,144,111,92.7,89.0,-19
 6,Jalan Wingfield,Tri-Cities,?,Play Finishing Big,Helper,"6'8""",,104,133,,,112,116.3,118.5,
-6,Darius Bivens,Bishop O'Connell,?,Primary Ball Handler,???,"6'0""",100,83,74,44,105,113,86.5,81.2,
-6,Derick Johnson,Edison,?,Combo Guard,Perimeter Stopper,"6'4""",,,,,,114,114.0,,
-6,Chase Foster,IMG Academy,Pittsburgh,Scoring Forward,Helper,"6'8""",37,37,54,37,71,115,58.5,47.2,-69.5
-6,Kayden Allen,Long Island Lutheran,Cincinnati,Scoring Guard,Perimeter Stopper,"6'5""",47,49,65,78,67,116,70.3,61.2,-55.75
-6,Jacob Lanier,Parkview Magnet,Nebraska,Scoring Guard,Perimeter Stopper,"6'5""",117,93,132,90,,117,109.8,108.0,
-6,Jonathan Sanderson,La Lumiere,Notre Dame,Primary Ball Handler,Low Activity,"6'2""",96,61,72,68,117,118,106.4,82.8,
-6,Jalen Montonati,Owasso,Oklahoma State,Movement Shooter,Chaser,"6'7""",75,95,79,55,95,119,86.3,79.8,-39
-6,Amadou Seini,Bella Vista Prep (CMR),?,Play Finishing Big,Rim Protector,"7'1""",,,129,,,120,124.5,129.0,
-6,Louka Letailleur,Gravelines (FRA),?,Scoring Wing,Perimeter Stopper,"6'6""",,,,,,121,121.0,,
-6,Jayden Hodge,Monteverde,Northwestern,Slasher,Helper,"6'6""",73,85,86,86,64,122,86.0,78.8,
-6,Gage Mayfield,Hale County,Oklahoma,Play Finishing Forward,Helper,"6'8""",82,71,78,72,80,123,84.3,76.6,-46.75
-6,Herly Brutus,Villages Charter,Butler,Off-Ball Wing,Perimeter Stopper,"6'6""",119,136,139,,109,124,125.4,100.6,-33
-6,Ignas Stombergas,Zalgris (LTU),?,Play Finishing Big,Paint Prescence,"6'10""",,,,,,125,125.0,,
-6,Mark Morano,Cedevita Olimpija (SLO),Syracuse,Scoring Wing,Perimeter Stopper,"6'7""",,,,,,126,126.0,,
-6,Christian Gibson,Tennessee Collegiate Academy,UCF,Combo Guard,Perimeter Stopper,"6'5""",87,125,81,70,37,127,87.8,80.0,-47.25
-6,Chidi Nwigwe,Wasatch Academy,?,Play Finishing Forward,Perimeter Disruptor,"6'7""",,115,109,,,128,117.3,74.7,
-6,JRob Croy,Polytechnique,Arizona State,Combo Wing,Helper,"6'5""",132,121,175,,126,129,136.6,138.5,
-6,Gallagher Placide,Faith Family Academy,Wake Forest,Off-Ball Wing,Perimeter Stopper,"6'8""",120,73,80,,118,130,104.2,78.2,-52.25
-6,Joe Sterling,Harvard Westlake,Texas,Combo Guard,Chaser,"6'3""",137,98,116,100,116,131,116.3,113.4,-18.25
-6,Kevin Thomas,Sagemont Prep,?,Off-Ball Wing,Perimeter Stopper,"6'7""",130,76,75,73,84,132,95.0,87.6,
-6,Eli Sancomb,Wheeling Central Catholic,Liberty,Primary Ball Handler,Helper,"6'5""",136,101,117,82,123,133,138.4,111.8,
-6,Gan-Erdne Solongo,La Lumiere (MNG),Notre Dame,Play Finishing Big,Rim Protector,"7'0""",106,,122,,90,134,113.0,106.0,
-6,Joaquim Taboada,Burgos (URU),?,Combo Guard,Chaser,"6'3""",,,,,,135,135.0,,
-6,Yabi Aklog,Eastside Catholic,Oregon State,Stretch Big,Rim Protector,"6'10""",89,143,105,,,136,157.7,112.3,
-7,Ethan Mgbako,Oak Hill Academy (HAI),Vanderbilt,Off-Ball Wing,Perimeter Stopper,"6'6""",51,65,85,93,77,137,101.6,74.2,
-7,Anthony Brown,Archbishop Carroll,Vanderbilt,Primary Ball Handler,Point-of-Attack,"6'1""",99,72,60,76,76,138,86.8,76.6,
-7,Tomslav Vuckovic,Dubai BC (CRO),?,Combo Guard,???,"6'3""",,,,,,139,139.0,,
-7,Adama Tambedou,Putnam Science Academy (SEN),Maryland,Slasher,Versatile Big,"6'8""",95,127,135,,141,140,127.6,99.6,
-7,K'Nard Callendar,Overtime Elite (USVI),?,Slasher,Versatile Big,"6'8""",,,147,,,141,144.0,147.0,
-7,Jason Singleton,Columbus Academy,Harvard,Primary Ball Handler,Perimeter Stopper,"6'4""",,111,94,,104,142,112.8,103.0,
-7,Marko Petric,Wurzburg (GER),?,Combo Guard,Perimeter Stopper,"6'5""",,,,,,143,143.0,,
-7,Ian Lazerevski,Dubai BC (SLO),?,Wing Handler,Helper,"6'7""",,,,,,144,144.0,,
-7,Elias Obenyah,Salesian,Stanford,Combo Guard,Perimeter Stopper,"6'4""",,99,104,,150,145,124.5,117.7,
-7,Aleksandr Panasiuk,Gran Canaria (RUS),?,Combo Guard,???,"6'4""",,,,,,146,146.0,,
-7,Karl Kouame,Caen (FRA),?,Combo Guard,Perimeter Stopper,"6'4""",,,,,,147,147.0,,
-7,Trey Pearson,Pope John Paul II,High Point,Primary Ball Handler,Point-of-Attack,"6'2""",,122,128,,110,148,127.0,90.0,-90
-7,Felipe Quinones,Columbus (PUR),Florida Atlantic,Combo Wing,Perimeter Stopper,"6'5""",91,146,168,69,,149,124.6,118.5,
-7,Kalek House,AZ Compass Prep,Xavier,Scoring Guard,Point-of-Attack,"6'3""",85,96,143,64,142,150,113.3,106.0,
-7,Joao Gluck,Murcia (BRA),?,Scoring Wing,Perimeter Stopper,"6'7""",,,,,,151,151.0,,
-7,Code Mbengue,Gran Canaria (SEN),?,Play Finishing Big,Rim Protector,"6'11""",,,,,,152,152.0,,
-7,Trent Perry,Link Academy,Kansas,Off-Ball Wing,Perimeter Stopper,"6'4""",134,91,114,85,106,153,136.6,106.0,
-7,Endurance Aiyamenkhue,Ratiopharm Ulm (NED),?,Play Finishing Big,Rim Protector,"6'11""",,,,,46,154,100.0,46.0,-142.5
-7,Alex Smith,Prolific Prep,Ohio State,Stretch Forward,Helper,"6'8""",122,119,87,,133,155,123.2,92.2,
-7,Luke Barnett,Mater Dei,Kansas,Movement Shooter,Helper,"6'3""",128,137,148,,143,156,142.4,111.2,-54
-7,Mason Williams,Tennessee Collegiate Academy,Kentucky,Primary Ball Handler,Point-of-Attack,"6'2""",123,106,127,,,157,128.3,178.0,
-7,Julius Price,St. Joseph,Stanford,Combo Guard,Point-of-Attack,"6'2""",,88,96,,,158,114.0,92.0,
-7,Seven Spurlock,Dynamic Prep,Oregon,Combo Wing,Perimeter Disruptor,"6'6""",,,180,,,159,169.5,180.0,
-7,Slim Rogers,Centennial,Stanford,Primary Ball Handler,Point-of-Attack,"6'2""",78,107,131,,130,160,121.2,89.2,
-7,Shane Pendergrass,Hargrave Military Academy (HS),George Mason,Play Finishing Forward,Helper,"6'8""",97,140,107,,139,161,128.8,120.8,
-7,Symon Ghai,Academy of Central Florida (SSD),Northwestern,Play Finishing Big,Rim Protector,"7'2""",98,,101,,,162,120.3,99.5,
-7,Jones Lay,Moravian Prep,Florida,Play Finishing Big,Rim Protector,"7'0""",124,,181,,134,163,150.5,146.3,
-7,Noah Smith,Plainfield,Depaul,Skilled Forward,Helper,"6'7""",104,,155,,115,164,134.5,124.7,
-7,Dionycius Bakare,Bella Vista Prep (CAN),California,Off-Ball Wing,Perimeter Stopper,"6'5""",,,118,,122,165,135.0,,
-7,Drew Anderson,Santa Margarita Catholic,Stanford,Off-Ball Wing,Helper,"6'8""",,149,163,,97,166,143.8,136.3,
-7,Jaidyn Coon,Storm Lake,Iowa,Off-Ball Wing,Helper,"6'6""",145,,154,,79,167,136.3,126.0,
-7,Moustapha Diop,Overtime Elite (SEN),Georgia Tech,Play Finishing Big,Rim Protector,"6'10""",83,110,108,,145,168,122.8,111.5,
-7,Kaiden Bailey,Santa Margarita Catholic,?,Primary Ball Handler,Point-of-Attack,"6'2""",,123,126,,128,169,136.5,94.3,-106.25
+6,Darius Bivens,Bishop O'Connell,?,Primary Ball Handler,Point-of-Attack,"6'0""",100,83,74,44,105,113,86.5,81.2,
+6,Chase Foster,IMG Academy,Pittsburgh,Scoring Forward,Helper,"6'8""",37,37,54,37,71,114,58.3,47.2,-68.5
+6,Kayden Allen,Long Island Lutheran,Cincinnati,Scoring Guard,Perimeter Stopper,"6'5""",47,49,65,78,67,115,70.2,61.2,-54.75
+6,Jacob Lanier,Parkview Magnet,Nebraska,Scoring Guard,Perimeter Stopper,"6'5""",117,93,132,90,,116,109.6,108.0,
+6,Jonathan Sanderson,La Lumiere,Notre Dame,Primary Ball Handler,Low Activity,"6'2""",96,61,72,68,117,117,106.2,82.8,
+6,Jalen Montonati,Owasso,Oklahoma State,Movement Shooter,Chaser,"6'7""",75,95,79,55,95,118,86.2,79.8,-38
+6,Amadou Seini,Bella Vista Prep (CMR),?,Play Finishing Big,Rim Protector,"7'1""",,,129,,,119,124.0,129.0,
+6,Louka Letailleur,Gravelines (FRA),?,Scoring Wing,Perimeter Stopper,"6'6""",,,,,,120,120.0,,
+6,Jayden Hodge,Monteverde,Northwestern,Slasher,Helper,"6'6""",73,85,86,86,64,121,85.8,78.8,
+6,Gage Mayfield,Hale County,Oklahoma,Play Finishing Forward,Helper,"6'8""",82,71,78,72,80,122,84.2,76.6,-45.75
+6,Herly Brutus,Villages Charter,Butler,Off-Ball Wing,Perimeter Stopper,"6'6""",119,136,139,,109,123,125.2,125.8,-32
+6,Ignas Stombergas,Zalgris (LTU),?,Play Finishing Big,Paint Prescence,"6'10""",,,,,,124,124.0,,
+6,Mark Morano,Cedevita Olimpija (SLO),Syracuse,Scoring Wing,Perimeter Stopper,"6'7""",,,,,,125,125.0,,
+6,Christian Gibson,Tennessee Collegiate Academy,UCF,Combo Guard,Perimeter Stopper,"6'5""",87,125,81,70,37,126,87.7,80.0,-46.25
+6,Chidi Nwigwe,Wasatch Academy,?,Play Finishing Forward,Perimeter Disruptor,"6'7""",,115,109,,,127,117.0,74.7,
+6,JRob Croy,Polytechnique,Arizona State,Combo Wing,Helper,"6'5""",132,121,175,,126,128,136.4,138.5,
+6,Jemai Lake,Tualatin,Oregon State,Primary Ball Handler,Point-of-Attack,"6'2""",,,,,,129,129.0,,
+6,Derick Johnson,Edison,CS Dominguez Hills,Combo Guard,Perimeter Stopper,"6'4""",,,,,,130,130.0,,
+6,Gallagher Placide,Faith Family Academy,Wake Forest,Off-Ball Wing,Perimeter Stopper,"6'8""",120,73,80,,118,131,104.4,78.2,-53.25
+6,Joe Sterling,Harvard Westlake,Texas,Combo Guard,Chaser,"6'3""",137,98,116,100,116,132,116.5,113.4,-19.25
+6,Kevin Thomas,Sagemont Prep,?,Off-Ball Wing,Perimeter Stopper,"6'7""",130,76,75,73,84,133,95.2,87.6,
+6,Eli Sancomb,Wheeling Central Catholic,Liberty,Primary Ball Handler,Helper,"6'5""",136,101,117,82,123,134,138.6,111.8,
+6,Gan-Erdne Solongo,La Lumiere (MNG),Notre Dame,Play Finishing Big,Rim Protector,"7'0""",106,,122,,90,135,113.3,106.0,
+6,Joaquim Taboada,Burgos (URU),?,Combo Guard,Chaser,"6'3""",,,,,,136,136.0,,
+6,Yabi Aklog,Eastside Catholic,Oregon State,Stretch Big,Rim Protector,"6'10""",89,143,105,,,137,158.0,112.3,
+7,Ethan Mgbako,Oak Hill Academy (HAI),Vanderbilt,Off-Ball Wing,Perimeter Stopper,"6'6""",51,65,85,93,77,138,101.8,74.2,
+7,Anthony Brown,Archbishop Carroll,Vanderbilt,Primary Ball Handler,Point-of-Attack,"6'1""",99,72,60,76,76,139,87.0,76.6,
+7,Tomslav Vuckovic,Dubai BC (CRO),?,Combo Guard,Perimeter Stopper,"6'3""",,,,,,140,140.0,,
+7,Adama Tambedou,Putnam Science Academy (SEN),Maryland,Slasher,Versatile Big,"6'8""",95,127,135,,141,141,127.8,99.6,
+7,K'Nard Callendar,Overtime Elite (USVI),?,Slasher,Versatile Big,"6'8""",,,147,,,142,144.5,147.0,
+7,Jason Singleton,Columbus Academy,Harvard,Primary Ball Handler,Perimeter Stopper,"6'4""",,111,94,,104,143,113.0,103.0,
+7,Marko Petric,Wurzburg (GER),?,Combo Guard,Perimeter Stopper,"6'5""",,,,,,144,144.0,,
+7,Ian Lazerevski,Dubai BC (SLO),?,Wing Handler,Helper,"6'7""",,,,,,145,145.0,,
+7,Elias Obenyah,Salesian,Stanford,Combo Guard,Perimeter Stopper,"6'4""",,99,104,,150,146,124.8,117.7,
+7,Aleksandr Panasiuk,Gran Canaria (RUS),?,Combo Guard,Perimeter Stopper,"6'4""",,,,,,147,147.0,,
+7,Karl Kouame,Caen (FRA),?,Combo Guard,Perimeter Stopper,"6'4""",,,,,,148,148.0,,
+7,Trey Pearson,Pope John Paul II,High Point,Primary Ball Handler,Point-of-Attack,"6'2""",,122,128,,110,149,127.3,90.0,-91
+7,Felipe Quinones,Columbus (PUR),Florida Atlantic,Combo Wing,Perimeter Stopper,"6'5""",91,146,168,69,,150,124.8,118.5,
+7,Kalek House,AZ Compass Prep,Xavier,Scoring Guard,Point-of-Attack,"6'3""",85,96,143,64,142,151,113.5,106.0,
+7,Joao Gluck,Murcia (BRA),?,Scoring Wing,Perimeter Stopper,"6'7""",,,,,,152,152.0,,
+7,Code Mbengue,Gran Canaria (SEN),?,Play Finishing Big,Rim Protector,"6'11""",,,,,,153,153.0,,
+7,Trent Perry,Link Academy,Kansas,Off-Ball Wing,Perimeter Stopper,"6'4""",134,91,114,85,106,154,136.8,106.0,
+7,Endurance Aiyamenkhue,Ratiopharm Ulm (NED),?,Play Finishing Big,Rim Protector,"6'11""",,,,,46,155,100.5,46.0,-143.5
+7,Alex Smith,Prolific Prep,Ohio State,Stretch Forward,Helper,"6'8""",122,119,87,,133,156,123.4,92.2,
+7,Luke Barnett,Mater Dei,Kansas,Movement Shooter,Helper,"6'3""",128,137,148,,143,157,142.6,111.2,-55
+7,Mason Williams,Tennessee Collegiate Academy,Kentucky,Primary Ball Handler,Point-of-Attack,"6'2""",123,106,127,,,158,128.5,178.0,
+7,Julius Price,St. Joseph,Stanford,Combo Guard,Point-of-Attack,"6'2""",,88,96,,,159,114.3,92.0,
+7,Seven Spurlock,Dynamic Prep,Oregon,Combo Wing,Perimeter Disruptor,"6'6""",,,180,,,160,170.0,180.0,
+7,Slim Rogers,Centennial,Stanford,Primary Ball Handler,Point-of-Attack,"6'2""",78,107,131,,130,161,121.4,89.2,
+7,Shane Pendergrass,Hargrave Military Academy (HS),George Mason,Play Finishing Forward,Helper,"6'8""",97,140,107,,139,162,129.0,120.8,
+7,Symon Ghai,Academy of Central Florida (SSD),Northwestern,Play Finishing Big,Rim Protector,"7'2""",98,,101,,,163,120.7,99.5,
+7,Jones Lay,Moravian Prep,Florida,Play Finishing Big,Rim Protector,"7'0""",124,,181,,134,164,150.8,146.3,
+7,Noah Smith,Plainfield,Depaul,Skilled Forward,Helper,"6'7""",104,,155,,115,165,134.8,124.7,
+7,Dionycius Bakare,Bella Vista Prep (CAN),California,Off-Ball Wing,Perimeter Stopper,"6'5""",,,118,,122,166,135.3,,
+7,Drew Anderson,Santa Margarita Catholic,Stanford,Off-Ball Wing,Helper,"6'8""",,149,163,,97,167,144.0,136.3,
+7,Jaidyn Coon,Storm Lake,Iowa,Off-Ball Wing,Helper,"6'6""",145,,154,,79,168,136.5,126.0,
+7,Moustapha Diop,Overtime Elite (SEN),Georgia Tech,Play Finishing Big,Rim Protector,"6'10""",83,110,108,,145,169,123.0,111.5,
+7,Kaiden Bailey,Santa Margarita Catholic,?,Primary Ball Handler,Point-of-Attack,"6'2""",,123,126,,128,170,136.8,94.3,-107.25
 ,David Ugonna Ike,NBA Academy Africa (NGA),?,Play Finishing Big,Rim Protector,"6'11""",,,,,89,,,,
 ,Marcus Vaughns,NBA Academy Australia (AUS),LSU,Off-Ball Wing,Perimeter Stopper,"6'8""",,,,,92,,,92.0,
 ,Steven Reynolds,Arlington Martin,?,,,"6'5""",,126,140,,103,,123.0,123.0,
@@ -190,7 +191,7 @@ TIER,PLAYER,TEAM/HS,COMMITMENT,OFFENSIVE ROLE,DEFENSIVE ROLE,HEIGHT,RIVALS,247,P
 ,Manu Manciel,Wasatch Academy,Stephen F. Austin,Combo Guard,Perimeter Stopper,"6'4""",,,125,,,,,,
 ,Harris Reynolds,St. Pius X,Clemson,,,"6'4""",72,129,142,,,,114.3,85.8,
 ,Dhani Miller,Monteverde,Kent State,Primary Ball Handler,Point-of-Attack,"6'3""",,,144,,,,144.0,144.0,
-,SJ Madison,Redondo Union,Nevada,Wing Scorer,???,"6'5""",,120,153,,,,136.5,136.5,
+,SJ Madison,Redondo Union,Nevada,Wing Scorer,Perimeter Stopper,"6'5""",,120,153,,,,136.5,136.5,
 ,Jermel Thomas,IMG Academy,Saint Louis,Primary Ball Handler,Point-of-Attack,"6'2""",,134,152,,,,143.0,143.0,
 ,Dreylan Creasy,Blue Ridge School,East Carolina,,,"6'7""",,128,156,,,,142.0,142.0,
 ,Tyshawn Duncan,Alexandria,Louisiana,,,"6'8""",,116,167,,,,141.5,141.5,
@@ -198,7 +199,7 @@ TIER,PLAYER,TEAM/HS,COMMITMENT,OFFENSIVE ROLE,DEFENSIVE ROLE,HEIGHT,RIVALS,247,P
 ,Aliou Dioum,Bella Vista Prep (SEN),West Virginia,,,"6'10""",94,,182,,,,138.0,138.0,
 ,Preston Wade,Academy of Central Florida,?,Play Finishing Big,Rim Protector,"6'10""",86,144,,,,,115.0,76.7,
 ,Jaen Chatman,Blair Academy,Rhode Island,Combo Guard,Point-of-Attack,"6'1""",88,,,,,,88.0,88.0,
-,Patrick Hassan,Trento (ITA),?,Primary Ball Handler,???,"6'2""",,,,,,,,,
+,Patrick Hassan,Trento (ITA),?,Primary Ball Handler,Point-of-Attack,"6'2""",,,,,,,,,
 ,MJ Madison,Prolific Prep,?,Play Finishing Forward,Versatile Big,"6'8""",110,,,,,,110.0,110.0,
 ,Arturas Butajevas,Unicaja (LTU),?,Stretch Forward,Helper,"6'9""",,,,,,,,,
 ,Pedro Souza,Baskonia (BRA),?,,,"6'6""",,,,,,,,,
