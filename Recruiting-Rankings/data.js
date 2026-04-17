@@ -10221,11 +10221,29 @@
                      "ESPN":  ""
                  },
                  {
+                     "247":  "103",
+                     "TIER":  "6",
+                     "DEFENSIVE ROLE":  "Perimeter Disruptor",
+                     "OFFENSIVE ROLE":  "Scoring Wing",
+                     "EBY":  "138",
+                     "MADE":  "",
+                     "COMMITMENT":  "Iowa State",
+                     "RIVALS":  "93",
+                     "INDUSTRY PRO":  "100.7",
+                     "TEAM/HS":  "Utah Prep",
+                     "EBY DIFF INDUSTRY":  null,
+                     "HEIGHT":  "6\u00278\"",
+                     "PREP":  "106",
+                     "PLAYER":  "Jackson Kiss",
+                     "CONSENSUS":  "110.0",
+                     "ESPN":  ""
+                 },
+                 {
                      "247":  "143",
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Stretch Big",
-                     "EBY":  "138",
+                     "EBY":  "139",
                      "MADE":  "",
                      "COMMITMENT":  "Oregon State",
                      "RIVALS":  "89",
@@ -10235,7 +10253,7 @@
                      "HEIGHT":  "6\u002710\"",
                      "PREP":  "105",
                      "PLAYER":  "Yabi Aklog",
-                     "CONSENSUS":  "158.3",
+                     "CONSENSUS":  "158.7",
                      "ESPN":  ""
                  },
                  {
@@ -10243,7 +10261,7 @@
                      "TIER":  "6",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "139",
+                     "EBY":  "140",
                      "MADE":  "127",
                      "COMMITMENT":  "West Virginia",
                      "RIVALS":  "",
@@ -10253,7 +10271,7 @@
                      "HEIGHT":  "6\u00272\"",
                      "PREP":  "138",
                      "PLAYER":  "Kingston Witty",
-                     "CONSENSUS":  "134.7",
+                     "CONSENSUS":  "135.0",
                      "ESPN":  ""
                  },
                  {
@@ -10261,7 +10279,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "140",
+                     "EBY":  "141",
                      "MADE":  "76",
                      "COMMITMENT":  "Vanderbilt",
                      "RIVALS":  "99",
@@ -10271,7 +10289,7 @@
                      "HEIGHT":  "6\u00271\"",
                      "PREP":  "60",
                      "PLAYER":  "Anthony Brown",
-                     "CONSENSUS":  "87.2",
+                     "CONSENSUS":  "87.3",
                      "ESPN":  "76"
                  },
                  {
@@ -10279,7 +10297,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "141",
+                     "EBY":  "142",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -10289,7 +10307,7 @@
                      "HEIGHT":  "6\u00273\"",
                      "PREP":  "",
                      "PLAYER":  "Tomslav Vuckovic",
-                     "CONSENSUS":  "141.0",
+                     "CONSENSUS":  "142.0",
                      "ESPN":  ""
                  },
                  {
@@ -10297,7 +10315,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Versatile Big",
                      "OFFENSIVE ROLE":  "Slasher",
-                     "EBY":  "142",
+                     "EBY":  "143",
                      "MADE":  "141",
                      "COMMITMENT":  "Maryland",
                      "RIVALS":  "95",
@@ -10307,7 +10325,7 @@
                      "HEIGHT":  "6\u00278\"",
                      "PREP":  "135",
                      "PLAYER":  "Adama Tambedou",
-                     "CONSENSUS":  "128.0",
+                     "CONSENSUS":  "128.2",
                      "ESPN":  ""
                  },
                  {
@@ -10315,7 +10333,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "143",
+                     "EBY":  "144",
                      "MADE":  "104",
                      "COMMITMENT":  "Harvard",
                      "RIVALS":  "",
@@ -10325,7 +10343,7 @@
                      "HEIGHT":  "6\u00274\"",
                      "PREP":  "94",
                      "PLAYER":  "Jason Singleton",
-                     "CONSENSUS":  "113.0",
+                     "CONSENSUS":  "113.3",
                      "ESPN":  ""
                  },
                  {
@@ -10333,7 +10351,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "144",
+                     "EBY":  "145",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -10343,7 +10361,7 @@
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "",
                      "PLAYER":  "Marko Petric",
-                     "CONSENSUS":  "144.0",
+                     "CONSENSUS":  "145.0",
                      "ESPN":  ""
                  },
                  {
@@ -10351,7 +10369,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Wing Handler",
-                     "EBY":  "145",
+                     "EBY":  "146",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -10361,7 +10379,7 @@
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "",
                      "PLAYER":  "Ian Lazerevski",
-                     "CONSENSUS":  "145.0",
+                     "CONSENSUS":  "146.0",
                      "ESPN":  ""
                  },
                  {
@@ -10369,7 +10387,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "146",
+                     "EBY":  "147",
                      "MADE":  "150",
                      "COMMITMENT":  "Stanford",
                      "RIVALS":  "",
@@ -10379,7 +10397,7 @@
                      "HEIGHT":  "6\u00274\"",
                      "PREP":  "104",
                      "PLAYER":  "Elias Obenyah",
-                     "CONSENSUS":  "124.8",
+                     "CONSENSUS":  "125.0",
                      "ESPN":  ""
                  },
                  {
@@ -10387,7 +10405,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "147",
+                     "EBY":  "148",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -10397,7 +10415,7 @@
                      "HEIGHT":  "6\u00274\"",
                      "PREP":  "",
                      "PLAYER":  "Aleksandr Panasiuk",
-                     "CONSENSUS":  "147.0",
+                     "CONSENSUS":  "148.0",
                      "ESPN":  ""
                  },
                  {
@@ -10405,17 +10423,17 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "148",
+                     "EBY":  "149",
                      "MADE":  "37",
                      "COMMITMENT":  "UCF",
                      "RIVALS":  "87",
                      "INDUSTRY PRO":  "80.0",
                      "TEAM/HS":  "Tennessee Collegiate Academy",
-                     "EBY DIFF INDUSTRY":  "-68.25",
+                     "EBY DIFF INDUSTRY":  "-69.25",
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "81",
                      "PLAYER":  "Christian Gibson",
-                     "CONSENSUS":  "91.3",
+                     "CONSENSUS":  "91.5",
                      "ESPN":  "70"
                  },
                  {
@@ -10423,7 +10441,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "149",
+                     "EBY":  "150",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -10433,7 +10451,7 @@
                      "HEIGHT":  "6\u00274\"",
                      "PREP":  "",
                      "PLAYER":  "Karl Kouame",
-                     "CONSENSUS":  "149.0",
+                     "CONSENSUS":  "150.0",
                      "ESPN":  ""
                  },
                  {
@@ -10441,17 +10459,17 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "150",
+                     "EBY":  "151",
                      "MADE":  "110",
                      "COMMITMENT":  "High Point",
                      "RIVALS":  "",
                      "INDUSTRY PRO":  "90.0",
                      "TEAM/HS":  "Pope John Paul II",
-                     "EBY DIFF INDUSTRY":  "-92",
+                     "EBY DIFF INDUSTRY":  "-93",
                      "HEIGHT":  "6\u00272\"",
                      "PREP":  "128",
                      "PLAYER":  "Trey Pearson",
-                     "CONSENSUS":  "127.5",
+                     "CONSENSUS":  "127.8",
                      "ESPN":  ""
                  },
                  {
@@ -10459,7 +10477,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Combo Wing",
-                     "EBY":  "151",
+                     "EBY":  "152",
                      "MADE":  "",
                      "COMMITMENT":  "Florida Atlantic",
                      "RIVALS":  "91",
@@ -10469,7 +10487,7 @@
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "168",
                      "PLAYER":  "Felipe Quinones",
-                     "CONSENSUS":  "125.0",
+                     "CONSENSUS":  "125.2",
                      "ESPN":  "69"
                  },
                  {
@@ -10477,7 +10495,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "OFFENSIVE ROLE":  "Scoring Guard",
-                     "EBY":  "152",
+                     "EBY":  "153",
                      "MADE":  "142",
                      "COMMITMENT":  "Xavier",
                      "RIVALS":  "85",
@@ -10487,7 +10505,7 @@
                      "HEIGHT":  "6\u00273\"",
                      "PREP":  "143",
                      "PLAYER":  "Kalek House",
-                     "CONSENSUS":  "113.7",
+                     "CONSENSUS":  "113.8",
                      "ESPN":  "64"
                  },
                  {
@@ -10495,7 +10513,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Scoring Wing",
-                     "EBY":  "153",
+                     "EBY":  "154",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -10505,7 +10523,7 @@
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "",
                      "PLAYER":  "Joao Gluck",
-                     "CONSENSUS":  "153.0",
+                     "CONSENSUS":  "154.0",
                      "ESPN":  ""
                  },
                  {
@@ -10513,7 +10531,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "154",
+                     "EBY":  "155",
                      "MADE":  "",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
@@ -10523,7 +10541,7 @@
                      "HEIGHT":  "6\u002711\"",
                      "PREP":  "",
                      "PLAYER":  "Code Mbengue",
-                     "CONSENSUS":  "154.0",
+                     "CONSENSUS":  "155.0",
                      "ESPN":  ""
                  },
                  {
@@ -10531,7 +10549,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
-                     "EBY":  "155",
+                     "EBY":  "156",
                      "MADE":  "106",
                      "COMMITMENT":  "Kansas",
                      "RIVALS":  "134",
@@ -10541,7 +10559,7 @@
                      "HEIGHT":  "6\u00274\"",
                      "PREP":  "114",
                      "PLAYER":  "Trent Perry",
-                     "CONSENSUS":  "137.0",
+                     "CONSENSUS":  "137.2",
                      "ESPN":  "85"
                  },
                  {
@@ -10549,17 +10567,17 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "156",
+                     "EBY":  "157",
                      "MADE":  "46",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
                      "INDUSTRY PRO":  "46.0",
                      "TEAM/HS":  "Ratiopharm Ulm (NED)",
-                     "EBY DIFF INDUSTRY":  "-144.5",
+                     "EBY DIFF INDUSTRY":  "-145.5",
                      "HEIGHT":  "6\u002711\"",
                      "PREP":  "",
                      "PLAYER":  "Endurance Aiyamenkhue",
-                     "CONSENSUS":  "101.0",
+                     "CONSENSUS":  "101.5",
                      "ESPN":  ""
                  },
                  {
@@ -10567,7 +10585,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Stretch Forward",
-                     "EBY":  "157",
+                     "EBY":  "158",
                      "MADE":  "133",
                      "COMMITMENT":  "Ohio State",
                      "RIVALS":  "122",
@@ -10577,7 +10595,7 @@
                      "HEIGHT":  "6\u00278\"",
                      "PREP":  "87",
                      "PLAYER":  "Alex Smith",
-                     "CONSENSUS":  "123.6",
+                     "CONSENSUS":  "123.8",
                      "ESPN":  ""
                  },
                  {
@@ -10585,17 +10603,17 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Movement Shooter",
-                     "EBY":  "158",
+                     "EBY":  "159",
                      "MADE":  "143",
                      "COMMITMENT":  "Kansas",
                      "RIVALS":  "128",
                      "INDUSTRY PRO":  "111.2",
                      "TEAM/HS":  "Mater Dei",
-                     "EBY DIFF INDUSTRY":  "-56",
+                     "EBY DIFF INDUSTRY":  "-57",
                      "HEIGHT":  "6\u00273\"",
                      "PREP":  "148",
                      "PLAYER":  "Luke Barnett",
-                     "CONSENSUS":  "142.8",
+                     "CONSENSUS":  "143.0",
                      "ESPN":  ""
                  },
                  {
@@ -10603,7 +10621,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "159",
+                     "EBY":  "160",
                      "MADE":  "",
                      "COMMITMENT":  "Kentucky",
                      "RIVALS":  "123",
@@ -10613,7 +10631,7 @@
                      "HEIGHT":  "6\u00272\"",
                      "PREP":  "127",
                      "PLAYER":  "Mason Williams",
-                     "CONSENSUS":  "128.8",
+                     "CONSENSUS":  "129.0",
                      "ESPN":  ""
                  },
                  {
@@ -10621,7 +10639,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "OFFENSIVE ROLE":  "Combo Guard",
-                     "EBY":  "160",
+                     "EBY":  "161",
                      "MADE":  "",
                      "COMMITMENT":  "Stanford",
                      "RIVALS":  "",
@@ -10631,7 +10649,7 @@
                      "HEIGHT":  "6\u00272\"",
                      "PREP":  "96",
                      "PLAYER":  "Julius Price",
-                     "CONSENSUS":  "114.7",
+                     "CONSENSUS":  "115.0",
                      "ESPN":  ""
                  },
                  {
@@ -10639,7 +10657,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Disruptor",
                      "OFFENSIVE ROLE":  "Combo Wing",
-                     "EBY":  "161",
+                     "EBY":  "162",
                      "MADE":  "",
                      "COMMITMENT":  "Oregon",
                      "RIVALS":  "",
@@ -10649,7 +10667,7 @@
                      "HEIGHT":  "6\u00276\"",
                      "PREP":  "180",
                      "PLAYER":  "Seven Spurlock",
-                     "CONSENSUS":  "170.5",
+                     "CONSENSUS":  "171.0",
                      "ESPN":  ""
                  },
                  {
@@ -10657,7 +10675,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "162",
+                     "EBY":  "163",
                      "MADE":  "130",
                      "COMMITMENT":  "Stanford",
                      "RIVALS":  "78",
@@ -10667,7 +10685,7 @@
                      "HEIGHT":  "6\u00272\"",
                      "PREP":  "131",
                      "PLAYER":  "Slim Rogers",
-                     "CONSENSUS":  "121.6",
+                     "CONSENSUS":  "121.8",
                      "ESPN":  ""
                  },
                  {
@@ -10675,7 +10693,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Play Finishing Forward",
-                     "EBY":  "163",
+                     "EBY":  "164",
                      "MADE":  "139",
                      "COMMITMENT":  "George Mason",
                      "RIVALS":  "97",
@@ -10685,7 +10703,7 @@
                      "HEIGHT":  "6\u00278\"",
                      "PREP":  "107",
                      "PLAYER":  "Shane Pendergrass",
-                     "CONSENSUS":  "129.2",
+                     "CONSENSUS":  "129.4",
                      "ESPN":  ""
                  },
                  {
@@ -10693,7 +10711,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "164",
+                     "EBY":  "165",
                      "MADE":  "",
                      "COMMITMENT":  "Northwestern",
                      "RIVALS":  "98",
@@ -10703,7 +10721,7 @@
                      "HEIGHT":  "7\u00272\"",
                      "PREP":  "101",
                      "PLAYER":  "Symon Ghai",
-                     "CONSENSUS":  "121.0",
+                     "CONSENSUS":  "121.3",
                      "ESPN":  ""
                  },
                  {
@@ -10711,7 +10729,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "165",
+                     "EBY":  "166",
                      "MADE":  "134",
                      "COMMITMENT":  "Florida",
                      "RIVALS":  "124",
@@ -10721,7 +10739,7 @@
                      "HEIGHT":  "7\u00270\"",
                      "PREP":  "181",
                      "PLAYER":  "Jones Lay",
-                     "CONSENSUS":  "151.0",
+                     "CONSENSUS":  "151.3",
                      "ESPN":  ""
                  },
                  {
@@ -10729,7 +10747,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Skilled Forward",
-                     "EBY":  "166",
+                     "EBY":  "167",
                      "MADE":  "115",
                      "COMMITMENT":  "Depaul",
                      "RIVALS":  "104",
@@ -10739,7 +10757,7 @@
                      "HEIGHT":  "6\u00277\"",
                      "PREP":  "155",
                      "PLAYER":  "Noah Smith",
-                     "CONSENSUS":  "135.0",
+                     "CONSENSUS":  "135.3",
                      "ESPN":  ""
                  },
                  {
@@ -10747,7 +10765,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Perimeter Stopper",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
-                     "EBY":  "167",
+                     "EBY":  "168",
                      "MADE":  "122",
                      "COMMITMENT":  "California",
                      "RIVALS":  "",
@@ -10757,7 +10775,7 @@
                      "HEIGHT":  "6\u00275\"",
                      "PREP":  "118",
                      "PLAYER":  "Dionycius Bakare",
-                     "CONSENSUS":  "135.7",
+                     "CONSENSUS":  "136.0",
                      "ESPN":  ""
                  },
                  {
@@ -10765,7 +10783,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
-                     "EBY":  "168",
+                     "EBY":  "169",
                      "MADE":  "97",
                      "COMMITMENT":  "Stanford",
                      "RIVALS":  "",
@@ -10775,7 +10793,7 @@
                      "HEIGHT":  "6\u00278\"",
                      "PREP":  "163",
                      "PLAYER":  "Drew Anderson",
-                     "CONSENSUS":  "144.3",
+                     "CONSENSUS":  "144.5",
                      "ESPN":  ""
                  },
                  {
@@ -10783,7 +10801,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Helper",
                      "OFFENSIVE ROLE":  "Off-Ball Wing",
-                     "EBY":  "169",
+                     "EBY":  "170",
                      "MADE":  "79",
                      "COMMITMENT":  "Iowa",
                      "RIVALS":  "145",
@@ -10793,7 +10811,7 @@
                      "HEIGHT":  "6\u00276\"",
                      "PREP":  "154",
                      "PLAYER":  "Jaidyn Coon",
-                     "CONSENSUS":  "136.8",
+                     "CONSENSUS":  "137.0",
                      "ESPN":  ""
                  },
                  {
@@ -10801,7 +10819,7 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Rim Protector",
                      "OFFENSIVE ROLE":  "Play Finishing Big",
-                     "EBY":  "170",
+                     "EBY":  "171",
                      "MADE":  "145",
                      "COMMITMENT":  "Georgia Tech",
                      "RIVALS":  "83",
@@ -10811,7 +10829,7 @@
                      "HEIGHT":  "6\u002710\"",
                      "PREP":  "108",
                      "PLAYER":  "Moustapha Diop",
-                     "CONSENSUS":  "123.2",
+                     "CONSENSUS":  "123.4",
                      "ESPN":  ""
                  },
                  {
@@ -10819,17 +10837,17 @@
                      "TIER":  "7",
                      "DEFENSIVE ROLE":  "Point-of-Attack",
                      "OFFENSIVE ROLE":  "Primary Ball Handler",
-                     "EBY":  "171",
+                     "EBY":  "172",
                      "MADE":  "128",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
                      "INDUSTRY PRO":  "94.3",
                      "TEAM/HS":  "Santa Margarita Catholic",
-                     "EBY DIFF INDUSTRY":  "-108.25",
+                     "EBY DIFF INDUSTRY":  "-109.25",
                      "HEIGHT":  "6\u00272\"",
                      "PREP":  "126",
                      "PLAYER":  "Kaiden Bailey",
-                     "CONSENSUS":  "137.0",
+                     "CONSENSUS":  "137.3",
                      "ESPN":  ""
                  },
                  {
@@ -11047,24 +11065,6 @@
                      "PLAYER":  "Willie Burnett III",
                      "CONSENSUS":  "117.7",
                      "ESPN":  "74"
-                 },
-                 {
-                     "247":  "103",
-                     "TIER":  "",
-                     "DEFENSIVE ROLE":  "",
-                     "OFFENSIVE ROLE":  "",
-                     "EBY":  "",
-                     "MADE":  "",
-                     "COMMITMENT":  "Iowa State",
-                     "RIVALS":  "93",
-                     "INDUSTRY PRO":  "75.5",
-                     "TEAM/HS":  "Utah Prep",
-                     "EBY DIFF INDUSTRY":  null,
-                     "HEIGHT":  "6\u00278\"",
-                     "PREP":  "106",
-                     "PLAYER":  "Jackson Kiss",
-                     "CONSENSUS":  "100.7",
-                     "ESPN":  ""
                  },
                  {
                      "247":  "97",
