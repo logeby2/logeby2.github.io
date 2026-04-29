@@ -7835,7 +7835,7 @@
                      "HEIGHT":  "6\u002711\"",
                      "PREP":  "",
                      "PLAYER":  "Joaquim Boumtje Boumtje",
-                     "CONSENSUS":  "0.5",
+                     "CONSENSUS":  "1.0",
                      "ESPN":  ""
                  },
                  {
