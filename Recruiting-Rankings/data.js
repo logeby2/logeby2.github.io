@@ -11144,13 +11144,13 @@
                      "MADE":  "103",
                      "COMMITMENT":  "?",
                      "RIVALS":  "",
-                     "INDUSTRY PRO":  "123.0",
+                     "INDUSTRY PRO":  "129.3",
                      "TEAM/HS":  "Arlington Martin",
                      "EBY DIFF INDUSTRY":  null,
                      "HEIGHT":  "6\u00275\"",
-                     "PREP":  "140",
+                     "PREP":  "159",
                      "PLAYER":  "Steven Reynolds",
-                     "CONSENSUS":  "123.0",
+                     "CONSENSUS":  "129.3",
                      "ESPN":  ""
                  },
                  {
