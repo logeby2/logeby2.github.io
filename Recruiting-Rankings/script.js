@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function getConference(teamName) {
         if (!teamName || teamName === '?' || teamName === '') return 'Uncommitted';
 
-        const acc = ['Duke', 'UNC', 'Miami', 'Florida St.', 'Virginia', 'Wake Forest', 'Syracuse', 'Pittsburgh', 'Pittsburg', 'Clemson', 'Louisville', 'Notre Dame', 'Georgia Tech', 'Stanford', 'Boston College', 'Cal', 'SMU', 'NC State'];
+        const acc = ['Duke', 'UNC', 'Miami', 'Florida St.', 'Virginia', 'Wake Forest', 'Syracuse', 'Pittsburgh', 'Pittsburg', 'Clemson', 'Louisville', 'Notre Dame', 'Georgia Tech', 'Stanford', 'Boston College', 'Cal', 'California', 'SMU', 'NC State'];
         const sec = ['Kentucky', 'Alabama', 'Auburn', 'Arkansas', 'Tennessee', 'Florida', 'Texas', 'Oklahoma', 'Texas A&M', 'LSU', 'Missouri', 'Ole Miss', 'Mississippi State', 'South Carolina', 'Vanderbilt', 'Georgia'];
         const bigTen = ['Michigan St.', 'Michigan', 'Purdue', 'Indiana', 'Illinois', 'Ohio State', 'Maryland', 'Rutgers', 'UCLA', 'USC', 'Oregon', 'Washington', 'Iowa', 'Nebraska', 'Northwestern', 'Wisconsin', 'Minnesota', 'Penn State'];
         const big12 = ['Kansas', 'Baylor', 'Houston', 'Arizona', 'Arizona State', 'Iowa State', 'Texas Tech', 'West Virginia', 'Cincinnati', 'BYU', 'UCF', 'Oklahoma State', 'Kansas State', 'TCU', 'Utah', 'Colorado'];
