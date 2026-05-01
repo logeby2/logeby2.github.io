@@ -3344,7 +3344,7 @@
                  {
                      "247":  "15",
                      "TIER":  "2",
-                     "DEFENSIVE ROLE":  "Chaser",
+                     "DEFENSIVE ROLE":  "Perimeter Disruptor",
                      "UNKNOWN_16":  "",
                      "OFFENSIVE ROLE":  "Combo Guard",
                      "EBY":  "6",
