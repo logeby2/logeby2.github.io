@@ -77,6 +77,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const code = match[1];
             if (code !== 'USA') {
                 isInternational = true;
+                
+                // Keep players with CAN tricode in the High School ranking
+                if (code === 'CAN') {
+                    isInternational = false;
+                }
+
                 // Start Override: if in forcedUSA, treat as not international
                 if (forcedUSA.includes(normalizedPlayerName)) {
                     isInternational = false;
