@@ -131,6 +131,18 @@ document.addEventListener('DOMContentLoaded', () => {
             isInternational = false;
         }
 
+        // Specific override for Josue Oku (DR Congo flag, HS ranking)
+        if (normalizedPlayerName === 'Josue Oku') {
+            flag = `https://flagcdn.com/20x15/cd.png`;
+            isInternational = false;
+        }
+
+        // Specific override for Flory Kuminga (DR Congo flag, HS ranking)
+        if (normalizedPlayerName === 'Flory Kuminga') {
+            flag = `https://flagcdn.com/20x15/cd.png`;
+            isInternational = false;
+        }
+
         return { flag, isInternational };
     }
 
