@@ -104,6 +104,7 @@
               <button class="tab-btn stat-tab" data-tab="per-game">Per Game Averages</button>
               <button class="tab-btn stat-tab" data-tab="per-40">Per 40 Minutes</button>
               <button class="tab-btn stat-tab" data-tab="advanced">Advanced Analytics</button>
+              <button class="tab-btn stat-tab" data-tab="ncaa" id="tab-ncaa-stats" style="display: none;">Linked NCAA/AAU Stats</button>
             </div>
 
             <!-- Stats Tables Wrapper -->
@@ -405,6 +406,29 @@
           <button type="submit" class="action-btn">Create Account</button>
         </div>
       </form>
+    </div>
+  </div>
+
+  <!-- G. Link NCAA/AAU Player Modal -->
+  <div id="modal-link-ncaa" class="modal-overlay">
+    <div class="modal-card" style="max-width: 500px;">
+      <div class="modal-header">
+        <h3 class="modal-title">Link NCAA/AAU Player Stats</h3>
+        <button class="modal-close-btn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 0.85rem; margin-bottom: 12px; color: var(--text-muted);">Search the 2026 NCAA D1/D2 and 2025 AAU (EYBL, 3SSB, Puma) database to link stats to this profile.</p>
+        <div class="form-group">
+          <label class="form-label">Search Player Name or Team</label>
+          <input type="text" id="ncaa-search-input" class="form-input" placeholder="e.g. Jalen Davis, Ace Glass, Meanstreets..." autocomplete="off">
+        </div>
+        <div id="ncaa-search-results" style="max-height: 250px; overflow-y: auto; margin-top: 12px; border: 1px solid var(--border-light); border-radius: var(--border-radius-sm); display: none;">
+          <!-- Search results list -->
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="secondary-btn btn-cancel-modal">Cancel</button>
+      </div>
     </div>
   </div>
 
