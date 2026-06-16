@@ -215,6 +215,11 @@ function setupEventListeners() {
   // CSV Import file uploader
   document.getElementById('csv-upload').addEventListener('change', handleCSVUpload);
   document.getElementById('form-csv-map').addEventListener('submit', handleCSVImportApply);
+
+  // Auth Forms Actions
+  document.getElementById('form-login').addEventListener('submit', handleLogin);
+  document.getElementById('btn-logout').addEventListener('click', handleLogout);
+  document.getElementById('form-create-user').addEventListener('submit', handleCreateUser);
 }
 
 // Navigation Router
