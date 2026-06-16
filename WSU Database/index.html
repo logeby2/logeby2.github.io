@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WSU Cougars Basketball - Recruiting & Scouting Database</title>
+  <!-- Modern Font Imports -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+  <!-- Toast Notification Overlay -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Header Section (WSU Crimson Accent) -->
+  <header>
+    <div class="header-brand">
+      <div class="logo-container">
+        <!-- SVG fallbacks to a high-quality Wikimedia PNG so it displays immediately in user's browser -->
+        <img id="wsu-header-logo" src="wsu_logo.svg" onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Washington_State_University_Logo.svg/800px-Washington_State_University_Logo.svg.png';" alt="WSU Logo">
+      </div>
+      <div class="header-title">
+        <h1>Washington State</h1>
+        <p>Men's Basketball Scouting Database</p>
+      </div>
+    </div>
+    
+    <nav style="display: flex; align-items: center; gap: 12px;">
+      <button id="nav-dashboard" class="nav-btn active">Recruits Dashboard</button>
+      <button id="nav-db-manager" class="nav-btn">Database Sync</button>
+      <span id="user-display" style="font-size: 0.8rem; font-weight: 650; margin-left: 12px; background: rgba(0,0,0,0.2); padding: 4px 8px; border-radius: var(--border-radius-sm);"></span>
+      <button id="btn-logout" class="nav-btn" style="background: transparent; border-color: rgba(255,255,255,0.4); padding: 4px 10px; font-size: 0.8rem;">Logout</button>
+    </nav>
+
+    <div class="search-box">
+      <div class="search-icon">🔍</div>
+      <input type="text" id="header-search" placeholder="Search recruits, schools, AAU...">
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main>
+
+    <!-- 1. DASHBOARD VIEW (Recruits Grid) -->
+    <section id="view-dashboard" class="view-section active">
+      <div class="dashboard-controls">
+        <div class="filters-group">
+          <select id="filter-class" class="filter-select">
+            <option value="all">All Classes</option>
+          </select>
+          <select id="filter-position" class="filter-select">
+            <option value="all">All Positions</option>
+          </select>
+          <select id="filter-aau" class="filter-select">
+            <option value="all">All AAU Programs</option>
+          </select>
+          <select id="filter-school" class="filter-select">
+            <option value="all">All High Schools</option>
+          </select>
+        </div>
+        <button id="btn-add-player" class="action-btn">
+          <span>+</span> Add Recruit Profile
+        </button>
+      </div>
+
+      <div id="players-grid" class="players-grid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- 2. PLAYER PROFILE VIEW (DX Gold Layout) -->
+    <section id="view-profile" class="view-section">
+      <div style="margin-bottom: 20px;">
+        <button class="secondary-btn" onclick="navigateTo('dashboard')">← Back to Dashboard</button>
+      </div>
+      
+      <div class="profile-container">
+        <!-- Sidebar (Amateur & Personal Data) -->
+        <aside id="profile-sidebar-container" class="profile-sidebar">
+          <!-- Rendered dynamically by app.js -->
+        </aside>
+
+        <!-- Main Profile Panels -->
+        <div class="profile-main">
+          <!-- Header stats card -->
+          <div class="profile-card">
+            <div class="profile-header-strip">
+              <div>
+                <h2 id="profile-player-name" class="profile-title">Player Name</h2>
+                <div id="profile-player-info" class="profile-subtitle">G | 6'4" | 190 lbs | Class of 2027</div>
+              </div>
+              <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Washington_State_University_Logo.svg/800px-Washington_State_University_Logo.svg.png" alt="WSU" style="height: 48px; opacity: 0.9;">
+              </div>
+            </div>
+
+            <!-- Stats Tabs -->
+            <div class="tabs-container">
+              <button class="tab-btn stat-tab active" data-tab="totals">Career Totals</button>
+              <button class="tab-btn stat-tab" data-tab="per-game">Per Game Averages</button>
+              <button class="tab-btn stat-tab" data-tab="per-40">Per 40 Minutes</button>
+              <button class="tab-btn stat-tab" data-tab="advanced">Advanced Analytics</button>
+            </div>
+
+            <!-- Stats Tables Wrapper -->
+            <div id="profile-stats-container">
+              <!-- Rendered dynamically by app.js -->
+            </div>
+          </div>
+
+          <!-- Scouting Reports Card -->
+          <div class="profile-card">
+            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--wsu-gray-light); padding-bottom: 8px; margin-bottom: 16px;">
+              <h3 style="font-weight: 800; font-size: 1.2rem; text-transform: uppercase;">Scouting Evaluations</h3>
+              <div style="display: flex; gap: 4px;">
+                <button class="tab-btn scouting-tab active" data-tab="notes" style="padding: 6px 12px; font-size: 0.85rem;">Scouting Notes</button>
+                <button class="tab-btn scouting-tab" data-tab="videos" style="padding: 6px 12px; font-size: 0.85rem;">Scouting Videos</button>
+              </div>
+            </div>
+
+            <!-- Scouting Notes Tab Content -->
+            <div id="scouting-notes-section">
+              <div id="notes-timeline-list" class="notes-timeline" style="margin-bottom: 20px;">
+                <!-- Rendered dynamically -->
+              </div>
+              <button class="action-btn" onclick="openModal('modal-add-note')">+ Add Scouting Note</button>
+            </div>
+
+            <!-- Scouting Videos Tab Content -->
+            <div id="scouting-videos-section" style="display: none;">
+              <div id="videos-grid-list" class="videos-grid" style="margin-bottom: 20px;">
+                <!-- Rendered dynamically -->
+              </div>
+              <button class="action-btn" onclick="openModal('modal-add-video')">+ Add Scouting Video</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. DATABASE MANAGER VIEW (Import / Export / CSV Backup) -->
+    <section id="view-db-manager" class="view-section">
+      <h2 style="font-weight: 800; margin-bottom: 24px; text-transform: uppercase; border-bottom: 3px solid var(--wsu-crimson); padding-bottom: 8px;">Database Management & Sync</h2>
+      
+      <div class="db-manager-grid">
+        <!-- Import / Export JSON backup -->
+        <div class="db-card">
+          <h3 class="db-card-title">Backup & Restore</h3>
+          <p>Download the current database state as a JSON file or import a saved backup file to keep recruit profiles synchronized across systems.</p>
+          
+          <div class="db-actions">
+            <button id="btn-export-json" class="action-btn" style="justify-content: center;">⬇ Download players.json</button>
+            
+            <div style="border-top: 1px solid var(--border-light); margin: 12px 0; padding-top: 16px;">
+              <div class="file-input-wrapper">
+                <button class="secondary-btn" style="width: 100%; justify-content: center; border-style: dashed;">⬆ Upload Backup (JSON)</button>
+                <input type="file" id="json-upload" accept=".json" onchange="importDatabaseJSON(event)">
+              </div>
+            </div>
+
+            <div style="border-top: 1px solid var(--border-light); margin-top: 12px; padding-top: 16px;">
+              <button id="btn-reset-db" class="secondary-btn" style="width: 100%; color: var(--wsu-crimson); border-color: var(--wsu-crimson); justify-content: center;">⚠ Reset to Default Seed</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Import stats from Excel/CSV -->
+        <div class="db-card">
+          <h3 class="db-card-title">Import Player Stats (CSV)</h3>
+          <p>Import a player's box scores or career stats directly from an Excel sheet. Save the sheet as a <strong>CSV (Comma Separated)</strong> file, upload it here, and map the columns to target stat metrics.</p>
+          
+          <div class="file-input-wrapper">
+            <span class="file-input-label">Drag & Drop or Click to Upload CSV Sheet</span>
+            <input type="file" id="csv-upload" accept=".csv">
+          </div>
+
+          <div style="margin-top: 16px; background: var(--bg-secondary); padding: 12px; border-radius: var(--border-radius-sm); border: 1px solid var(--border-light);">
+            <h4 style="font-size: 0.8rem; font-weight: 800; text-transform: uppercase; margin-bottom: 6px;">Database Status</h4>
+            <div style="display:flex; justify-content:space-between; font-size:0.85rem;">
+              <span>Total Tracked Players:</span>
+              <span id="db-total-players" style="font-weight: 700;">2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- User Management Panel (Visible only to Admin) -->
+      <div id="admin-user-management" class="db-card" style="margin-top: 24px; display: none;">
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid var(--wsu-gray-light); padding-bottom:8px; margin-bottom:16px;">
+          <h3 style="font-weight: 800; font-size: 1.2rem; text-transform: uppercase; color: var(--wsu-crimson); margin:0;">User Accounts Roster</h3>
+          <button class="action-btn" style="padding:6px 12px; font-size:0.8rem;" onclick="openModal('modal-create-user')">+ Create User Account</button>
+        </div>
+        <p>Manage access credentials for staff, coaches, and scouts. Only Admins can modify accounts.</p>
+        
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Email Address</th>
+                <th>Access Level</th>
+                <th style="width: 100px; text-align: center;">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="user-accounts-list">
+              <!-- Filled dynamically by app.js -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- MODALS -->
+  
+  <!-- A. Add Player Modal -->
+  <div id="modal-add-player" class="modal-overlay">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title">Create Recruit Profile</h3>
+        <button class="modal-close-btn">&times;</button>
+      </div>
+      <form id="form-add-player">
+        <div class="modal-body">
+          <div class="form-group row-group">
+            <div class="form-group">
+              <label class="form-label">Full Name *</label>
+              <input type="text" id="add-player-name" class="form-input" placeholder="e.g. Isaac Bonton" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Position *</label>
+              <select id="add-player-pos" class="form-input" required>
+                <option value="Guards">Guards</option>
+                <option value="Spacers" selected>Spacers</option>
+                <option value="Blurs">Blurs</option>
+                <option value="Bigs">Bigs</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row-group">
+            <div class="form-group">
+              <label class="form-label">Recruiting Class (Year) *</label>
+              <input type="number" id="add-player-class" class="form-input" placeholder="2027" value="2027" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Birthday</label>
+              <input type="date" id="add-player-bday" class="form-input">
+            </div>
+          </div>
+          <div class="form-group row-group">
+            <div class="form-group">
+              <label class="form-label">High School</label>
+              <input type="text" id="add-player-school" class="form-input" placeholder="School Name">
+            </div>
+            <div class="form-group">
+              <label class="form-label">AAU Program</label>
+              <input type="text" id="add-player-aau" class="form-input" placeholder="AAU Team">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Agent Representative</label>
+            <input type="text" id="add-player-agent" class="form-input" placeholder="e.g. Andrew Morrison">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="secondary-btn btn-cancel-modal">Cancel</button>
+          <button type="submit" class="action-btn">Create Profile</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- B. Edit Player Metadata Modal (Forms dynamically generated) -->
+  <div id="modal-edit-metadata" class="modal-overlay">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="modal-edit-title" class="modal-title">Edit Details</h3>
+        <button class="modal-close-btn">&times;</button>
+      </div>
+      <form id="form-edit-metadata">
+        <div id="modal-edit-body" class="modal-body">
+          <!-- Rendered dynamically -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="secondary-btn btn-cancel-modal">Cancel</button>
+          <button type="submit" class="action-btn">Save Changes</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- C. Add Scouting Note Modal -->
+  <div id="modal-add-note" class="modal-overlay">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title">Write Scouting Note</h3>
+        <button class="modal-close-btn">&times;</button>
+      </div>
+      <form id="form-add-note">
+        <div class="modal-body">
+          <div class="form-group">
+            <label class="form-label">Author/Scout Name</label>
+            <input type="text" id="note-author-input" class="form-input" placeholder="WSU Staff" value="WSU Staff">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Scouting Report / Evaluations *</label>
+            <textarea id="note-content-input" class="form-input" placeholder="Write detailed physical profile, skill evaluations, shooting metrics, and defensive instincts..." required></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="secondary-btn btn-cancel-modal">Cancel</button>
+          <button type="submit" class="action-btn">Publish Note</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- D. Add Scouting Video Modal -->
+  <div id="modal-add-video" class="modal-overlay">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title">Embed Scouting Video Clip</h3>
+        <button class="modal-close-btn">&times;</button>
+      </div>
+      <form id="form-add-video">
+        <div class="modal-body">
+          <div class="form-group">
+            <label class="form-label">Clip Title *</label>
+            <input type="text" id="video-title-input" class="form-input" placeholder="e.g. AAU Peach Jam Highlights" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Video URL (YouTube or Vimeo) *</label>
+            <input type="url" id="video-url-input" class="form-input" placeholder="e.g. https://www.youtube.com/watch?v=dQw4w9WgXcQ" required>
+            <span style="font-size: 0.75rem; color: var(--text-muted); margin-top: 4px;">Paste standard watch links, share links, or embed codes. We will convert them to embed players.</span>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="secondary-btn btn-cancel-modal">Cancel</button>
+          <button type="submit" class="action-btn">Link Video</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- E. CSV Column Mapping Modal -->
+  <div id="modal-csv-mapping" class="modal-overlay">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title">Map Box Score Columns</h3>
+        <button class="modal-close-btn">&times;</button>
+      </div>
+      <form id="form-csv-map">
+        <div class="modal-body">
+          <div class="form-group" style="margin-bottom: 20px; border-bottom: 1px solid var(--border-light); padding-bottom: 16px;">
+            <label class="form-label" style="font-size:0.9rem;">Assign Stats To Recruit:</label>
+            <select id="csv-target-player" class="form-input" style="width: 100%;" required>
+              <!-- Filled dynamically with players -->
+            </select>
+          </div>
+          
+          <h4 style="font-size:0.85rem; font-weight:800; text-transform:uppercase; margin-bottom:12px; color:var(--text-secondary);">Map CSV Headers to Stats Columns</h4>
+          
+          <!-- Column Mapping Selector List -->
+          <div id="csv-mapping-selectors" style="display:flex; flex-direction:column; gap:4px; max-height: 40vh; overflow-y:auto; border: 1px solid var(--border-light); border-radius:var(--border-radius-sm); padding:10px;">
+            <!-- Rendered dynamically -->
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="secondary-btn btn-cancel-modal">Cancel</button>
+          <button type="submit" class="action-btn">Import Data Rows</button>
+        </div>
+      </form>
+  </div>
+
+  <!-- F. Create User Modal -->
+  <div id="modal-create-user" class="modal-overlay">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title">Create User Account</h3>
+        <button class="modal-close-btn">&times;</button>
+      </div>
+      <form id="form-create-user">
+        <div class="modal-body">
+          <div class="form-group">
+            <label class="form-label">Email Address *</label>
+            <input type="email" id="create-user-email" class="form-input" placeholder="e.g. coach@wsu.edu" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Password *</label>
+            <input type="password" id="create-user-pass" class="form-input" placeholder="Minimum 4 characters" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Access Level *</label>
+            <select id="create-user-role" class="form-input" required>
+              <option value="Viewer">Viewer (Read-Only Stats/Reports)</option>
+              <option value="Admin">Admin (Full Control)</option>
+            </select>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="secondary-btn btn-cancel-modal">Cancel</button>
+          <button type="submit" class="action-btn">Create Account</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Login Gatekeeper Overlay -->
+  <div id="login-overlay" class="modal-overlay" style="display: flex; background: linear-gradient(135deg, rgba(152,30,50,0.95) 0%, rgba(33,37,41,0.98) 100%);">
+    <div class="modal-card" style="max-width: 420px; box-shadow: var(--shadow-lg); border: none;">
+      <div style="background: var(--wsu-crimson); color: white; padding: 32px 24px; text-align: center; border-top-left-radius: 11px; border-top-right-radius: 11px; display:flex; flex-direction:column; align-items:center; gap:12px;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Washington_State_University_Logo.svg/800px-Washington_State_University_Logo.svg.png" alt="WSU" style="height: 70px; filter: brightness(0) invert(1);">
+        <div>
+          <h2 style="font-weight: 900; letter-spacing: 0.5px; text-transform: uppercase; font-size: 1.5rem; margin:0;">WSU COUGARS</h2>
+          <p style="font-size: 0.75rem; opacity: 0.85; font-weight: 600; letter-spacing: 0.5px; margin: 2px 0 0 0;">RECRUITING & SCOUTING SYSTEM</p>
+        </div>
+      </div>
+      <form id="form-login">
+        <div class="modal-body" style="padding: 28px 24px;">
+          <div class="form-group">
+            <label class="form-label">Staff Email Address</label>
+            <input type="email" id="login-email" class="form-input" placeholder="logeby2@gmail.com" required autocomplete="username">
+          </div>
+          <div class="form-group" style="margin-bottom: 8px;">
+            <label class="form-label">Password</label>
+            <input type="password" id="login-pass" class="form-input" placeholder="••••••••" required autocomplete="current-password">
+          </div>
+        </div>
+        <div class="modal-footer" style="padding: 16px 24px; background: var(--bg-secondary); border-bottom-left-radius: 11px; border-bottom-right-radius: 11px;">
+          <button type="submit" class="action-btn" style="width: 100%; justify-content: center; padding: 12px;">Sign In to Database</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+  
+  <script>
+    // Inline wrapper for JSON file import (needs access to app.js's state)
+    function importDatabaseJSON(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(evt) {
+        try {
+          const imported = JSON.parse(evt.target.result);
+          // Package format support: { players: [...], users: [...] }
+          let playersList = [];
+          if (Array.isArray(imported)) {
+            playersList = imported;
+            showToast('Database restored (only players found).');
+          } else if (imported.players && Array.isArray(imported.players)) {
+            playersList = imported.players;
+            if (imported.users && Array.isArray(imported.users)) {
+              localStorage.setItem('wsu_user_accounts', JSON.stringify(imported.users));
+              showToast('Database and User accounts restored successfully.');
+            } else {
+              showToast('Database restored (users not found in file).');
+            }
+          } else {
+            showToast('JSON format invalid. Must contain players array.', 'error');
+            return;
+          }
+          
+          state.players = playersList;
+          saveDatabase();
+          navigateTo('dashboard');
+        } catch(e) {
+          showToast('Failed to parse file as JSON.', 'error');
+        }
+      };
+      reader.readAsText(file);
+      // reset file input
+      event.target.value = '';
+    }
+  </script>
+</body>
+</html>

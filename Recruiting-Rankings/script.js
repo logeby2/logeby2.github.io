@@ -8,12 +8,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('search-input');
 
     let playersData = [];
-    let currentSort = { column: 'consensus', direction: 'asc' };
+    let currentSort = { column: 'industry_pro', direction: 'asc' };
     let currentRegion = '';
     let currentOffensiveRole = '';
     let currentDefensiveRole = '';
     let currentConference = '';
     let currentSearch = '';
+    let currentYear = '2026';
 
     // Helper to parse Height to inches for sorting/logic
     function parseHeight(heightStr) {
@@ -252,9 +253,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 <td style="text-align:center">${commitHtml}</td>
                 <td class="role-cell" style="font-size:0.85em; color:var(--accent);"><div class="role-content">${player.offensive_role}</div></td>
                 <td class="role-cell" style="font-size:0.85em; color:#888;"><div class="role-content">${player.defensive_role}</div></td>
-                <td class="rating-cell" style="color:var(--text-secondary); font-weight:bold;">${player.consensus === 999 ? '-' : player.consensus}</td>
+                <td class="rating-cell" style="color:var(--text-secondary); font-weight:bold; ${currentYear !== '2026' ? 'display:none;' : ''}">${player.consensus === 999 ? '-' : player.consensus}</td>
                 <td class="rating-cell">${formatRank(player.industry_pro)}</td>
-                <td class="rating-cell">${formatRank(player.eby)}</td>
+                <td class="rating-cell" ${currentYear !== '2026' ? 'style="display:none;"' : ''}>${formatRank(player.eby)}</td>
                 <td class="rating-cell">${formatRank(player.rivals)}</td>
                 <td class="rating-cell">${formatRank(player._247)}</td>
                 <td class="rating-cell">${formatRank(player.prep)}</td>
@@ -436,6 +437,17 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
         currentYear = year;
+        const ebyHeader = document.querySelector('th[data-sort="eby"]');
+        if (ebyHeader) {
+            ebyHeader.style.display = year !== '2026' ? 'none' : '';
+        }
+        const consensusHeader = document.querySelector('th[data-sort="consensus"]');
+        if (consensusHeader) {
+            consensusHeader.style.display = year !== '2026' ? 'none' : '';
+        }
+        if (currentSort.column === 'consensus' && year !== '2026') {
+            currentSort = { column: 'industry_pro', direction: 'asc' };
+        }
         playersData = processData(PLAYER_DATA[year]);
 
         // Populate Filters for the new year

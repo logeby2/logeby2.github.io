@@ -1,0 +1,65 @@
+[
+  {
+    "id": "jacob-david",
+    "name": "Jacob David",
+    "birthday": "2008-01-01",
+    "recruitingYear": 2027,
+    "position": "Spacers",
+    "height": "6'6\"",
+    "weight": "195 lbs",
+    "hometown": "Castle Rock, CO",
+    "highSchool": "Rock Canyon High School",
+    "aauProgram": "Colorado Collective PRO16",
+    "agent": "Ethan Piechota",
+    "nationality": "USA",
+    "social": {
+      "twitter": "jacobdavid",
+      "instagram": "jacobdavid"
+    },
+    "notes": [
+      {
+        "id": "note-1",
+        "date": "2026-06-15",
+        "author": "WSU Staff",
+        "content": "Jacob shows great length and shooting potential at the guard/forward position. Excellent footwork and defensive instincts. High IQ player from Colorado Collective PRO16."
+      }
+    ],
+    "videos": [
+      {
+        "id": "vid-1",
+        "title": "Denver Spring Classic Highlights",
+        "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "date": "2026-05-10"
+      }
+    ],
+    "stats": []
+  },
+  {
+    "id": "jalen-davis",
+    "name": "Jalen Davis",
+    "birthday": "2008-06-05",
+    "recruitingYear": 2027,
+    "position": "Blurs",
+    "height": "6'2\"",
+    "weight": "180 lbs",
+    "hometown": "Bremerton, WA",
+    "highSchool": "Bremerton HS",
+    "aauProgram": "Slow Grind 3SSB",
+    "agent": "None",
+    "nationality": "USA",
+    "social": {
+      "twitter": "jalendavis",
+      "instagram": "jalendavis"
+    },
+    "notes": [
+      {
+        "id": "note-2",
+        "date": "2026-06-15",
+        "author": "WSU Staff",
+        "content": "Jalen is an athletic, shifty playmaker from Bremerton. Plays with high energy under the Slow Grind 3SSB banner. Excellent ball-handling and court vision."
+      }
+    ],
+    "videos": [],
+    "stats": []
+  }
+]
