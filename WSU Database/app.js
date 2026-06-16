@@ -1,6 +1,8 @@
 // Global Application State
 let state = {
   players: [],
+  user: null, // Logged in user session { email, role }
+  users: [],   // Accounts roster
   activeView: 'dashboard', // 'dashboard', 'profile', 'db-manager'
   activePlayerId: null,
   activeStatsTab: 'totals', // 'per-game', 'totals', 'per-40', 'advanced'
@@ -46,6 +48,49 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 // Database Initialization
 async function initDatabase() {
+  // 1. Load users roster
+  const localUsers = localStorage.getItem('wsu_user_accounts');
+  if (localUsers) {
+    try {
+      state.users = JSON.parse(localUsers);
+    } catch (e) {
+      console.error('Failed to load users list, resetting...', e);
+    }
+  }
+  
+  if (!state.users || state.users.length === 0) {
+    // Seed default admin account
+    state.users = [
+      { email: 'logeby2@gmail.com', password: 'Qrj1129', role: 'Admin' }
+    ];
+    localStorage.setItem('wsu_user_accounts', JSON.stringify(state.users));
+  }
+
+  // 2. Check active login session
+  const session = sessionStorage.getItem('wsu_user_session');
+  if (session) {
+    try {
+      state.user = JSON.parse(session);
+      // Double check user still exists in database
+      if (state.users.some(u => u.email === state.user.email)) {
+        document.getElementById('login-overlay').style.display = 'none';
+        document.getElementById('user-display').innerText = state.user.email;
+      } else {
+        // Logged-out if user deleted
+        sessionStorage.removeItem('wsu_user_session');
+        state.user = null;
+      }
+    } catch (e) {
+      console.error('Session parse error:', e);
+      state.user = null;
+    }
+  }
+
+  if (!state.user) {
+    document.getElementById('login-overlay').style.display = 'flex';
+  }
+
+  // 3. Load players database
   const localDb = localStorage.getItem('wsu_player_db');
   if (localDb) {
     try {
@@ -62,7 +107,18 @@ async function initDatabase() {
   try {
     const response = await fetch('players.json');
     if (response.ok) {
-      state.players = await response.json();
+      const seedData = await response.json();
+      // Handle package format vs flat array format
+      if (Array.isArray(seedData)) {
+        state.players = seedData;
+      } else if (seedData.players && Array.isArray(seedData.players)) {
+        state.players = seedData.players;
+        if (seedData.users && Array.isArray(seedData.users) && (!localUsers)) {
+          // If they have users in players.json, seed those as well if no users exist
+          state.users = seedData.users;
+          localStorage.setItem('wsu_user_accounts', JSON.stringify(state.users));
+        }
+      }
       saveDatabase();
       console.log('Loaded database from seed players.json');
     } else {
